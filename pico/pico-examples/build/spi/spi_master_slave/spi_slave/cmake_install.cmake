@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/spi/spi_master_slave/spi_slave
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/spi/spi_master_slave/spi_slave
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

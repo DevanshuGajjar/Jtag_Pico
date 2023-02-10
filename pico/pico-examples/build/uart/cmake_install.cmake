@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/uart
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/uart
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/uart/hello_uart/cmake_install.cmake")
-  include("/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/uart/lcd_uart/cmake_install.cmake")
-  include("/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/uart/uart_advanced/cmake_install.cmake")
+  include("/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/uart/hello_uart/cmake_install.cmake")
+  include("/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/uart/lcd_uart/cmake_install.cmake")
+  include("/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/uart/uart_advanced/cmake_install.cmake")
 
 endif()
 

@@ -31,14 +31,14 @@
 #         )
 # add_dependencies(pio_jtag pio_jtag_datasheet)
 
-add_executable(pio_jtag)
+add_executable(pio_jtagD)
 
-pico_generate_pio_header(pio_jtag ${CMAKE_CURRENT_LIST_DIR}/jtag.pio)
+pico_generate_pio_header(pio_jtagD ${CMAKE_CURRENT_LIST_DIR}/jtagD.pio)
 
-target_sources(pio_jtag PRIVATE jtag.c)
+target_sources(pio_jtagD PRIVATE jtag.c)
 
-target_link_libraries(pio_jtag PRIVATE pico_stdlib hardware_pio)
-pico_add_extra_outputs(pio_jtag)
+target_link_libraries(pio_jtagD PRIVATE pico_stdlib hardware_pio)
+pico_add_extra_outputs(pio_jtagD)
 
 # add url via pico_set_program_url
-example_auto_set_url(pio_jtag)
+example_auto_set_url(pio_jtagD)

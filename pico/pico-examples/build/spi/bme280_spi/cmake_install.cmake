@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/spi/bme280_spi
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/spi/bme280_spi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

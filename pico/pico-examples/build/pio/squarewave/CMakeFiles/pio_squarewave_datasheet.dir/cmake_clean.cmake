@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/squarewave/generated/squarewave.hex"
-  "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/squarewave/generated/squarewave.pio.h"
-  "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/squarewave/generated/squarewave_wrap.pio.h"
+  "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/squarewave/generated/squarewave.hex"
+  "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/squarewave/generated/squarewave.pio.h"
+  "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/squarewave/generated/squarewave_wrap.pio.h"
   "CMakeFiles/pio_squarewave_datasheet"
 )
 

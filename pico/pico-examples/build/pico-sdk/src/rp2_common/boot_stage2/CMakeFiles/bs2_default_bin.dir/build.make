@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
 
 # Utility rule file for bs2_default_bin.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/progr
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -82,10 +82,10 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_de
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/boot_stage2 /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2 /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/boot_stage2 /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2 /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/ws2812/generated/ws2812.py"
+  "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/ws2812/generated/ws2812.py"
   "CMakeFiles/pio_ws2812_datasheet"
 )
 

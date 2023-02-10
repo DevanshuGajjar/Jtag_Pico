@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/hello_world
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/hello_world
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/hello_world/serial/cmake_install.cmake")
-  include("/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/hello_world/usb/cmake_install.cmake")
+  include("/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/hello_world/serial/cmake_install.cmake")
+  include("/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/hello_world/usb/cmake_install.cmake")
 
 endif()
 

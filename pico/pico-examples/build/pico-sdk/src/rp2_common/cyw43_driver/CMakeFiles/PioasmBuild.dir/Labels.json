@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild"
+			"file" : "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild"
 		},
 		{
-			"file" : "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.rule"
+			"file" : "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.rule"
 		},
 		{
-			"file" : "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete.rule"
+			"file" : "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete.rule"
 		},
 		{
-			"file" : "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
+			"file" : "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
 		},
 		{
-			"file" : "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
+			"file" : "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
 		},
 		{
-			"file" : "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
+			"file" : "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
 		},
 		{
-			"file" : "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
+			"file" : "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
 		},
 		{
-			"file" : "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
+			"file" : "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
 		},
 		{
-			"file" : "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
+			"file" : "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
 		},
 		{
-			"file" : "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
+			"file" : "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
 		}
 	],
 	"target" : 

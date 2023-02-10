@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/adc/adc_console
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/adc/adc_console
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

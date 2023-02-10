@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
 
 # Utility rule file for pio_addition_addition_pio_h.
 
@@ -68,9 +68,9 @@ include pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/progress.make
 
 pio/addition/CMakeFiles/pio_addition_addition_pio_h: pio/addition/addition.pio.h
 
-pio/addition/addition.pio.h: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/addition/addition.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating addition.pio.h"
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/addition && ../../pioasm/pioasm -o c-sdk /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/addition/addition.pio /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/addition/addition.pio.h
+pio/addition/addition.pio.h: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/addition/addition.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating addition.pio.h"
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/addition && ../../pioasm/pioasm -o c-sdk /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/addition/addition.pio /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/addition/addition.pio.h
 
 pio_addition_addition_pio_h: pio/addition/CMakeFiles/pio_addition_addition_pio_h
 pio_addition_addition_pio_h: pio/addition/addition.pio.h
@@ -82,10 +82,10 @@ pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/build: pio_addition_addi
 .PHONY : pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/build
 
 pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/clean:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/addition && $(CMAKE_COMMAND) -P CMakeFiles/pio_addition_addition_pio_h.dir/cmake_clean.cmake
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/addition && $(CMAKE_COMMAND) -P CMakeFiles/pio_addition_addition_pio_h.dir/cmake_clean.cmake
 .PHONY : pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/clean
 
 pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/depend:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/addition /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/addition /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/addition /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/addition /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/clocked_input
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/clocked_input
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

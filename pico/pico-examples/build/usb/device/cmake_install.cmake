@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/usb/device
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/usb/device
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/usb/device/tinyusb_device_examples/cmake_install.cmake")
-  include("/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/usb/device/dev_hid_composite/cmake_install.cmake")
-  include("/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/usb/device/dev_lowlevel/cmake_install.cmake")
+  include("/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/device/tinyusb_device_examples/cmake_install.cmake")
+  include("/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/device/dev_hid_composite/cmake_install.cmake")
+  include("/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/device/dev_lowlevel/cmake_install.cmake")
 
 endif()
 

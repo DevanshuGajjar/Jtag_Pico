@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/lib/tinyusb/examples/host")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

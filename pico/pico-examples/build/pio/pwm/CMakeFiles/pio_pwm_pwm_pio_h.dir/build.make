@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
 
 # Utility rule file for pio_pwm_pwm_pio_h.
 
@@ -68,9 +68,9 @@ include pio/pwm/CMakeFiles/pio_pwm_pwm_pio_h.dir/progress.make
 
 pio/pwm/CMakeFiles/pio_pwm_pwm_pio_h: pio/pwm/pwm.pio.h
 
-pio/pwm/pwm.pio.h: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/pwm/pwm.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating pwm.pio.h"
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/pwm && ../../pioasm/pioasm -o c-sdk /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/pwm/pwm.pio /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/pwm/pwm.pio.h
+pio/pwm/pwm.pio.h: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/pwm/pwm.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating pwm.pio.h"
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/pwm && ../../pioasm/pioasm -o c-sdk /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/pwm/pwm.pio /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/pwm/pwm.pio.h
 
 pio_pwm_pwm_pio_h: pio/pwm/CMakeFiles/pio_pwm_pwm_pio_h
 pio_pwm_pwm_pio_h: pio/pwm/pwm.pio.h
@@ -82,10 +82,10 @@ pio/pwm/CMakeFiles/pio_pwm_pwm_pio_h.dir/build: pio_pwm_pwm_pio_h
 .PHONY : pio/pwm/CMakeFiles/pio_pwm_pwm_pio_h.dir/build
 
 pio/pwm/CMakeFiles/pio_pwm_pwm_pio_h.dir/clean:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/pwm && $(CMAKE_COMMAND) -P CMakeFiles/pio_pwm_pwm_pio_h.dir/cmake_clean.cmake
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/pwm && $(CMAKE_COMMAND) -P CMakeFiles/pio_pwm_pwm_pio_h.dir/cmake_clean.cmake
 .PHONY : pio/pwm/CMakeFiles/pio_pwm_pwm_pio_h.dir/clean
 
 pio/pwm/CMakeFiles/pio_pwm_pwm_pio_h.dir/depend:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/pwm /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/pwm /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/pwm/CMakeFiles/pio_pwm_pwm_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/pwm /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/pwm /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/pwm/CMakeFiles/pio_pwm_pwm_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pio/pwm/CMakeFiles/pio_pwm_pwm_pio_h.dir/depend
 

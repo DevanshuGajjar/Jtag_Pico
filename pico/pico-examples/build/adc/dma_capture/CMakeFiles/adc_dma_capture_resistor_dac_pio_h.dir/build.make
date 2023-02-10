@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
 
 # Utility rule file for adc_dma_capture_resistor_dac_pio_h.
 
@@ -68,9 +68,9 @@ include adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/progre
 
 adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h: adc/dma_capture/resistor_dac.pio.h
 
-adc/dma_capture/resistor_dac.pio.h: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/adc/dma_capture/resistor_dac.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating resistor_dac.pio.h"
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/adc/dma_capture && ../../pioasm/pioasm -o c-sdk /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/adc/dma_capture/resistor_dac.pio /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/adc/dma_capture/resistor_dac.pio.h
+adc/dma_capture/resistor_dac.pio.h: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/adc/dma_capture/resistor_dac.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating resistor_dac.pio.h"
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture && ../../pioasm/pioasm -o c-sdk /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/adc/dma_capture/resistor_dac.pio /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture/resistor_dac.pio.h
 
 adc_dma_capture_resistor_dac_pio_h: adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h
 adc_dma_capture_resistor_dac_pio_h: adc/dma_capture/resistor_dac.pio.h
@@ -82,10 +82,10 @@ adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/build: adc_dma
 .PHONY : adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/build
 
 adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/clean:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/adc/dma_capture && $(CMAKE_COMMAND) -P CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/cmake_clean.cmake
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture && $(CMAKE_COMMAND) -P CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/cmake_clean.cmake
 .PHONY : adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/clean
 
 adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/depend:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/adc/dma_capture /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/adc/dma_capture /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/adc/dma_capture /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : adc/dma_capture/CMakeFiles/adc_dma_capture_resistor_dac_pio_h.dir/depend
 

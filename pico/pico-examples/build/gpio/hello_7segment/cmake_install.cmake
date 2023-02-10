@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/gpio/hello_7segment
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/gpio/hello_7segment
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

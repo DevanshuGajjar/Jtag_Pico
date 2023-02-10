@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
 
 # Utility rule file for pio_uart_tx_uart_tx_pio_h.
 
@@ -68,9 +68,9 @@ include pio/uart_tx/CMakeFiles/pio_uart_tx_uart_tx_pio_h.dir/progress.make
 
 pio/uart_tx/CMakeFiles/pio_uart_tx_uart_tx_pio_h: pio/uart_tx/uart_tx.pio.h
 
-pio/uart_tx/uart_tx.pio.h: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/uart_tx/uart_tx.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating uart_tx.pio.h"
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/uart_tx && ../../pioasm/pioasm -o c-sdk /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/uart_tx/uart_tx.pio /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/uart_tx/uart_tx.pio.h
+pio/uart_tx/uart_tx.pio.h: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/uart_tx/uart_tx.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating uart_tx.pio.h"
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/uart_tx && ../../pioasm/pioasm -o c-sdk /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/uart_tx/uart_tx.pio /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/uart_tx/uart_tx.pio.h
 
 pio_uart_tx_uart_tx_pio_h: pio/uart_tx/CMakeFiles/pio_uart_tx_uart_tx_pio_h
 pio_uart_tx_uart_tx_pio_h: pio/uart_tx/uart_tx.pio.h
@@ -82,10 +82,10 @@ pio/uart_tx/CMakeFiles/pio_uart_tx_uart_tx_pio_h.dir/build: pio_uart_tx_uart_tx_
 .PHONY : pio/uart_tx/CMakeFiles/pio_uart_tx_uart_tx_pio_h.dir/build
 
 pio/uart_tx/CMakeFiles/pio_uart_tx_uart_tx_pio_h.dir/clean:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/uart_tx && $(CMAKE_COMMAND) -P CMakeFiles/pio_uart_tx_uart_tx_pio_h.dir/cmake_clean.cmake
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/uart_tx && $(CMAKE_COMMAND) -P CMakeFiles/pio_uart_tx_uart_tx_pio_h.dir/cmake_clean.cmake
 .PHONY : pio/uart_tx/CMakeFiles/pio_uart_tx_uart_tx_pio_h.dir/clean
 
 pio/uart_tx/CMakeFiles/pio_uart_tx_uart_tx_pio_h.dir/depend:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/uart_tx /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/uart_tx /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/uart_tx/CMakeFiles/pio_uart_tx_uart_tx_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/uart_tx /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/uart_tx /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/uart_tx/CMakeFiles/pio_uart_tx_uart_tx_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pio/uart_tx/CMakeFiles/pio_uart_tx_uart_tx_pio_h.dir/depend
 

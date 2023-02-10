@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
 
 # Utility rule file for nec_transmit_library_nec_carrier_burst_pio_h.
 
@@ -68,9 +68,9 @@ include pio/ir_nec/nec_transmit_library/CMakeFiles/nec_transmit_library_nec_carr
 
 pio/ir_nec/nec_transmit_library/CMakeFiles/nec_transmit_library_nec_carrier_burst_pio_h: pio/ir_nec/nec_transmit_library/nec_carrier_burst.pio.h
 
-pio/ir_nec/nec_transmit_library/nec_carrier_burst.pio.h: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/ir_nec/nec_transmit_library/nec_carrier_burst.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating nec_carrier_burst.pio.h"
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/ir_nec/nec_transmit_library && ../../../pioasm/pioasm -o c-sdk /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/ir_nec/nec_transmit_library/nec_carrier_burst.pio /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/ir_nec/nec_transmit_library/nec_carrier_burst.pio.h
+pio/ir_nec/nec_transmit_library/nec_carrier_burst.pio.h: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/ir_nec/nec_transmit_library/nec_carrier_burst.pio
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating nec_carrier_burst.pio.h"
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/ir_nec/nec_transmit_library && ../../../pioasm/pioasm -o c-sdk /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/ir_nec/nec_transmit_library/nec_carrier_burst.pio /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/ir_nec/nec_transmit_library/nec_carrier_burst.pio.h
 
 nec_transmit_library_nec_carrier_burst_pio_h: pio/ir_nec/nec_transmit_library/CMakeFiles/nec_transmit_library_nec_carrier_burst_pio_h
 nec_transmit_library_nec_carrier_burst_pio_h: pio/ir_nec/nec_transmit_library/nec_carrier_burst.pio.h
@@ -82,10 +82,10 @@ pio/ir_nec/nec_transmit_library/CMakeFiles/nec_transmit_library_nec_carrier_burs
 .PHONY : pio/ir_nec/nec_transmit_library/CMakeFiles/nec_transmit_library_nec_carrier_burst_pio_h.dir/build
 
 pio/ir_nec/nec_transmit_library/CMakeFiles/nec_transmit_library_nec_carrier_burst_pio_h.dir/clean:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/ir_nec/nec_transmit_library && $(CMAKE_COMMAND) -P CMakeFiles/nec_transmit_library_nec_carrier_burst_pio_h.dir/cmake_clean.cmake
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/ir_nec/nec_transmit_library && $(CMAKE_COMMAND) -P CMakeFiles/nec_transmit_library_nec_carrier_burst_pio_h.dir/cmake_clean.cmake
 .PHONY : pio/ir_nec/nec_transmit_library/CMakeFiles/nec_transmit_library_nec_carrier_burst_pio_h.dir/clean
 
 pio/ir_nec/nec_transmit_library/CMakeFiles/nec_transmit_library_nec_carrier_burst_pio_h.dir/depend:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/pio/ir_nec/nec_transmit_library /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/ir_nec/nec_transmit_library /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/ir_nec/nec_transmit_library/CMakeFiles/nec_transmit_library_nec_carrier_burst_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/ir_nec/nec_transmit_library /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/ir_nec/nec_transmit_library /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/ir_nec/nec_transmit_library/CMakeFiles/nec_transmit_library_nec_carrier_burst_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pio/ir_nec/nec_transmit_library/CMakeFiles/nec_transmit_library_nec_carrier_burst_pio_h.dir/depend
 

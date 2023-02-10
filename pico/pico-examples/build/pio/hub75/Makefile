@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/CMakeFiles /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/pio/hub75//CMakeFiles/progress.marks
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/hub75/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/CMakeFiles 0
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/hub75//CMakeFiles/progress.marks
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/hub75/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/hub75/clean
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/hub75/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/hub75/preinstall
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/hub75/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/hub75/preinstall
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/hub75/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 pio/hub75/CMakeFiles/pio_hub75.dir/rule:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/hub75/CMakeFiles/pio_hub75.dir/rule
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/hub75/CMakeFiles/pio_hub75.dir/rule
 .PHONY : pio/hub75/CMakeFiles/pio_hub75.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ pio_hub75: pio/hub75/CMakeFiles/pio_hub75.dir/rule
 
 # fast build rule for target.
 pio_hub75/fast:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/build
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/build
 .PHONY : pio_hub75/fast
 
 # Convenience name for target.
 pio/hub75/CMakeFiles/pio_hub75_hub75_pio_h.dir/rule:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/hub75/CMakeFiles/pio_hub75_hub75_pio_h.dir/rule
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/hub75/CMakeFiles/pio_hub75_hub75_pio_h.dir/rule
 .PHONY : pio/hub75/CMakeFiles/pio_hub75_hub75_pio_h.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ pio_hub75_hub75_pio_h: pio/hub75/CMakeFiles/pio_hub75_hub75_pio_h.dir/rule
 
 # fast build rule for target.
 pio_hub75_hub75_pio_h/fast:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75_hub75_pio_h.dir/build.make pio/hub75/CMakeFiles/pio_hub75_hub75_pio_h.dir/build
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75_hub75_pio_h.dir/build.make pio/hub75/CMakeFiles/pio_hub75_hub75_pio_h.dir/build
 .PHONY : pio_hub75_hub75_pio_h/fast
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -149,7 +149,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_secti
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -157,7 +157,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_secti
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -165,7 +165,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_secti
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -173,7 +173,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.obj:
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -181,7 +181,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.i: h
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -189,7 +189,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.s: h
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -197,7 +197,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.obj: hom
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -205,7 +205,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.i: home/
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -213,7 +213,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.s: home/
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -221,7 +221,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.obj: home/
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -229,7 +229,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.i: home/ub
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -237,7 +237,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.s: home/ub
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -245,7 +245,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.obj: home
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -253,7 +253,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.i: home/u
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -261,7 +261,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.s: home/u
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/time.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -269,7 +269,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -277,7 +277,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -285,7 +285,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -293,7 +293,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.obj: 
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -301,7 +301,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.i: ho
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -309,7 +309,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.s: ho
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -317,7 +317,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.obj: hom
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -325,7 +325,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.i: home/
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -333,7 +333,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.s: home/
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -341,7 +341,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.obj: hom
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -349,7 +349,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.i: home/
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -357,7 +357,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.s: home/
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -365,7 +365,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -373,7 +373,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -381,7 +381,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -389,7 +389,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/cloc
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -397,7 +397,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/cloc
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -405,7 +405,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/cloc
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -413,7 +413,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_divider/div
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -421,7 +421,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -429,7 +429,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -437,7 +437,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -445,7 +445,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -453,7 +453,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: 
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -461,7 +461,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: 
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -469,7 +469,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq_han
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
@@ -477,7 +477,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
@@ -485,7 +485,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: 
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
@@ -493,7 +493,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: 
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -501,7 +501,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -509,7 +509,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: 
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -517,7 +517,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: 
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -525,7 +525,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -533,7 +533,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -541,7 +541,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -549,7 +549,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -557,7 +557,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -565,7 +565,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -573,7 +573,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -581,7 +581,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -589,7 +589,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -597,7 +597,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -605,7 +605,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -613,7 +613,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -621,7 +621,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/wa
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -629,7 +629,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/wa
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -637,7 +637,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/wa
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -645,7 +645,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -653,7 +653,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -661,7 +661,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -669,7 +669,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -677,7 +677,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -685,7 +685,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -693,7 +693,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -701,7 +701,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_divider/divider
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -709,7 +709,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_a
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -717,7 +717,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_i
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -725,7 +725,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_i
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -733,7 +733,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_i
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -741,7 +741,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_m
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -749,7 +749,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_m
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -757,7 +757,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_m
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -765,7 +765,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_v
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -773,7 +773,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_aea
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -781,7 +781,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_ini
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -789,7 +789,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_ini
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -797,7 +797,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_ini
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -805,7 +805,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_mat
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -813,7 +813,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_mat
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -821,7 +821,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_mat
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -829,7 +829,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_v1_
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -837,7 +837,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -845,7 +845,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_mal
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -853,7 +853,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_mal
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -861,7 +861,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_mal
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -869,7 +869,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -877,7 +877,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platfo
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -885,7 +885,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platfo
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -893,7 +893,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platfo
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -901,7 +901,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.o
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -909,7 +909,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -917,7 +917,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.s
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -925,7 +925,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -933,7 +933,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -941,7 +941,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -949,7 +949,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/b
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -957,7 +957,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/b
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -965,7 +965,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/b
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -973,7 +973,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/c
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -981,7 +981,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/n
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -989,7 +989,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/n
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -997,7 +997,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/n
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1005,7 +1005,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1013,7 +1013,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: 
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1021,7 +1021,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: 
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1029,7 +1029,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdi
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1037,7 +1037,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdi
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1045,7 +1045,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdi
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1053,7 +1053,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
 
 # target to build an object file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1061,7 +1061,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 
 # target to preprocess a source file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1069,7 +1069,7 @@ home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
 
 # target to generate assembly for a file
 home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 hub75.obj: hub75.c.obj
@@ -1077,7 +1077,7 @@ hub75.obj: hub75.c.obj
 
 # target to build an object file
 hub75.c.obj:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/hub75.c.obj
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/hub75.c.obj
 .PHONY : hub75.c.obj
 
 hub75.i: hub75.c.i
@@ -1085,7 +1085,7 @@ hub75.i: hub75.c.i
 
 # target to preprocess a source file
 hub75.c.i:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/hub75.c.i
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/hub75.c.i
 .PHONY : hub75.c.i
 
 hub75.s: hub75.c.s
@@ -1093,7 +1093,7 @@ hub75.s: hub75.c.s
 
 # target to generate assembly for a file
 hub75.c.s:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/hub75.c.s
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) $(MAKESILENT) -f pio/hub75/CMakeFiles/pio_hub75.dir/build.make pio/hub75/CMakeFiles/pio_hub75.dir/hub75.c.s
 .PHONY : hub75.c.s
 
 # Help Target
@@ -1236,6 +1236,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

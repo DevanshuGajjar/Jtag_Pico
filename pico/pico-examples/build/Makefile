@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/CMakeFiles /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -2092,6 +2092,84 @@ pio_jtag_jtag_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f jtag_test/CMakeFiles/pio_jtag_jtag_pio_h.dir/build.make jtag_test/CMakeFiles/pio_jtag_jtag_pio_h.dir/build
 .PHONY : pio_jtag_jtag_pio_h/fast
 
+#=============================================================================
+# Target rules for targets named pio_jtagD
+
+# Build rule for target.
+pio_jtagD: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio_jtagD
+.PHONY : pio_jtagD
+
+# fast build rule for target.
+pio_jtagD/fast:
+	$(MAKE) $(MAKESILENT) -f jtag_test_D/CMakeFiles/pio_jtagD.dir/build.make jtag_test_D/CMakeFiles/pio_jtagD.dir/build
+.PHONY : pio_jtagD/fast
+
+#=============================================================================
+# Target rules for targets named pio_jtagD_jtagD_pio_h
+
+# Build rule for target.
+pio_jtagD_jtagD_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio_jtagD_jtagD_pio_h
+.PHONY : pio_jtagD_jtagD_pio_h
+
+# fast build rule for target.
+pio_jtagD_jtagD_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f jtag_test_D/CMakeFiles/pio_jtagD_jtagD_pio_h.dir/build.make jtag_test_D/CMakeFiles/pio_jtagD_jtagD_pio_h.dir/build
+.PHONY : pio_jtagD_jtagD_pio_h/fast
+
+#=============================================================================
+# Target rules for targets named pio_jtagO
+
+# Build rule for target.
+pio_jtagO: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio_jtagO
+.PHONY : pio_jtagO
+
+# fast build rule for target.
+pio_jtagO/fast:
+	$(MAKE) $(MAKESILENT) -f jtag_test_O/CMakeFiles/pio_jtagO.dir/build.make jtag_test_O/CMakeFiles/pio_jtagO.dir/build
+.PHONY : pio_jtagO/fast
+
+#=============================================================================
+# Target rules for targets named pio_jtagO_jtagO_pio_h
+
+# Build rule for target.
+pio_jtagO_jtagO_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio_jtagO_jtagO_pio_h
+.PHONY : pio_jtagO_jtagO_pio_h
+
+# fast build rule for target.
+pio_jtagO_jtagO_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f jtag_test_O/CMakeFiles/pio_jtagO_jtagO_pio_h.dir/build.make jtag_test_O/CMakeFiles/pio_jtagO_jtagO_pio_h.dir/build
+.PHONY : pio_jtagO_jtagO_pio_h/fast
+
+#=============================================================================
+# Target rules for targets named pio_jtagN
+
+# Build rule for target.
+pio_jtagN: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio_jtagN
+.PHONY : pio_jtagN
+
+# fast build rule for target.
+pio_jtagN/fast:
+	$(MAKE) $(MAKESILENT) -f jtag_test_N/CMakeFiles/pio_jtagN.dir/build.make jtag_test_N/CMakeFiles/pio_jtagN.dir/build
+.PHONY : pio_jtagN/fast
+
+#=============================================================================
+# Target rules for targets named pio_jtagN_jtagN_pio_h
+
+# Build rule for target.
+pio_jtagN_jtagN_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio_jtagN_jtagN_pio_h
+.PHONY : pio_jtagN_jtagN_pio_h
+
+# fast build rule for target.
+pio_jtagN_jtagN_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f jtag_test_N/CMakeFiles/pio_jtagN_jtagN_pio_h.dir/build.make jtag_test_N/CMakeFiles/pio_jtagN_jtagN_pio_h.dir/build
+.PHONY : pio_jtagN_jtagN_pio_h/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2119,6 +2197,9 @@ help:
 	@echo "... pio_differential_manchester_differential_manchester_pio_h"
 	@echo "... pio_hub75_hub75_pio_h"
 	@echo "... pio_i2c_bus_scan_i2c_pio_h"
+	@echo "... pio_jtagD_jtagD_pio_h"
+	@echo "... pio_jtagN_jtagN_pio_h"
+	@echo "... pio_jtagO_jtagO_pio_h"
 	@echo "... pio_jtag_jtag_pio_h"
 	@echo "... pio_manchester_encoding_manchester_encoding_pio_h"
 	@echo "... pio_pwm_pwm_pio_h"
@@ -2209,6 +2290,9 @@ help:
 	@echo "... pio_i2c_bus_scan"
 	@echo "... pio_ir_loopback"
 	@echo "... pio_jtag"
+	@echo "... pio_jtagD"
+	@echo "... pio_jtagN"
+	@echo "... pio_jtagO"
 	@echo "... pio_logic_analyser"
 	@echo "... pio_manchester_encoding"
 	@echo "... pio_pwm"

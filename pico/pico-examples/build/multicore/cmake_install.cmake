@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/multicore
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/multicore
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/multicore/hello_multicore/cmake_install.cmake")
-  include("/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/multicore/multicore_fifo_irqs/cmake_install.cmake")
-  include("/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/multicore/multicore_runner/cmake_install.cmake")
-  include("/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-examples/build/multicore/multicore_runner_queue/cmake_install.cmake")
+  include("/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/multicore/hello_multicore/cmake_install.cmake")
+  include("/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/multicore/multicore_fifo_irqs/cmake_install.cmake")
+  include("/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/multicore/multicore_runner/cmake_install.cmake")
+  include("/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/multicore/multicore_runner_queue/cmake_install.cmake")
 
 endif()
 
