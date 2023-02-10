@@ -1,6 +1,0 @@
-[submodule "pico/raspberrypi/pico-examples"]
-	path = pico/raspberrypi/pico-examples
-	url = https://github.com/raspberrypi/pico-examples.git
-[submodule "pico/pico-examples"]
-	path = pico/pico-examples
-	url = https://github.com/raspberrypi/pico-examples.git
