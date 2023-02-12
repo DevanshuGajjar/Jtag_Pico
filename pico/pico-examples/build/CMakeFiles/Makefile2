@@ -5820,7 +5820,7 @@ pio/apa102/CMakeFiles/pio_apa102.dir/all: pio/apa102/CMakeFiles/pio_apa102_apa10
 
 # Build rule for subdir invocation for target.
 pio/apa102/CMakeFiles/pio_apa102.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/apa102/CMakeFiles/pio_apa102.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/apa102/CMakeFiles/pio_apa102.dir/rule
@@ -5841,12 +5841,12 @@ pio/apa102/CMakeFiles/pio_apa102.dir/clean:
 pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/all: pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/build.make pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/build.make pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=52 "Built target pio_apa102_apa102_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_apa102_apa102_pio_h"
 .PHONY : pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/all
 
 # Build rule for subdir invocation for target.
 pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/apa102/CMakeFiles/pio_apa102_apa102_pio_h.dir/rule
@@ -6382,12 +6382,12 @@ pio/pio_blink/CMakeFiles/pio_blink.dir/all: blink/CMakeFiles/ELF2UF2Build.dir/al
 pio/pio_blink/CMakeFiles/pio_blink.dir/all: pio/pio_blink/CMakeFiles/pio_blink_blink_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f pio/pio_blink/CMakeFiles/pio_blink.dir/build.make pio/pio_blink/CMakeFiles/pio_blink.dir/depend
 	$(MAKE) $(MAKESILENT) -f pio/pio_blink/CMakeFiles/pio_blink.dir/build.make pio/pio_blink/CMakeFiles/pio_blink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num= "Built target pio_blink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=52 "Built target pio_blink"
 .PHONY : pio/pio_blink/CMakeFiles/pio_blink.dir/all
 
 # Build rule for subdir invocation for target.
 pio/pio_blink/CMakeFiles/pio_blink.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pio/pio_blink/CMakeFiles/pio_blink.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
 .PHONY : pio/pio_blink/CMakeFiles/pio_blink.dir/rule

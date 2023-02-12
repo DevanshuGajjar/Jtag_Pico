@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/common/pico_util
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-sdk/src/common/pico_util
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/tools/pioasm"
+  "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-sdk/tools/pioasm"
   "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pioasm"
   "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm"
   "/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp"

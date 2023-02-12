@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/cyw43_driver
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-sdk/src/rp2_common/cyw43_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

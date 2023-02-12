@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/src/rp2_common/pico_stdio_uart
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

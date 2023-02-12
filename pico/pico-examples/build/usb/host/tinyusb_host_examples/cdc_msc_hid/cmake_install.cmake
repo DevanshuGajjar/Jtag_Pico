@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/lib/tinyusb/examples/host/cdc_msc_hid
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-sdk/lib/tinyusb/examples/host/cdc_msc_hid
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

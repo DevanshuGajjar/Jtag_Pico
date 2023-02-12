@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/lib/tinyusb/examples/device/audio_4_channel_mic
+# Install script for directory: /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-sdk/lib/tinyusb/examples/device/audio_4_channel_mic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

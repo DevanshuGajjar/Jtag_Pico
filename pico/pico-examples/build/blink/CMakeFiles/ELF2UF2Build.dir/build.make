@@ -88,7 +88,7 @@ blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: blink/elf2uf2/src/ELF2U
 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: blink/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt
 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
-	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/elf2uf2 && /usr/bin/cmake "-GUnix Makefiles" /home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/tools/elf2uf2
+	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/elf2uf2 && /usr/bin/cmake "-GUnix Makefiles" /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-sdk/tools/elf2uf2
 	cd /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/elf2uf2 && /usr/bin/cmake -E touch /home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-source_dirinfo.txt

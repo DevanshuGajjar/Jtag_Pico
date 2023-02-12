@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "5.19.0-29-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake")
+include("/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake")
 
 set(CMAKE_SYSTEM "PICO")
 set(CMAKE_SYSTEM_NAME "PICO")

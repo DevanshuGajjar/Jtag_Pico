@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/home/ubuntu/RPI_JTAG/dirtyJTAG/pico/pico-sdk/tools/elf2uf2
+source_dir=/home/ubuntu/Jtag_Repo/Jtag_Pico/pico/pico-sdk/tools/elf2uf2
 work_dir=
 
