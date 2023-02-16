@@ -5,6 +5,11 @@
 // Our assembled program:
 #include "jtag.pio.h"
 #define MULTICORE
+#include <stdio.h>
+#include "pico/binary_info.h"
+#include "bsp/board.h"
+#include "tusb.h"
+#include "get_serial.h"
 
 pio_jtag_inst_t jtag = {
             .pio = pio0,
@@ -43,7 +48,9 @@ void jtag_main_task(int command,int len) //Core2
 #endif
     if ((buffer_infos[wr_buffer_number].busy == false)) 
     {
-        if (true)
+        tud_task();// tinyusb device task
+        if (tud_vendor_available())
+       // if (true)
         {
             uint bnum = wr_buffer_number;
             uint count = len;
@@ -86,12 +93,24 @@ void core1_entry(){
     pio_sm_put_blocking(jtag.pio,0,0);
 }
 
+//this is to work around the fact that tinyUSB does not handle setup request automatically
+//Hence this boiler plate code
+bool tud_vendor_control_xfer_cb(uint8_t rhport, uint8_t stage, tusb_control_request_t const * request)
+{
+    if (stage != CONTROL_STAGE_SETUP) return true;
+    return false;
+}
+
 int main() {
-    
+    board_init();
+    usb_serial_init();
+    tusb_init();
 
     int data = 0x12345678; 
     multicore_launch_core1(core1_entry);
+    while(1){
     jtag_main_task(data,4);
+    }
     return 0;
 
 
