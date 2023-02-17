@@ -14,6 +14,7 @@ add_executable(pio_jtag
     pio_jtag.c
     get_serial.c
     usb_descriptors.c
+    cmd.c
 )
 
 target_include_directories(pio_jtag PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
@@ -23,7 +24,7 @@ pico_generate_pio_header(pio_jtag ${CMAKE_CURRENT_LIST_DIR}/jtag.pio)
 pico_set_program_name(pio_jtag "pio_jtag")
 pico_set_program_version(pio_jtag "0.1")
 
-target_sources(pio_jtag PRIVATE jtag.c pio_jtag.c get_serial.c usb_descriptors.c)
+target_sources(pio_jtag PRIVATE jtag.c pio_jtag.c get_serial.c usb_descriptors.c cmd.c)
 
 target_link_libraries(pio_jtag PRIVATE pico_stdlib)
 

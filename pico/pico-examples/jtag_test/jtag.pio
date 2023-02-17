@@ -48,10 +48,9 @@ loop:
 #include "hardware/gpio.h"
 static inline void pio_jtag_init(PIO pio, uint sm, uint prog_offs) {
     pio_sm_config c = jtag_program_get_default_config(prog_offs);
-    sm_config_set_sideset_pins(&c,1);
+    sm_config_set_sideset_pins(&c, 1);
     sm_config_set_set_pins(&c,0,1);
     sm_config_set_out_pins(&c, 0, 1);
-    sm_config_set_out_shift(&c, true, false,8 );
     //sm_config_set_out_shift(&c, false, true, 16);
     sm_config_set_clkdiv(&c, 20.0);
 

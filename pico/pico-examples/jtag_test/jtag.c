@@ -10,7 +10,8 @@
 #include "bsp/board.h"
 #include "tusb.h"
 #include "get_serial.h"
-
+#include "hardware/gpio.h"
+#include "cmd.h"
 pio_jtag_inst_t jtag = {
             .pio = pio0,
             .sm = 0
@@ -32,7 +33,7 @@ typedef struct buffer_info
 
 buffer_info buffer_infos[n_buffers];
 
-// static cmd_buffer tx_buf;
+static cmd_buffer tx_buf;
 
 void jtag_main_task(int command,int len) //Core2
 {
@@ -50,13 +51,18 @@ void jtag_main_task(int command,int len) //Core2
     {
         tud_task();// tinyusb device task
         if (tud_vendor_available())
-       // if (true)
         {
+            gpio_init(25);
+            gpio_set_dir(25, 1);
+            gpio_put(25,1);
+            uint count = 0;
+            count = tud_vendor_read(buffer_infos[wr_buffer_number].buffer,64);
             uint bnum = wr_buffer_number;
-            uint count = len;
+            // uint count = len;
             if (count != 0)
             {
-                buffer_infos[bnum].count = count;
+                gpio_put(25,0);
+                buffer_infos[bnum].count = len;
                 buffer_infos[bnum].busy = true;
                 buffer_infos[bnum].cmd_buffer = command;
                 wr_buffer_number = wr_buffer_number + 1; //switch buffer
@@ -79,18 +85,20 @@ void core1_entry(){
     uint rx_num = multicore_fifo_pop_blocking();
     buffer_info* bi = &buffer_infos[rx_num];
     assert (bi->busy); // if the structure 
+    cmd_handle(&jtag, bi->buffer, bi->count, tx_buf);
 
-    uint jtag_prog_offs = pio_add_program(jtag.pio, &jtag_program);
-    uint ir_init_prog_offs = pio_add_program(jtag.pio, &ir_init_program);
-    uint ir_deinit_prog_offs = pio_add_program(jtag.pio, &ir_deinit_program);
 
-    pio_ir_init_init(jtag.pio,0,ir_init_prog_offs);
-    pio_sm_put_blocking(jtag.pio,0,1);
-    pio_jtag_init(jtag.pio,0,jtag_prog_offs);
-    pio_jtag_write_blocking(&jtag,bi->cmd_buffer,bi->count);
-    sleep_ms(0.01);
-    pio_ir_deinit_init(jtag.pio,0,ir_deinit_prog_offs);
-    pio_sm_put_blocking(jtag.pio,0,0);
+    // uint jtag_prog_offs = pio_add_program(jtag.pio, &jtag_program);
+    // uint ir_init_prog_offs = pio_add_program(jtag.pio, &ir_init_program);
+    // uint ir_deinit_prog_offs = pio_add_program(jtag.pio, &ir_deinit_program);
+
+    // pio_ir_init_init(jtag.pio,0,ir_init_prog_offs);
+    // pio_sm_put_blocking(jtag.pio,0,1);
+    // pio_jtag_init(jtag.pio,0,jtag_prog_offs);
+    // pio_jtag_write_blocking(&jtag,bi->cmd_buffer,bi->count);
+    // sleep_ms(0.01);
+    // pio_ir_deinit_init(jtag.pio,0,ir_deinit_prog_offs);
+    // pio_sm_put_blocking(jtag.pio,0,0);
 }
 
 //this is to work around the fact that tinyUSB does not handle setup request automatically
