@@ -428,6 +428,10 @@ hardware/timer.h
 hardware/platform_defs.h
 /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/hardware/platform_defs.h
 
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
+
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
+
 /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
 
 /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
@@ -445,6 +449,18 @@ hardware/platform_defs.h
 /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 
 /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
+
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
+hardware/address_mapped.h
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
+hardware/regs/clocks.h
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/clocks.h
+
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h
+hardware/address_mapped.h
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/address_mapped.h
+hardware/regs/dma.h
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/hardware/regs/dma.h
 
 /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
 hardware/address_mapped.h
@@ -497,6 +513,22 @@ pico.h
 /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/pico.h
 hardware/regs/addressmap.h
 /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/hardware/regs/addressmap.h
+
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h
+pico.h
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/pico.h
+hardware/structs/clocks.h
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/hardware/structs/clocks.h
+
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h
+pico.h
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/pico.h
+hardware/structs/dma.h
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/hardware/structs/dma.h
+hardware/regs/dreq.h
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/hardware/regs/dreq.h
+pico/assert.h
+/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/pico/assert.h
 
 /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
 pico.h
@@ -590,6 +622,28 @@ pico/stdio.h
 hardware/uart.h
 /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/hardware/uart.h
 
+/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/cmd.c
+stdint.h
+-
+stdbool.h
+-
+string.h
+-
+pico/stdlib.h
+-
+hardware/clocks.h
+-
+hardware/gpio.h
+-
+jtag.pio.h
+/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/jtag.pio.h
+tusb.h
+/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/tusb.h
+pio_jtag.h
+/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/pio_jtag.h
+cmd.h
+/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/cmd.h
+
 /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/cmd.h
 
 /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/get_serial.h
@@ -619,6 +673,26 @@ hardware/gpio.h
 /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/hardware/gpio.h
 cmd.h
 /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/cmd.h
+
+/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/pio_jtag.c
+hardware/dma.h
+/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/hardware/dma.h
+pio_jtag.h
+/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/pio_jtag.h
+jtag.pio.h
+/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/jtag.pio.h
+hardware/clocks.h
+-
+hardware/gpio.h
+/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/hardware/gpio.h
+stdint.h
+-
+stdbool.h
+-
+string.h
+-
+hardware/pio.h
+/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/hardware/pio.h
 
 /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test/pio_jtag.h
 hardware/pio.h

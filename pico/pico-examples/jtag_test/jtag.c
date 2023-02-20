@@ -26,7 +26,6 @@ typedef struct buffer_info
     volatile uint8_t count;
     volatile uint8_t busy;
     cmd_buffer buffer;
-    volatile int cmd_buffer;
 } buffer_info;
 
 #define n_buffers (4)
@@ -35,36 +34,34 @@ buffer_info buffer_infos[n_buffers];
 
 static cmd_buffer tx_buf;
 
-void jtag_main_task(int command,int len) //Core2
+void jtag_main_task() //Core2
 {
-#ifdef MULTICORE
-    if (multicore_fifo_rvalid())
-    {
-        //some command processing has been done
-        uint rx_num = multicore_fifo_pop_blocking();
-        buffer_info* bi = &buffer_infos[rx_num];
-        bi->busy = false;
+// #ifdef MULTICORE
+//     if (multicore_fifo_rvalid())
+//     {
+//         //some command processing has been done
+//         uint rx_num = multicore_fifo_pop_blocking();
+//         buffer_info* bi = &buffer_infos[rx_num];
+//         bi->busy = false;
 
-    }
-#endif
+//     }
+// #endif
     if ((buffer_infos[wr_buffer_number].busy == false)) 
     {
         tud_task();// tinyusb device task
         if (tud_vendor_available())
         {
-            gpio_init(25);
-            gpio_set_dir(25, 1);
-            gpio_put(25,1);
+            // gpio_init(25);
+            // gpio_set_dir(25, 1);
+            // gpio_put(25,0);
             uint count = 0;
             count = tud_vendor_read(buffer_infos[wr_buffer_number].buffer,64);
             uint bnum = wr_buffer_number;
-            // uint count = len;
             if (count != 0)
             {
-                gpio_put(25,0);
-                buffer_infos[bnum].count = len;
+                // gpio_put(25,0);
+                buffer_infos[bnum].count = count;
                 buffer_infos[bnum].busy = true;
-                buffer_infos[bnum].cmd_buffer = command;
                 wr_buffer_number = wr_buffer_number + 1; //switch buffer
                 if (wr_buffer_number == n_buffers)
                 {
@@ -82,23 +79,17 @@ void jtag_main_task(int command,int len) //Core2
 
 
 void core1_entry(){
+    while(true){
+    uint8_t tx_buf[20];
     uint rx_num = multicore_fifo_pop_blocking();
     buffer_info* bi = &buffer_infos[rx_num];
     assert (bi->busy); // if the structure 
+    bi->busy = false;
     cmd_handle(&jtag, bi->buffer, bi->count, tx_buf);
-
-
-    // uint jtag_prog_offs = pio_add_program(jtag.pio, &jtag_program);
-    // uint ir_init_prog_offs = pio_add_program(jtag.pio, &ir_init_program);
-    // uint ir_deinit_prog_offs = pio_add_program(jtag.pio, &ir_deinit_program);
-
-    // pio_ir_init_init(jtag.pio,0,ir_init_prog_offs);
-    // pio_sm_put_blocking(jtag.pio,0,1);
-    // pio_jtag_init(jtag.pio,0,jtag_prog_offs);
-    // pio_jtag_write_blocking(&jtag,bi->cmd_buffer,bi->count);
-    // sleep_ms(0.01);
-    // pio_ir_deinit_init(jtag.pio,0,ir_deinit_prog_offs);
-    // pio_sm_put_blocking(jtag.pio,0,0);
+    memcpy(bi->buffer, 0, 64);
+    bi->count =0;
+    //memcpy(tx_buf,0,64);
+    }
 }
 
 //this is to work around the fact that tinyUSB does not handle setup request automatically
@@ -113,11 +104,10 @@ int main() {
     board_init();
     usb_serial_init();
     tusb_init();
-
-    int data = 0x12345678; 
+ 
     multicore_launch_core1(core1_entry);
     while(1){
-    jtag_main_task(data,4);
+    jtag_main_task();
     }
     return 0;
 

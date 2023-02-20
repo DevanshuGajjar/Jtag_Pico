@@ -2318,6 +2318,7 @@ jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/include/pico/time.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
@@ -2328,6 +2329,7 @@ jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h
@@ -2338,6 +2340,7 @@ jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h

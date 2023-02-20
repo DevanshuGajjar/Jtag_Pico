@@ -2317,6 +2317,7 @@ jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pic
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/include/pico/time.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
+jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h
@@ -2327,6 +2328,7 @@ jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pic
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h
+jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h
@@ -2337,6 +2339,7 @@ jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pic
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
+jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h
 jtag_test/CMakeFiles/pio_jtag.dir/pio_jtag.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h

@@ -8,75 +8,34 @@
 #include "hardware/pio.h"
 #endif
 
-// ------- //
-// ir_init //
-// ------- //
+// ---------------- //
+// state_transition //
+// ---------------- //
 
-#define ir_init_wrap_target 0
-#define ir_init_wrap 10
+#define state_transition_wrap_target 0
+#define state_transition_wrap 5
 
-static const uint16_t ir_init_program_instructions[] = {
+static const uint16_t state_transition_program_instructions[] = {
             //     .wrap_target
     0x80a0, //  0: pull   block                      
-    0xe020, //  1: set    x, 0                       
-    0xf801, //  2: set    pins, 1         side 1     
-    0xf000, //  3: set    pins, 0         side 0     
-    0xf801, //  4: set    pins, 1         side 1     
-    0xf000, //  5: set    pins, 0         side 0     
-    0xf800, //  6: set    pins, 0         side 1     
-    0xf000, //  7: set    pins, 0         side 0     
-    0xf800, //  8: set    pins, 0         side 1     
-    0xf000, //  9: set    pins, 0         side 0     
-    0x0042, // 10: jmp    x--, 2                     
+    0x6020, //  1: out    x, 32                      
+    0x80a0, //  2: pull   block                      
+    0x7801, //  3: out    pins, 1         side 1     
+    0xf000, //  4: set    pins, 0         side 0     
+    0x0043, //  5: jmp    x--, 3                     
             //     .wrap
 };
 
 #if !PICO_NO_HARDWARE
-static const struct pio_program ir_init_program = {
-    .instructions = ir_init_program_instructions,
-    .length = 11,
+static const struct pio_program state_transition_program = {
+    .instructions = state_transition_program_instructions,
+    .length = 6,
     .origin = -1,
 };
 
-static inline pio_sm_config ir_init_program_get_default_config(uint offset) {
+static inline pio_sm_config state_transition_program_get_default_config(uint offset) {
     pio_sm_config c = pio_get_default_sm_config();
-    sm_config_set_wrap(&c, offset + ir_init_wrap_target, offset + ir_init_wrap);
-    sm_config_set_sideset(&c, 2, true, false);
-    return c;
-}
-#endif
-
-// --------- //
-// ir_deinit //
-// --------- //
-
-#define ir_deinit_wrap_target 0
-#define ir_deinit_wrap 8
-
-static const uint16_t ir_deinit_program_instructions[] = {
-            //     .wrap_target
-    0x80a0, //  0: pull   block                      
-    0xe020, //  1: set    x, 0                       
-    0xf801, //  2: set    pins, 1         side 1     
-    0xf000, //  3: set    pins, 0         side 0     
-    0xf801, //  4: set    pins, 1         side 1     
-    0xf000, //  5: set    pins, 0         side 0     
-    0xf801, //  6: set    pins, 1         side 1     
-    0xf000, //  7: set    pins, 0         side 0     
-    0x0042, //  8: jmp    x--, 2                     
-            //     .wrap
-};
-
-#if !PICO_NO_HARDWARE
-static const struct pio_program ir_deinit_program = {
-    .instructions = ir_deinit_program_instructions,
-    .length = 9,
-    .origin = -1,
-};
-
-static inline pio_sm_config ir_deinit_program_get_default_config(uint offset) {
-    pio_sm_config c = pio_get_default_sm_config();
-    sm_config_set_wrap(&c, offset + ir_deinit_wrap_target, offset + ir_deinit_wrap);
+    sm_config_set_wrap(&c, offset + state_transition_wrap_target, offset + state_transition_wrap);
     sm_config_set_sideset(&c, 2, true, false);
     return c;
 }
@@ -87,22 +46,24 @@ static inline pio_sm_config ir_deinit_program_get_default_config(uint offset) {
 // ---- //
 
 #define jtag_wrap_target 0
-#define jtag_wrap 4
+#define jtag_wrap 6
 
 static const uint16_t jtag_program_instructions[] = {
             //     .wrap_target
     0x80a0, //  0: pull   block                      
     0xe027, //  1: set    x, 7                       
-    0x7801, //  2: out    pins, 1         side 1     
-    0xf000, //  3: set    pins, 0         side 0     
-    0x0042, //  4: jmp    x--, 2                     
+    0x7901, //  2: out    pins, 1         side 1 [1] 
+    0x5001, //  3: in     pins, 1         side 0     
+    0xf000, //  4: set    pins, 0         side 0     
+    0x0042, //  5: jmp    x--, 2                     
+    0x8020, //  6: push   block                      
             //     .wrap
 };
 
 #if !PICO_NO_HARDWARE
 static const struct pio_program jtag_program = {
     .instructions = jtag_program_instructions,
-    .length = 5,
+    .length = 7,
     .origin = -1,
 };
 
@@ -117,41 +78,28 @@ static inline pio_sm_config jtag_program_get_default_config(uint offset) {
 static inline void pio_jtag_init(PIO pio, uint sm, uint prog_offs) {
     pio_sm_config c = jtag_program_get_default_config(prog_offs);
     sm_config_set_sideset_pins(&c, 1);
-    sm_config_set_set_pins(&c,0,1);
-    sm_config_set_out_pins(&c, 0, 1);
-    //sm_config_set_out_shift(&c, false, true, 16);
+    sm_config_set_set_pins(&c,4,1);
+    sm_config_set_out_pins(&c, 4,2);
+    sm_config_set_in_pins(&c, 3);
+    sm_config_set_out_shift(&c, true, false, 8);
     sm_config_set_clkdiv(&c, 20.0);
-    pio_sm_set_pindirs_with_mask(pio, sm, (1u << 0) | (1u << 1) , (1u << 0) | (1u << 1));
-    pio_gpio_init(pio, 0);
+    pio_sm_set_pindirs_with_mask(pio, sm, (1u << 4) | (1u << 1) |(1u << 5) , (1u << 4) | (1u << 1)| (1u << 5));
+    pio_gpio_init(pio, 4);
     pio_gpio_init(pio, 1);
+    pio_gpio_init(pio, 3);
+    pio_gpio_init(pio, 5);
     pio_sm_init(pio, sm, prog_offs, &c);
     pio_sm_set_enabled(pio, sm, true);
 }
- static inline void pio_ir_init_init(PIO pio, uint sm, uint prog_offs) {
-    pio_sm_config c = ir_init_program_get_default_config(prog_offs);
-    //TCK pin
+static inline void pio_state_transition_init(PIO pio, uint sm, uint prog_offs) {
+    pio_sm_config c = state_transition_program_get_default_config(prog_offs);
     sm_config_set_sideset_pins(&c, 1);
-    //TMS Pin
-    sm_config_set_set_pins(&c,3, 1);
+    sm_config_set_set_pins(&c,2,1);
+    sm_config_set_out_pins(&c, 2, 1);
     sm_config_set_clkdiv(&c, 20.0);
-    pio_sm_set_pindirs_with_mask(pio, sm, (1u << 1)|(1u << 3), (1u << 1)|(1u << 3));
-    pio_gpio_init(pio, 3);
+    pio_sm_set_pindirs_with_mask(pio, sm, (1u << 2) | (1u << 1) , (1u << 2) | (1u << 1));
+    pio_gpio_init(pio, 2);
     pio_gpio_init(pio, 1);
-    pio_sm_init(pio, sm, prog_offs, &c);
-    pio_sm_set_enabled(pio, sm, true);
-}
- static inline void pio_ir_deinit_init(PIO pio, uint sm, uint prog_offs) {
-    pio_sm_config c = ir_deinit_program_get_default_config(prog_offs);
-    //TCK pin
-    sm_config_set_sideset_pins(&c, 1);
-    //TMS Pin
-    sm_config_set_set_pins(&c,3, 1);
-    sm_config_set_out_pins(&c,0, 1);
-    sm_config_set_clkdiv(&c, 20.0);
-    pio_sm_set_pindirs_with_mask(pio, sm, (1u << 1)|(1u << 3)| (1u << 0), (1u << 1)|(1u << 3) | (1u << 0));
-    pio_gpio_init(pio, 3);
-    pio_gpio_init(pio, 1);
-    pio_gpio_init(pio, 0);
     pio_sm_init(pio, sm, prog_offs, &c);
     pio_sm_set_enabled(pio, sm, true);
 }

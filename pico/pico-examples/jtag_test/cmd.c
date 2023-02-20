@@ -64,22 +64,48 @@ enum SignalIdentifier {
   SIG_SRST = 1 << 6
 };
 
+/**
+ * @brief Handle CMD_INFO command
+ *
+ * CMD_INFO returns a string to the host software. This
+ * could be used to check XRAYJTAG firmware version
+ * or supported commands.
+ *
+ * @param usbd_dev USB device
+ */
+static uint32_t  cmd_info(uint8_t *buffer);
 
+/**
+ * @brief Handle CMD_FREQ command
+ *
+ * CMD_FREQ sets the clock frequency on the probe.
+ * Currently this does not changes anything.
+ *
+ * @param commands Command data
+ */
+static void cmd_freq(pio_jtag_inst_t* jtag, const uint8_t *commands);
  
 
 void cmd_handle(pio_jtag_inst_t* jtag, uint8_t* rxbuf, uint32_t count, uint8_t* tx_buf) {
   uint8_t *commands= (uint8_t*)rxbuf;
   uint8_t *output_buffer = tx_buf;
-  //while ((commands < (rxbuf + count)) && (*commands != CMD_STOP))
-  // {
+  while ((commands < (rxbuf + count)) && (*commands != CMD_STOP))
+   {
     switch ((*commands)&0x0F) {
     case CMD_INFO:
     {
-      pio_jtag_idcode_scan(jtag);
+          gpio_init(25);
+    gpio_set_dir(25, 1);
+    gpio_put(25,1);
+    sleep_ms(1);
+    gpio_put(25,0);
+      uint32_t trbytes = cmd_info(output_buffer);
+      output_buffer += trbytes;
       break;
     }
     case CMD_FREQ:
-
+      cmd_freq(jtag, commands);
+      commands += 2;
       break;
 
     case CMD_XFER:
@@ -88,9 +114,16 @@ void cmd_handle(pio_jtag_inst_t* jtag, uint8_t* rxbuf, uint32_t count, uint8_t* 
       break;
     }
     case CMD_IDCODE:
-      pio_jtag_idcode_scan(jtag);
+    {
+      // gpio_init(25);
+      // gpio_set_dir(25, 1);
+      // gpio_put(25,1);
+      // sleep_ms(1);
+      // gpio_put(25,0);
+      int idcode_nu = pio_jtag_idcode_scan(jtag,output_buffer);
+      output_buffer += idcode_nu;
       break;
-
+    }
     case CMD_GETSIG:
     {
 
@@ -114,19 +147,22 @@ void cmd_handle(pio_jtag_inst_t* jtag, uint8_t* rxbuf, uint32_t count, uint8_t* 
       break;
     }
 
-    // commands++;
-  // }
+     commands++;
+   }
   /* Send the transfer response back to host */
-  // if (tx_buf != output_buffer)
-  if(true)
+  if (tx_buf != output_buffer)
   {
-    char buffer[20];
-    char info_string[10] = "DJTAG2\n";
-    memcpy(buffer, info_string, 10);
-    tud_vendor_write(buffer, 20);
-    // tud_vendor_flush();
+    tud_vendor_write(tx_buf, output_buffer - tx_buf);
   }
   return;
 }
 
+static void cmd_freq(pio_jtag_inst_t* jtag, const uint8_t *commands) {
+  jtag_set_clk_freq(jtag, (commands[1] << 8) | commands[2]);
+}
 
+static uint32_t cmd_info(uint8_t *buffer) {
+  char info_string[10] = "DEVJTAG\n";
+  memcpy(buffer, info_string, 10);
+  return 10;
+}
