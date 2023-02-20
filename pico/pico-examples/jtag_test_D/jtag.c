@@ -57,11 +57,10 @@ void jtag_main_task() //Core2
             uint count = 0;
             count = tud_vendor_read(buffer_infos[wr_buffer_number].buffer,64);
             uint bnum = wr_buffer_number;
-            // uint count = len;
             if (count != 0)
             {
                 gpio_put(25,0);
-                buffer_infos[bnum].count = len;
+                buffer_infos[bnum].count = count;
                 buffer_infos[bnum].busy = true;
                 wr_buffer_number = wr_buffer_number + 1; //switch buffer
                 if (wr_buffer_number == n_buffers)
@@ -98,8 +97,7 @@ int main() {
     board_init();
     usb_serial_init();
     tusb_init();
-
-    int data = 0x12345678; 
+ 
     multicore_launch_core1(core1_entry);
     while(1){
     jtag_main_task();

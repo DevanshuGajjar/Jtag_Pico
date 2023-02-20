@@ -20,7 +20,7 @@
 */
 
 /**
- * @brief Handle a DirtyJTAG command
+ * @brief Handle a XRAYJTAG command
  *
  * @param usbd_dev USB device
  * @param transfer Received packet

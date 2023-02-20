@@ -68,7 +68,7 @@ enum SignalIdentifier {
  * @brief Handle CMD_INFO command
  *
  * CMD_INFO returns a string to the host software. This
- * could be used to check DirtyJTAG firmware version
+ * could be used to check XRAYJTAG firmware version
  * or supported commands.
  *
  * @param usbd_dev USB device
@@ -109,9 +109,11 @@ void cmd_handle(pio_jtag_inst_t* jtag, uint8_t* rxbuf, uint32_t count, uint8_t* 
       break;
     }
     case CMD_IDCODE:
-      pio_jtag_idcode_scan(jtag);
+    {
+      int idcode_nu = pio_jtag_idcode_scan(jtag,output_buffer);
+      output_buffer += idcode_nu;
       break;
-
+    }
     case CMD_GETSIG:
     {
 

@@ -35,6 +35,7 @@ target_link_libraries(pio_jtag PRIVATE pico_stdlib
     pico_unique_id 
     tinyusb_device 
     tinyusb_board
+    hardware_clocks
 )
 
 pico_add_extra_outputs(pio_jtag)

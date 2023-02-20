@@ -14,13 +14,13 @@
 #define RED 4
 
 
-#define DIRTYJTAG_VID       0x1209
-#define DIRTYJTAG_PID       0xC0CA
-#define DIRTYJTAG_INTF      0
-#define DIRTYJTAG_READ_EP   0x82
-#define DIRTYJTAG_WRITE_EP  0x01
+#define XRAYJTAG_VID       0x1209
+#define XRAYJTAG_PID       0xC0CA
+#define XRAYJTAG_INTF      0
+#define XRAYJTAG_READ_EP   0x82
+#define XRAYJTAG_WRITE_EP  0x01
  
-#define DIRTYJTAG_TIMEOUT     1000
+#define XRAYJTAG_TIMEOUT     1000
 
 libusb_context *usb_ctx;
 libusb_device_handle *dev_handle;
@@ -28,7 +28,7 @@ libusb_device_handle *dev_handle;
 static char xvcInfo[64];
 
 // Note: Modified!
-enum dirtyJtagCmd {
+enum XRAYJTAGCmd {
 	CMD_STOP =  0x00,
 	CMD_INFO =  0x01,
 	CMD_FREQ =  0x02,
@@ -53,15 +53,15 @@ int device_init()
     printError("[ERROR] libusb init failed!\n");
     return -1;
   }
-  dev_handle = libusb_open_device_with_vid_pid(usb_ctx, DIRTYJTAG_VID, DIRTYJTAG_PID);
+  dev_handle = libusb_open_device_with_vid_pid(usb_ctx, XRAYJTAG_VID, XRAYJTAG_PID);
   if (!dev_handle) {
     printError("[ERROR] failed to open usb device!\n");
     libusb_exit(usb_ctx);
     return -1;
   }
-  ret = libusb_claim_interface(dev_handle, DIRTYJTAG_INTF);
+  ret = libusb_claim_interface(dev_handle, XRAYJTAG_INTF);
   if (ret) {
-    printf("[!] libusb error while claiming DirtyJTAG interface\n");
+    printf("[!] libusb error while claiming XRAYJTAG interface\n");
     libusb_close(dev_handle);
     libusb_exit(usb_ctx);
     return -1;
@@ -79,9 +79,7 @@ void device_close()
 }
 
 int main(){
-  int i;
-  int s;
-  int oper;
+  int i,s,data,oper;
 
   uint8_t rx_buf[64];
 
@@ -91,17 +89,16 @@ int main(){
     }
   printWarn("Daemon is listening now!\n");
 
-
-
   while(true){
     printf("1. CMD_INFO\n2. CMD_XFER\n3. CMD_IDCODE_SCAN\n");
+    scanf("%d",&oper);
     switch(oper){
       case 1:
         getversion();
         break;
 
       case 2:
-        int data=0;
+
         printf("Enter the Data you want to send");
         scanf("%d",&data);
         JtagXfer(data);
@@ -122,7 +119,7 @@ int setClkFreq(uint32_t clkHZ){
   int actual_length;
 	int ret, req_freq = clkHZ;
   if (clkHZ > 16000000) {
-		printWarn("DirtyJTAG probe limited to 16000kHz");
+		printWarn("XRAYJTAG probe limited to 16000kHz");
 		clkHZ = 16000000;
 	}
 
@@ -135,15 +132,15 @@ int getversion(){
   uint8_t rx_buf[64];
 	uint8_t buf[] = {CMD_INFO,
 					CMD_STOP};
-  ret = libusb_bulk_transfer(dev_handle, DIRTYJTAG_WRITE_EP,
-			        buf, 2, &actual_length, DIRTYJTAG_TIMEOUT);
+  ret = libusb_bulk_transfer(dev_handle, XRAYJTAG_WRITE_EP,
+			        buf, 2, &actual_length, XRAYJTAG_TIMEOUT);
   if(ret < 0){
       printf("Bulk Treansfer Failed with value %d\n",ret);
     }
 
   printf("Waiting for data to receive\n");
-  ret = libusb_bulk_transfer(dev_handle, DIRTYJTAG_READ_EP,
-						rx_buf, 64, &actual_length, DIRTYJTAG_TIMEOUT);
+  ret = libusb_bulk_transfer(dev_handle, XRAYJTAG_READ_EP,
+						rx_buf, 64, &actual_length, XRAYJTAG_TIMEOUT);
 
   printf("The Version is %s\n",rx_buf);
 }
@@ -157,15 +154,15 @@ void JtagXfer(uint32_t data){
         (0xff & (data >> 8)),
         (0xff & (data)),
 				CMD_STOP};
-  ret = libusb_bulk_transfer(dev_handle, DIRTYJTAG_WRITE_EP,
-			        buf, 2, &actual_length, DIRTYJTAG_TIMEOUT);
+  ret = libusb_bulk_transfer(dev_handle, XRAYJTAG_WRITE_EP,
+			        buf, 2, &actual_length, XRAYJTAG_TIMEOUT);
   if(ret < 0){
       printf("Bulk Treansfer Failed with value %d\n",ret);
     }
 
   printf("Waiting for data to receive\n");
-  ret = libusb_bulk_transfer(dev_handle, DIRTYJTAG_READ_EP,
-						rx_buf, 64, &actual_length, DIRTYJTAG_TIMEOUT);
+  ret = libusb_bulk_transfer(dev_handle, XRAYJTAG_READ_EP,
+						rx_buf, 64, &actual_length, XRAYJTAG_TIMEOUT);
 
   printf("Data Received for JtagXfer %s\n",rx_buf);
 }
@@ -174,31 +171,29 @@ void idcodeScan(){
   int ret;
   int actual_length;
   uint8_t rx_buf[64];
-  int data = CMD_IDCODE;
-  // uint8_t buf[1] = {CMD_IDCODE};
   uint8_t buf[] = {CMD_IDCODE,
-        (0xff & (data >> 8)),
-        (0xff & (data)),
 				CMD_STOP};
-  ret = libusb_bulk_transfer(dev_handle, DIRTYJTAG_WRITE_EP,
-			        buf, 2, &actual_length, DIRTYJTAG_TIMEOUT);
+  ret = libusb_bulk_transfer(dev_handle, XRAYJTAG_WRITE_EP,
+			        buf, 2, &actual_length, XRAYJTAG_TIMEOUT);
   if(ret < 0){
       printf("Bulk Treansfer Failed with value %d\n",ret);
     }
 
   printf("Waiting for data to receive\n");
-  ret = libusb_bulk_transfer(dev_handle, DIRTYJTAG_READ_EP,
-						rx_buf, 64, &actual_length, DIRTYJTAG_TIMEOUT);
+  ret = libusb_bulk_transfer(dev_handle, XRAYJTAG_READ_EP,
+						rx_buf, 64, &actual_length, XRAYJTAG_TIMEOUT);
 
   printf("Data Received for IDCODE Scan %s\n",rx_buf);
 }
 
 void printWarn(char *data){
   printf("\033[0;33m%s",data);
+  printf("\033[0;37m");
 }
 
 void printError(char *data){
   printf("\033[0;31m%s",data);
+  printf("\033[0;37m");
 }
 
 

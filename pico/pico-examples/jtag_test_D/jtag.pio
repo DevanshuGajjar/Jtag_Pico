@@ -1,37 +1,19 @@
-;
-; Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
-;
-; SPDX-License-Identifier: BSD-3-Clause
-;
-.program ir_init
+; tms 0
+; tck 1
+; tdo 2
+; tdi 3
+
+
+
+.program state_transition
 .side_set 1 opt
 pull block
-set x 0b0
+out x 32
+pull block 
 loop:
-    set pins, 1 side 1 
-    set pins, 0 side 0
-    set pins, 1 side 1
-    set pins, 0 side 0
-    set pins, 0 side 1
-    set pins, 0 side 0
-    set pins, 0 side 1
+    out pins, 1 side 1 
     set pins, 0 side 0 
-    jmp x-- loop
-
-
-.program ir_deinit
-.side_set 1 opt
-pull block
-set x 0b0
-loop:
-    set pins, 1 side 1
-    set pins, 0 side 0
-    set pins, 1 side 1
-    set pins, 0 side 0
-    set pins, 1 side 1
-    set pins, 0 side 0
-    jmp x-- loop
-
+    jmp x-- loop      
 
 
 .program jtag
@@ -44,6 +26,7 @@ loop:
     jmp x-- loop      ; Set PC to label `again`
 
 
+
 % c-sdk {
 #include "hardware/gpio.h"
 static inline void pio_jtag_init(PIO pio, uint sm, uint prog_offs) {
@@ -51,43 +34,30 @@ static inline void pio_jtag_init(PIO pio, uint sm, uint prog_offs) {
     sm_config_set_sideset_pins(&c, 1);
     sm_config_set_set_pins(&c,0,1);
     sm_config_set_out_pins(&c, 0, 1);
+    sm_config_set_out_pins(&c, 10, 1);
+    sm_config_set_in_pins(&c, 3);
     //sm_config_set_out_shift(&c, false, true, 16);
     sm_config_set_clkdiv(&c, 20.0);
 
-    pio_sm_set_pindirs_with_mask(pio, sm, (1u << 0) | (1u << 1) , (1u << 0) | (1u << 1));
+    pio_sm_set_pindirs_with_mask(pio, sm, (1u << 0) | (1u << 1) | (1u << 10) , (1u << 0) | (1u << 0) | (1u << 1) | (1u << 10));
     pio_gpio_init(pio, 0);
     pio_gpio_init(pio, 1);
+    pio_gpio_init(pio, 3);
+    pio_gpio_init(pio, 10);
     pio_sm_init(pio, sm, prog_offs, &c);
     pio_sm_set_enabled(pio, sm, true);
 }
 
- static inline void pio_ir_init_init(PIO pio, uint sm, uint prog_offs) {
-    pio_sm_config c = ir_init_program_get_default_config(prog_offs);
-    //TCK pin
+static inline void pio_state_transition_init(PIO pio, uint sm, uint prog_offs) {
+    pio_sm_config c = state_transition_program_get_default_config(prog_offs);
     sm_config_set_sideset_pins(&c, 1);
-    //TMS Pin
-    sm_config_set_set_pins(&c,3, 1);
+    sm_config_set_set_pins(&c,2,1);
+    sm_config_set_out_pins(&c, 2, 1);
     sm_config_set_clkdiv(&c, 20.0);
-    pio_sm_set_pindirs_with_mask(pio, sm, (1u << 1)|(1u << 3), (1u << 1)|(1u << 3));
-    pio_gpio_init(pio, 3);
-    pio_gpio_init(pio, 1);
-    pio_sm_init(pio, sm, prog_offs, &c);
-    pio_sm_set_enabled(pio, sm, true);
-}
 
- static inline void pio_ir_deinit_init(PIO pio, uint sm, uint prog_offs) {
-    pio_sm_config c = ir_deinit_program_get_default_config(prog_offs);
-    //TCK pin
-    sm_config_set_sideset_pins(&c, 1);
-    //TMS Pin
-    sm_config_set_set_pins(&c,3, 1);
-    sm_config_set_out_pins(&c,0, 1);
-
-    sm_config_set_clkdiv(&c, 20.0);
-    pio_sm_set_pindirs_with_mask(pio, sm, (1u << 1)|(1u << 3)| (1u << 0), (1u << 1)|(1u << 3) | (1u << 0));
-    pio_gpio_init(pio, 3);
+    pio_sm_set_pindirs_with_mask(pio, sm, (1u << 2) | (1u << 1) , (1u << 2) | (1u << 1));
+    pio_gpio_init(pio, 2);
     pio_gpio_init(pio, 1);
-    pio_gpio_init(pio, 0);
     pio_sm_init(pio, sm, prog_offs, &c);
     pio_sm_set_enabled(pio, sm, true);
 }
