@@ -47,9 +47,16 @@ void __time_critical_func(pio_jtag_idcode_scan)(const pio_jtag_inst_t *jtag){
 
     pio_ir_init_init(jtag->pio,0,ir_init_prog_offs);
     pio_sm_put_blocking(jtag->pio,0,1);
-    pio_jtag_init(jtag->pio,0,jtag_prog_offs);
+    pio_jtag_init(jtag->pio,0,jtag_prog_offs);  
     pio_jtag_write_blocking(jtag,IDCODE_INST,1);
     sleep_ms(0.01);
     pio_ir_deinit_init(jtag->pio,0,ir_deinit_prog_offs);
     pio_sm_put_blocking(jtag->pio,0,0);
+}
+
+void jtag_set_clk_freq(const pio_jtag_inst_t *jtag, uint freq_khz) {
+    uint clk_sys_freq_khz = clock_get_hz(clk_sys) / 1000;
+    uint32_t divider = (clk_sys_freq_khz / freq_khz) / 4;
+    divider = (divider < 2) ? 2 : divider; //max reliable freq 
+    pio_sm_set_clkdiv_int_frac(pio0, jtag->sm, divider, 0);
 }

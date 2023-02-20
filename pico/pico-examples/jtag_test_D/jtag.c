@@ -26,7 +26,6 @@ typedef struct buffer_info
     volatile uint8_t count;
     volatile uint8_t busy;
     cmd_buffer buffer;
-    volatile int cmd_buffer;
 } buffer_info;
 
 #define n_buffers (4)
@@ -35,7 +34,7 @@ buffer_info buffer_infos[n_buffers];
 
 static cmd_buffer tx_buf;
 
-void jtag_main_task(int command,int len) //Core2
+void jtag_main_task() //Core2
 {
 #ifdef MULTICORE
     if (multicore_fifo_rvalid())
@@ -64,7 +63,6 @@ void jtag_main_task(int command,int len) //Core2
                 gpio_put(25,0);
                 buffer_infos[bnum].count = len;
                 buffer_infos[bnum].busy = true;
-                buffer_infos[bnum].cmd_buffer = command;
                 wr_buffer_number = wr_buffer_number + 1; //switch buffer
                 if (wr_buffer_number == n_buffers)
                 {
@@ -86,19 +84,6 @@ void core1_entry(){
     buffer_info* bi = &buffer_infos[rx_num];
     assert (bi->busy); // if the structure 
     cmd_handle(&jtag, bi->buffer, bi->count, tx_buf);
-
-
-    // uint jtag_prog_offs = pio_add_program(jtag.pio, &jtag_program);
-    // uint ir_init_prog_offs = pio_add_program(jtag.pio, &ir_init_program);
-    // uint ir_deinit_prog_offs = pio_add_program(jtag.pio, &ir_deinit_program);
-
-    // pio_ir_init_init(jtag.pio,0,ir_init_prog_offs);
-    // pio_sm_put_blocking(jtag.pio,0,1);
-    // pio_jtag_init(jtag.pio,0,jtag_prog_offs);
-    // pio_jtag_write_blocking(&jtag,bi->cmd_buffer,bi->count);
-    // sleep_ms(0.01);
-    // pio_ir_deinit_init(jtag.pio,0,ir_deinit_prog_offs);
-    // pio_sm_put_blocking(jtag.pio,0,0);
 }
 
 //this is to work around the fact that tinyUSB does not handle setup request automatically
@@ -117,7 +102,7 @@ int main() {
     int data = 0x12345678; 
     multicore_launch_core1(core1_entry);
     while(1){
-    jtag_main_task(data,4);
+    jtag_main_task();
     }
     return 0;
 

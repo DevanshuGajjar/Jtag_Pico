@@ -17,3 +17,5 @@ typedef struct pio_jtag_inst {
 void pio_jtag_write_blocking(const pio_jtag_inst_t *jtag, int bsrc,int len);
 
 void __time_critical_func(pio_jtag_idcode_scan)(const pio_jtag_inst_t *jtag);
+
+void jtag_set_clk_freq(const pio_jtag_inst_t *jtag, uint freq_khz);
