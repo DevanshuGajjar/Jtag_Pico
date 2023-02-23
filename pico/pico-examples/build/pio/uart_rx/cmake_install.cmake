@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/uart_rx
+# Install script for directory: /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/uart_rx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

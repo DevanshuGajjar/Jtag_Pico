@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/multicore/multicore_fifo_irqs
+# Install script for directory: /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/multicore/multicore_fifo_irqs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

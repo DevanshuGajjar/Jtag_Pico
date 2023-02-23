@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/system/narrow_io_write
+# Install script for directory: /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/system/narrow_io_write
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/clocks/detached_clk_peri
+# Install script for directory: /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/clocks/detached_clk_peri
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

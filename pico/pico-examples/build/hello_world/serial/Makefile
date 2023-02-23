@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/hello_world/serial/CMakeFiles/progress.marks
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/serial/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/hello_world/serial/CMakeFiles/progress.marks
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/serial/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/serial/clean
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/serial/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/serial/preinstall
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/serial/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/serial/preinstall
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/serial/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hello_world/serial/CMakeFiles/hello_serial.dir/rule:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/serial/CMakeFiles/hello_serial.dir/rule
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/serial/CMakeFiles/hello_serial.dir/rule
 .PHONY : hello_world/serial/CMakeFiles/hello_serial.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ hello_serial: hello_world/serial/CMakeFiles/hello_serial.dir/rule
 
 # fast build rule for target.
 hello_serial/fast:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/build
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/build
 .PHONY : hello_serial/fast
 
 hello_serial.obj: hello_serial.c.obj
@@ -131,7 +131,7 @@ hello_serial.obj: hello_serial.c.obj
 
 # target to build an object file
 hello_serial.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/hello_serial.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/hello_serial.c.obj
 .PHONY : hello_serial.c.obj
 
 hello_serial.i: hello_serial.c.i
@@ -140,7 +140,7 @@ hello_serial.i: hello_serial.c.i
 
 # target to preprocess a source file
 hello_serial.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/hello_serial.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/hello_serial.c.i
 .PHONY : hello_serial.c.i
 
 hello_serial.s: hello_serial.c.s
@@ -149,7 +149,7 @@ hello_serial.s: hello_serial.c.s
 
 # target to generate assembly for a file
 hello_serial.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/hello_serial.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/hello_serial.c.s
 .PHONY : hello_serial.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -158,7 +158,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.obj: ho
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -167,7 +167,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.i: home
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -176,7 +176,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.s: home
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -185,7 +185,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/cycl
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -194,7 +194,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/cyclon
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -203,7 +203,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/cyclon
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -212,7 +212,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/cyclone/
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -221,7 +221,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.i: home/cyclone/De
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -230,7 +230,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.s: home/cyclone/De
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -239,7 +239,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.obj: home/cyclone/De
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -248,7 +248,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.i: home/cyclone/Desk
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -257,7 +257,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.s: home/cyclone/Desk
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -266,7 +266,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.obj: home/cyclone/D
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -275,7 +275,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.i: home/cyclone/Des
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -284,7 +284,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.s: home/cyclone/Des
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -293,7 +293,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -302,7 +302,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/c
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -311,7 +311,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/c
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -320,7 +320,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.obj: home/cyclo
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -329,7 +329,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.i: home/cyclone
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -338,7 +338,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.s: home/cyclone
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -347,7 +347,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.obj: home/cyclone/
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -356,7 +356,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.i: home/cyclone/De
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -365,7 +365,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.s: home/cyclone/De
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -374,7 +374,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.obj: home/cyclone/
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -383,7 +383,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.i: home/cyclone/De
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -392,7 +392,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.s: home/cyclone/De
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -401,7 +401,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -410,7 +410,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/c
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -419,7 +419,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/c
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -428,7 +428,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: ho
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -437,7 +437,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -446,7 +446,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -455,7 +455,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: 
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -464,7 +464,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/c
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -473,7 +473,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/cyc
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -482,7 +482,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/cyc
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -491,7 +491,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/cyc
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -500,7 +500,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/cyclo
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -509,7 +509,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/cyclo
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -518,7 +518,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -527,7 +527,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/cyc
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -536,7 +536,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/cyclo
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -545,7 +545,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/cyclo
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -554,7 +554,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/c
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -563,7 +563,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/cyc
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -572,7 +572,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/cyc
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -581,7 +581,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -590,7 +590,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/c
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -599,7 +599,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/c
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -608,7 +608,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/c
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -617,7 +617,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/cyc
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -626,7 +626,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/cyc
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -635,7 +635,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/c
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -644,7 +644,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/cyc
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -653,7 +653,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/cyc
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -662,7 +662,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -671,7 +671,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: 
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -680,7 +680,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: 
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -689,7 +689,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/c
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -698,7 +698,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/cyc
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -707,7 +707,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/cyc
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -716,7 +716,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -725,7 +725,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -734,7 +734,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/c
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -743,7 +743,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/c
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -752,7 +752,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -761,7 +761,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: 
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -770,7 +770,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.ob
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -779,7 +779,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i:
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -788,7 +788,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s:
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -797,7 +797,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: h
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -806,7 +806,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: hom
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -815,7 +815,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: hom
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -824,7 +824,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -833,7 +833,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: ho
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -842,7 +842,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj:
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -851,7 +851,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: h
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -860,7 +860,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: h
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -869,7 +869,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: hom
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -878,7 +878,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -887,7 +887,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -896,7 +896,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -905,7 +905,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -914,7 +914,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: h
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -923,7 +923,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: hom
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -932,7 +932,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: hom
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -941,7 +941,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -950,7 +950,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: ho
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -959,7 +959,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -968,7 +968,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -977,7 +977,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/c
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -986,7 +986,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/cyc
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -995,7 +995,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/cyc
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1004,7 +1004,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1013,7 +1013,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/c
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1022,7 +1022,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/c
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -1031,7 +1031,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -1040,7 +1040,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1049,7 +1049,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1058,7 +1058,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: h
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1067,7 +1067,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1076,7 +1076,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1085,7 +1085,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1094,7 +1094,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/cyc
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1103,7 +1103,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/cyclo
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1112,7 +1112,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/cyclo
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1121,7 +1121,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1130,7 +1130,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: 
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1139,7 +1139,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: 
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1148,7 +1148,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/c
 
 # target to build an object file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1157,7 +1157,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/cyc
 
 # target to preprocess a source file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1166,7 +1166,7 @@ home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/cyc
 
 # target to generate assembly for a file
 home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/serial/CMakeFiles/hello_serial.dir/build.make hello_world/serial/CMakeFiles/hello_serial.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 # Help Target
@@ -1305,6 +1305,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

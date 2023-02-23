@@ -1,13 +1,13 @@
 # Target labels
  ELF2UF2Build
 # Source files and their labels
-/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/CMakeFiles/ELF2UF2Build
-/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/CMakeFiles/ELF2UF2Build.rule
-/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/CMakeFiles/ELF2UF2Build-complete.rule
-/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
-/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
-/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
-/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
-/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
-/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
-/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/CMakeFiles/ELF2UF2Build
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/CMakeFiles/ELF2UF2Build.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/CMakeFiles/ELF2UF2Build-complete.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule

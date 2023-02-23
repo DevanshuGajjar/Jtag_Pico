@@ -1,0 +1,65 @@
+; tms 0
+; tck 1
+; tdo 2
+; tdi 3
+
+
+
+.program state_transition
+.side_set 1 opt
+pull block
+out x, 32
+pull block 
+
+loop:
+    out pins, 1 side 0
+    jmp x-- loop side 1     
+set pins, 0 side 0 
+
+.program jtag
+.side_set 1 opt
+pull block
+set x, 0b0111
+loop:
+    out pins, 1 side 0; Drive pin high and then delay for one cycle
+    in pins,1 side 1 [1]
+    set pins, 0 side 0 ;
+    jmp x-- loop   side 0   ; Set PC to label `again`
+push 
+
+
+% c-sdk {
+#include "hardware/gpio.h"
+static inline void pio_jtag_init(PIO pio, uint sm, uint prog_offs) {
+    pio_sm_config c = jtag_program_get_default_config(prog_offs);
+    sm_config_set_sideset_pins(&c, 1);
+    sm_config_set_set_pins(&c,4,1);
+    sm_config_set_out_pins(&c, 4,1);
+    sm_config_set_in_pins(&c, 3);
+    sm_config_set_out_shift(&c, true, false, 8);
+    //sm_config_set_in_shift(&c, true, false, 8);
+    sm_config_set_clkdiv(&c, 20.0);
+
+    pio_sm_set_pindirs_with_mask(pio, sm, (1u << 4) | (1u << 1)  | (0u <<3) , (1u << 4) | (1u << 1) | (1u << 3));
+    pio_gpio_init(pio, 4);
+    pio_gpio_init(pio, 1);
+    pio_gpio_init(pio, 3);
+    pio_sm_init(pio, sm, prog_offs, &c);
+    pio_sm_set_enabled(pio, sm, true);
+}
+
+static inline void pio_state_transition_init(PIO pio, uint sm, uint prog_offs) {
+    pio_sm_config c = state_transition_program_get_default_config(prog_offs);
+    sm_config_set_sideset_pins(&c, 1);
+    sm_config_set_set_pins(&c,2,1);
+    sm_config_set_out_pins(&c, 2, 1);
+    sm_config_set_clkdiv(&c, 20.0);
+
+    pio_sm_set_pindirs_with_mask(pio, sm, (1u << 2) | (1u << 1) , (1u << 2) | (1u << 1));
+    pio_gpio_init(pio, 2);
+    pio_gpio_init(pio, 1);
+    pio_sm_init(pio, sm, prog_offs, &c);
+    pio_sm_set_enabled(pio, sm, true);
+}
+
+%}

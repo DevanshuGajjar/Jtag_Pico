@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
 
 # Utility rule file for pio_spi_flash_spi_pio_h.
 
@@ -57,8 +57,8 @@ pio/spi/CMakeFiles/pio_spi_flash_spi_pio_h: pio/spi/spi.pio.h
 
 
 pio/spi/spi.pio.h: ../pio/spi/spi.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating spi.pio.h"
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/spi && ../../pioasm/pioasm -o c-sdk /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/spi/spi.pio /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/spi/spi.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating spi.pio.h"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/spi && ../../pioasm/pioasm -o c-sdk /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/spi/spi.pio /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/spi/spi.pio.h
 
 pio_spi_flash_spi_pio_h: pio/spi/CMakeFiles/pio_spi_flash_spi_pio_h
 pio_spi_flash_spi_pio_h: pio/spi/spi.pio.h
@@ -72,10 +72,10 @@ pio/spi/CMakeFiles/pio_spi_flash_spi_pio_h.dir/build: pio_spi_flash_spi_pio_h
 .PHONY : pio/spi/CMakeFiles/pio_spi_flash_spi_pio_h.dir/build
 
 pio/spi/CMakeFiles/pio_spi_flash_spi_pio_h.dir/clean:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/spi && $(CMAKE_COMMAND) -P CMakeFiles/pio_spi_flash_spi_pio_h.dir/cmake_clean.cmake
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/spi && $(CMAKE_COMMAND) -P CMakeFiles/pio_spi_flash_spi_pio_h.dir/cmake_clean.cmake
 .PHONY : pio/spi/CMakeFiles/pio_spi_flash_spi_pio_h.dir/clean
 
 pio/spi/CMakeFiles/pio_spi_flash_spi_pio_h.dir/depend:
-	cd /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/spi /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/spi /home/cyclone/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/spi/CMakeFiles/pio_spi_flash_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/spi /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/spi /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/spi/CMakeFiles/pio_spi_flash_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pio/spi/CMakeFiles/pio_spi_flash_spi_pio_h.dir/depend
 
