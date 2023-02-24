@@ -14,6 +14,12 @@ typedef struct pio_jtag_inst {
     uint pin_trst;
 } pio_jtag_inst_t;
 
+
+
+int pio_jtag_dr_scan(const pio_jtag_inst_t *jtag, uint8_t *tx_buf, uint8_t *rx_buf,int len);
+
+int pio_jtag_ir_scan(const pio_jtag_inst_t *jtag, uint8_t *tx_buf, uint8_t *rx_buf,int len);
+
 void pio_jtag_write_blocking(const pio_jtag_inst_t *jtag, const uint8_t *bsrc,int len,uint8_t *bdst);
 
 int pio_jtag_idcode_scan(const pio_jtag_inst_t *jtag,uint8_t *tx_buf);

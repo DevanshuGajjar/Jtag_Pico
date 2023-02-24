@@ -32,7 +32,7 @@ typedef struct buffer_info
 
 buffer_info buffer_infos[n_buffers];
 
-static cmd_buffer tx_buf;
+// static cmd_buffer tx_buf;
 
 void jtag_main_task() //Core2
 {
@@ -88,7 +88,7 @@ void core1_entry(){
     cmd_handle(&jtag, bi->buffer, bi->count, tx_buf);
     // memset(bi->buffer, 0, 64);
     // bi->count =0;
-    //memcpy(tx_buf,0,64);
+    // memcpy(tx_buf,0,64);
     }
 }
 
