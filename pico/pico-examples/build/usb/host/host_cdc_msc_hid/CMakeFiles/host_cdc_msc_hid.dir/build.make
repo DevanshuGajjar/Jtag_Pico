@@ -122,22 +122,9 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -147,6 +134,19 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
@@ -205,87 +205,9 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
-
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -298,7 +220,7 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -308,6 +230,84 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
@@ -322,27 +322,9 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -355,7 +337,7 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -368,7 +350,7 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -381,7 +363,7 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -394,7 +376,7 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -404,6 +386,24 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building ASM object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
@@ -632,22 +632,9 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.c.s
 
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c > CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.i
-
-usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.s
-
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hub.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hub.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hub.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hub.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hub.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hub.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hub.c.i: cmake_force
@@ -660,7 +647,7 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.i: cmake_force
@@ -673,7 +660,7 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.i: cmake_force
@@ -686,7 +673,7 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.i: cmake_force
@@ -699,7 +686,7 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.i: cmake_force
@@ -712,7 +699,7 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -725,7 +712,7 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -738,7 +725,7 @@ usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/p
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/flags.make
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
 
 usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i: cmake_force
@@ -756,29 +743,29 @@ host_cdc_msc_hid_OBJECTS = \
 "CMakeFiles/host_cdc_msc_hid.dir/msc_app.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
+"CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
+"CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
@@ -802,7 +789,6 @@ host_cdc_msc_hid_OBJECTS = \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.c.obj" \
-"CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hub.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.obj" \
 "CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.obj" \
@@ -820,29 +806,29 @@ usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeF
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/msc_app.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
-usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -866,7 +852,6 @@ usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeF
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.c.obj
-usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hub.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.obj
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.obj
@@ -878,12 +863,12 @@ usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeF
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/build.make
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf: usb/host/host_cdc_msc_hid/CMakeFiles/host_cdc_msc_hid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX executable host_cdc_msc_hid.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking CXX executable host_cdc_msc_hid.elf"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/host_cdc_msc_hid.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-objcopy -Oihex /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf host_cdc_msc_hid.hex
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-objcopy -Obinary /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf host_cdc_msc_hid.bin
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-objdump -h /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf >host_cdc_msc_hid.dis
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-objdump -d /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf >>host_cdc_msc_hid.dis
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-objdump -h /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf > host_cdc_msc_hid.dis
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && /usr/bin/arm-none-eabi-objdump -d /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf >> host_cdc_msc_hid.dis
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid && ../../../elf2uf2/elf2uf2 /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/host_cdc_msc_hid/host_cdc_msc_hid.elf host_cdc_msc_hid.uf2
 
 # Rule to build all files generated by this target.

@@ -184,6 +184,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_c
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/asm_helper.S
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
  generated/pico_base/pico/config_autogen.h
@@ -217,14 +218,13 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/cmd.c.obj
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd_attr.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_freertos.h
@@ -232,6 +232,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/cmd.c.obj
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
@@ -335,14 +336,13 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd_attr.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_freertos.h
@@ -350,6 +350,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
@@ -406,8 +407,9 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
@@ -419,6 +421,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -450,8 +453,9 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
@@ -463,6 +467,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -494,8 +499,9 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
@@ -507,6 +513,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -538,8 +545,9 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
@@ -551,6 +559,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -582,8 +591,9 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
@@ -595,6 +605,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -627,8 +638,9 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
@@ -640,6 +652,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -671,13 +684,13 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/dcd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/dcd_attr.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal.h
@@ -686,6 +699,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -718,8 +732,9 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
@@ -731,6 +746,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -763,8 +779,9 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/net_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
@@ -776,6 +793,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -807,8 +825,9 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
@@ -820,6 +839,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -850,8 +870,9 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
@@ -863,6 +884,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -894,8 +916,9 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
@@ -907,6 +930,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -935,9 +959,10 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  ../jtag_test_O/tusb_config.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
@@ -947,6 +972,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -1000,18 +1026,17 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_private.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/dcd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/dcd_attr.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd_attr.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_freertos.h
@@ -1019,6 +1044,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
@@ -1073,18 +1099,16 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/dcd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/dcd_attr.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd_attr.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_freertos.h
@@ -1092,6 +1116,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
@@ -1121,19 +1146,20 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  ../jtag_test_O/tusb_config.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/dcd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/dcd_attr.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_freertos.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_mynewt.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
@@ -1173,7 +1199,8 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  ../jtag_test_O/tusb_config.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
@@ -1192,13 +1219,16 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
@@ -1231,22 +1261,24 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyu
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_private.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd_attr.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_classdriver.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_freertos.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_mynewt.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
@@ -1851,15 +1883,22 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_c
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico/error.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico/types.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/include/pico/double.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -1911,15 +1950,22 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_c
  generated/pico_base/pico/config_autogen.h
  generated/pico_base/pico/version.h
 jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico/assert.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico/config.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico/error.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico/types.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h
+ /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/include/pico/float.h
  /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h
+ generated/pico_base/pico/config_autogen.h
+ generated/pico_base/pico/version.h
 jtag_test_O/CMakeFiles/pio_jtag.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
  /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_base/include/pico.h
@@ -2235,14 +2281,13 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/jtag.c.obj
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd_attr.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_freertos.h
@@ -2250,6 +2295,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/jtag.c.obj
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h
@@ -2385,14 +2431,13 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/usb_descriptors.c.obj
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_common.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd.h
- /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hcd_attr.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_freertos.h
@@ -2400,6 +2445,7 @@ jtag_test_O/CMakeFiles/pio_jtag.dir/usb_descriptors.c.obj
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_none.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtthread.h
+ /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/osal/osal_rtx4.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.h
  /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb_option.h
  /home/cyclone/Desktop/pico/pico-sdk/src/boards/include/boards/pico.h

@@ -159,21 +159,8 @@ PioasmBuild: cmake_check_build_system
 
 # fast build rule for target.
 PioasmBuild/fast:
-	$(MAKE) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/build
+	$(MAKE) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build
 .PHONY : PioasmBuild/fast
-
-#=============================================================================
-# Target rules for targets named cyw43_firmware_package
-
-# Build rule for target.
-cyw43_firmware_package: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cyw43_firmware_package
-.PHONY : cyw43_firmware_package
-
-# fast build rule for target.
-cyw43_firmware_package/fast:
-	$(MAKE) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/build
-.PHONY : cyw43_firmware_package/fast
 
 #=============================================================================
 # Target rules for targets named cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
@@ -185,7 +172,7 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: cmake_check_build_system
 
 # fast build rule for target.
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
-	$(MAKE) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
+	$(MAKE) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
 #=============================================================================
@@ -1996,6 +1983,19 @@ dev_lowlevel/fast:
 .PHONY : dev_lowlevel/fast
 
 #=============================================================================
+# Target rules for targets named tinyusb_host_bare_api
+
+# Build rule for target.
+tinyusb_host_bare_api: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tinyusb_host_bare_api
+.PHONY : tinyusb_host_bare_api
+
+# fast build rule for target.
+tinyusb_host_bare_api/fast:
+	$(MAKE) -f usb/host/tinyusb_host_examples/bare_api/CMakeFiles/tinyusb_host_bare_api.dir/build.make usb/host/tinyusb_host_examples/bare_api/CMakeFiles/tinyusb_host_bare_api.dir/build
+.PHONY : tinyusb_host_bare_api/fast
+
+#=============================================================================
 # Target rules for targets named tinyusb_host_cdc_msc_hid
 
 # Build rule for target.
@@ -2020,6 +2020,19 @@ tinyusb_host_hid_controller: cmake_check_build_system
 tinyusb_host_hid_controller/fast:
 	$(MAKE) -f usb/host/tinyusb_host_examples/hid_controller/CMakeFiles/tinyusb_host_hid_controller.dir/build.make usb/host/tinyusb_host_examples/hid_controller/CMakeFiles/tinyusb_host_hid_controller.dir/build
 .PHONY : tinyusb_host_hid_controller/fast
+
+#=============================================================================
+# Target rules for targets named tinyusb_host_msc_file_explorer
+
+# Build rule for target.
+tinyusb_host_msc_file_explorer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tinyusb_host_msc_file_explorer
+.PHONY : tinyusb_host_msc_file_explorer
+
+# fast build rule for target.
+tinyusb_host_msc_file_explorer/fast:
+	$(MAKE) -f usb/host/tinyusb_host_examples/msc_file_explorer/CMakeFiles/tinyusb_host_msc_file_explorer.dir/build.make usb/host/tinyusb_host_examples/msc_file_explorer/CMakeFiles/tinyusb_host_msc_file_explorer.dir/build
+.PHONY : tinyusb_host_msc_file_explorer/fast
 
 #=============================================================================
 # Target rules for targets named host_cdc_msc_hid
@@ -2098,7 +2111,6 @@ help:
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default"
 	@echo "... PioasmBuild"
-	@echo "... cyw43_firmware_package"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... ELF2UF2Build"
 	@echo "... blink"
@@ -2239,8 +2251,10 @@ help:
 	@echo "... tinyusb_dev_webusb_serial"
 	@echo "... dev_hid_composite"
 	@echo "... dev_lowlevel"
+	@echo "... tinyusb_host_bare_api"
 	@echo "... tinyusb_host_cdc_msc_hid"
 	@echo "... tinyusb_host_hid_controller"
+	@echo "... tinyusb_host_msc_file_explorer"
 	@echo "... host_cdc_msc_hid"
 	@echo "... hello_watchdog"
 	@echo "... usb_t1"

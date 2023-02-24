@@ -17,7 +17,7 @@ pio_jtag_inst_t jtag = {
             .sm = 0
             };
 
-
+static uint8_t tx_buf[20];
 typedef uint8_t cmd_buffer[64];
 static uint wr_buffer_number = 0;
 // static uint rd_buffer_number = 0; 
@@ -80,14 +80,14 @@ void jtag_main_task() //Core2
 
 void core1_entry(){
     while(true){
-    uint8_t tx_buf[20];
+    // uint8_t tx_buf[20];
     uint rx_num = multicore_fifo_pop_blocking();
     buffer_info* bi = &buffer_infos[rx_num];
     assert (bi->busy); // if the structure 
     bi->busy = false;
     cmd_handle(&jtag, bi->buffer, bi->count, tx_buf);
-    // memset(bi->buffer, 0, 64);
-    // bi->count =0;
+    memset(bi->buffer, 0, 64);
+    bi->count =0;
     // memcpy(tx_buf,0,64);
     }
 }

@@ -287,14 +287,20 @@ PICO_SDK_FETCH_FROM_GIT_PATH:FILEPATH=
 //Path to the Raspberry Pi Pico SDK
 PICO_SDK_PATH:PATH=/home/cyclone/Desktop/pico/pico-sdk
 
+//Globablly enable stdio semihosting
+PICO_STDIO_SEMIHOSTING:BOOL=OFF
+
 //Globablly enable stdio UART
 PICO_STDIO_UART:BOOL=ON
 
-//Globablly enable stdio semihosting 
+//Globablly enable stdio USB
 PICO_STDIO_USB:BOOL=OFF
 
 //Path to a program.
 _Python3_EXECUTABLE:FILEPATH=/usr/bin/python3.8
+
+//The directory containing a CMake configuration file for pico-sdk-tools.
+pico-sdk-tools_DIR:PATH=pico-sdk-tools_DIR-NOTFOUND
 
 //Value Computed by CMake
 pico_examples_BINARY_DIR:STATIC=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
@@ -423,6 +429,12 @@ tinyusb_device_examples_BINARY_DIR:STATIC=/home/cyclone/Desktop/rpi_pico_jtag/Jt
 tinyusb_device_examples_SOURCE_DIR:STATIC=/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/examples/device
 
 //Value Computed by CMake
+tinyusb_host_bare_api_BINARY_DIR:STATIC=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/bare_api
+
+//Value Computed by CMake
+tinyusb_host_bare_api_SOURCE_DIR:STATIC=/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/examples/host/bare_api
+
+//Value Computed by CMake
 tinyusb_host_cdc_msc_hid_BINARY_DIR:STATIC=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/cdc_msc_hid
 
 //Value Computed by CMake
@@ -439,6 +451,12 @@ tinyusb_host_hid_controller_BINARY_DIR:STATIC=/home/cyclone/Desktop/rpi_pico_jta
 
 //Value Computed by CMake
 tinyusb_host_hid_controller_SOURCE_DIR:STATIC=/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/examples/host/hid_controller
+
+//Value Computed by CMake
+tinyusb_host_msc_file_explorer_BINARY_DIR:STATIC=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/msc_file_explorer
+
+//Value Computed by CMake
+tinyusb_host_msc_file_explorer_SOURCE_DIR:STATIC=/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/examples/host/msc_file_explorer
 
 
 ########################
@@ -562,7 +580,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=238
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=248
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -616,7 +634,7 @@ PICO_BOOT_STAGE2_DIR:INTERNAL=/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common
 PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=/home/cyclone/Desktop/pico/pico-sdk/cmake/preload/platforms
 PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=/home/cyclone/Desktop/pico/pico-sdk/cmake/preload/platforms/rp2040.cmake
 PICO_COMPILER_ASM:INTERNAL=/usr/bin/arm-none-eabi-gcc
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/cmsis /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/cmsis /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/cmsis /home/cyclone/Desktop/pico/pico-sdk/src/rp2040/hardware_regs
 PICO_DOXYGEN_PATHS:INTERNAL= /home/cyclone/Desktop/pico/pico-sdk/src/common /home/cyclone/Desktop/pico/pico-sdk/lib/cyw43-driver/src /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common /home/cyclone/Desktop/pico/pico-sdk/src/rp2040
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1

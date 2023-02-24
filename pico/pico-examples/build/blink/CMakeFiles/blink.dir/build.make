@@ -96,22 +96,9 @@ blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/har
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: blink/CMakeFiles/blink.dir/flags.make
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: blink/CMakeFiles/blink.dir/flags.make
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -121,6 +108,19 @@ blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pic
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: blink/CMakeFiles/blink.dir/flags.make
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
@@ -179,87 +179,9 @@ blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sy
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: blink/CMakeFiles/blink.dir/flags.make
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: blink/CMakeFiles/blink.dir/flags.make
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: blink/CMakeFiles/blink.dir/flags.make
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: blink/CMakeFiles/blink.dir/flags.make
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: blink/CMakeFiles/blink.dir/flags.make
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: blink/CMakeFiles/blink.dir/flags.make
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
-
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: blink/CMakeFiles/blink.dir/flags.make
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -272,7 +194,7 @@ blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sy
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: blink/CMakeFiles/blink.dir/flags.make
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -282,6 +204,84 @@ blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sy
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: blink/CMakeFiles/blink.dir/flags.make
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
@@ -296,27 +296,9 @@ blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/har
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: blink/CMakeFiles/blink.dir/flags.make
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: blink/CMakeFiles/blink.dir/flags.make
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: blink/CMakeFiles/blink.dir/flags.make
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -329,7 +311,7 @@ blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/har
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: blink/CMakeFiles/blink.dir/flags.make
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -342,7 +324,7 @@ blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/har
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: blink/CMakeFiles/blink.dir/flags.make
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -355,7 +337,7 @@ blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/har
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: blink/CMakeFiles/blink.dir/flags.make
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -368,7 +350,7 @@ blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/har
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: blink/CMakeFiles/blink.dir/flags.make
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -378,6 +360,24 @@ blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/har
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: blink/CMakeFiles/blink.dir/flags.make
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: blink/CMakeFiles/blink.dir/flags.make
 blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
@@ -572,29 +572,29 @@ blink_OBJECTS = \
 "CMakeFiles/blink.dir/blink.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
+"CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
+"CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
 "CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
@@ -622,29 +622,29 @@ blink_EXTERNAL_OBJECTS =
 blink/blink.elf: blink/CMakeFiles/blink.dir/blink.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
-blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 blink/blink.elf: blink/CMakeFiles/blink.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -672,8 +672,8 @@ blink/blink.elf: blink/CMakeFiles/blink.dir/link.txt
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blink.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-objcopy -Oihex /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/blink.elf blink.hex
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-objcopy -Obinary /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/blink.elf blink.bin
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-objdump -h /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/blink.elf >blink.dis
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-objdump -d /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/blink.elf >>blink.dis
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-objdump -h /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/blink.elf > blink.dis
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && /usr/bin/arm-none-eabi-objdump -d /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/blink.elf >> blink.dis
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink && ../elf2uf2/elf2uf2 /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/blink/blink.elf blink.uf2
 
 # Rule to build all files generated by this target.

@@ -341,33 +341,6 @@ home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.c.s:
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f usb/host/tinyusb_host_examples/hid_controller/CMakeFiles/tinyusb_host_hid_controller.dir/build.make usb/host/tinyusb_host_examples/hid_controller/CMakeFiles/tinyusb_host_hid_controller.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.c.s
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.obj
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.obj
-
-# target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f usb/host/tinyusb_host_examples/hid_controller/CMakeFiles/tinyusb_host_hid_controller.dir/build.make usb/host/tinyusb_host_examples/hid_controller/CMakeFiles/tinyusb_host_hid_controller.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.obj
-
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.i
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.i
-
-# target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f usb/host/tinyusb_host_examples/hid_controller/CMakeFiles/tinyusb_host_hid_controller.dir/build.make usb/host/tinyusb_host_examples/hid_controller/CMakeFiles/tinyusb_host_hid_controller.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.i
-
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.s
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.s
-
-# target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f usb/host/tinyusb_host_examples/hid_controller/CMakeFiles/tinyusb_host_hid_controller.dir/build.make usb/host/tinyusb_host_examples/hid_controller/CMakeFiles/tinyusb_host_hid_controller.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.s
-
 home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c.obj
 
 .PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.obj
@@ -1580,9 +1553,6 @@ help:
 	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.obj"
 	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.i"
 	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.s"
 	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.obj"
 	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.i"
 	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.s"

@@ -8,7 +8,7 @@
 #include <string.h>
 #include "hardware/pio.h"
 
-int flag =0;
+static int flag =0;
 static int tx_dma_chan = -1;
 static int rx_dma_chan;
 static dma_channel_config tx_c;
@@ -89,7 +89,13 @@ void __time_critical_func(pio_jtag_write_blocking)(const pio_jtag_inst_t *jtag, 
 
 int __time_critical_func(pio_jtag_idcode_scan)(const pio_jtag_inst_t *jtag,uint8_t *tx_buf){
     int in_buff1 = 0x07;
-
+    if(flag == 0){
+      // dma_init();
+      jtag_prog_offs = pio_add_program(jtag->pio, &jtag_program);
+      state_transition_prog_offs = pio_add_program(jtag->pio, &state_transition_program);
+      flag =1;
+      
+    }
     pio_jtag_ir_scan(jtag ,(uint8_t*)&in_buff1 ,tx_buf,32);
     pio_jtag_dr_scan(jtag ,(uint8_t*)&in_buff1 ,tx_buf,32);
 
@@ -99,11 +105,11 @@ int __time_critical_func(pio_jtag_idcode_scan)(const pio_jtag_inst_t *jtag,uint8
 
 int __time_critical_func(pio_jtag_reset)(const pio_jtag_inst_t *jtag,uint8_t *tx_buf){
     uint8_t *output_buffer = tx_buf;
-    if(flag == 0){
-      jtag_prog_offs = pio_add_program(jtag->pio, &jtag_program);
-      state_transition_prog_offs = pio_add_program(jtag->pio, &state_transition_program);
-      flag =1;
-    }
+    // if(flag == 0){
+    //   //jtag_prog_offs = pio_add_program(jtag->pio, &jtag_program);
+    //   state_transition_prog_offs = pio_add_program(jtag->pio, &state_transition_program);
+    //   flag =1;
+    // }
     
     pio_state_transition_init(jtag->pio,0,state_transition_prog_offs);
 
@@ -127,13 +133,13 @@ void jtag_set_clk_freq(const pio_jtag_inst_t *jtag, uint freq_khz) {
 int __time_critical_func(pio_jtag_ir_scan)(const pio_jtag_inst_t *jtag, uint8_t *tx_buf, uint8_t *rx_buf,int len){
     // uint8_t *output_buffer = tx_buf;
     
-    if(flag == 0){
-      // dma_init();
-      jtag_prog_offs = pio_add_program(jtag->pio, &jtag_program);
-      state_transition_prog_offs = pio_add_program(jtag->pio, &state_transition_program);
-      flag =1;
+    // if(flag == 0){
+    //   // dma_init();
+    //   jtag_prog_offs = pio_add_program(jtag->pio, &jtag_program);
+    //   state_transition_prog_offs = pio_add_program(jtag->pio, &state_transition_program);
+    //   flag =1;
       
-    }
+    // }
     pio_state_transition_init(jtag->pio,0,state_transition_prog_offs);
     pio_sm_put_blocking(jtag->pio,0,0x3);
     pio_sm_put_blocking(jtag->pio,0,0x3);
@@ -153,13 +159,13 @@ int __time_critical_func(pio_jtag_ir_scan)(const pio_jtag_inst_t *jtag, uint8_t 
 int __time_critical_func(pio_jtag_dr_scan)(const pio_jtag_inst_t *jtag, uint8_t *tx_buf, uint8_t *rx_buf,int len){
     // uint8_t *output_buffer = tx_buf;
     
-    if(flag == 0){
-      // dma_init();
-      jtag_prog_offs = pio_add_program(jtag->pio, &jtag_program);
-      state_transition_prog_offs = pio_add_program(jtag->pio, &state_transition_program);
-      flag =1;
+    // if(flag == 0){
+    //   // dma_init();
+    //   jtag_prog_offs = pio_add_program(jtag->pio, &jtag_program);
+    //   state_transition_prog_offs = pio_add_program(jtag->pio, &state_transition_program);
+    //   flag =1;
       
-    }
+    // }
     pio_state_transition_init(jtag->pio,0,state_transition_prog_offs);
     pio_sm_put_blocking(jtag->pio,0,0x2);
     pio_sm_put_blocking(jtag->pio,0,0x1);

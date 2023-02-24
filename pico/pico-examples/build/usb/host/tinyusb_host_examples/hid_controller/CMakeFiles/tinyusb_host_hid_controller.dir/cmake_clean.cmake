@@ -7,7 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/tinyusb_host_hid_controller.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
   "CMakeFiles/tinyusb_host_hid_controller.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/hub.c.obj"
   "CMakeFiles/tinyusb_host_hid_controller.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh.c.obj"
-  "CMakeFiles/tinyusb_host_hid_controller.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/host/usbh_control.c.obj"
   "CMakeFiles/tinyusb_host_hid_controller.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c.obj"
   "CMakeFiles/tinyusb_host_hid_controller.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
   "CMakeFiles/tinyusb_host_hid_controller.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"

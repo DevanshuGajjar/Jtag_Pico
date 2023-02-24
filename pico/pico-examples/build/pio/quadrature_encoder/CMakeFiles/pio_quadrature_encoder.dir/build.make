@@ -96,22 +96,9 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -121,6 +108,19 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
@@ -179,87 +179,9 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
-
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -272,7 +194,7 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -282,6 +204,84 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
@@ -296,27 +296,9 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -329,7 +311,7 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -342,7 +324,7 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -355,7 +337,7 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -368,7 +350,7 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -378,6 +360,24 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
@@ -606,256 +606,9 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-
-pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -868,7 +621,7 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -878,6 +631,253 @@ pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Deskto
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/flags.make
 pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
@@ -910,29 +910,29 @@ pio_quadrature_encoder_OBJECTS = \
 "CMakeFiles/pio_quadrature_encoder.dir/quadrature_encoder.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
+"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
+"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
@@ -956,6 +956,8 @@ pio_quadrature_encoder_OBJECTS = \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
@@ -975,8 +977,6 @@ pio_quadrature_encoder_OBJECTS = \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
-"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj" \
 "CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 
@@ -986,29 +986,29 @@ pio_quadrature_encoder_EXTERNAL_OBJECTS =
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/quadrature_encoder.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
-pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -1032,6 +1032,8 @@ pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeF
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
@@ -1051,8 +1053,6 @@ pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeF
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeFiles/pio_quadrature_encoder.dir/build.make
@@ -1062,8 +1062,8 @@ pio/quadrature_encoder/pio_quadrature_encoder.elf: pio/quadrature_encoder/CMakeF
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pio_quadrature_encoder.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-objcopy -Oihex /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder/pio_quadrature_encoder.elf pio_quadrature_encoder.hex
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-objcopy -Obinary /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder/pio_quadrature_encoder.elf pio_quadrature_encoder.bin
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-objdump -h /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder/pio_quadrature_encoder.elf >pio_quadrature_encoder.dis
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-objdump -d /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder/pio_quadrature_encoder.elf >>pio_quadrature_encoder.dis
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-objdump -h /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder/pio_quadrature_encoder.elf > pio_quadrature_encoder.dis
+	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && /usr/bin/arm-none-eabi-objdump -d /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder/pio_quadrature_encoder.elf >> pio_quadrature_encoder.dis
 	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder && ../../elf2uf2/elf2uf2 /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/quadrature_encoder/pio_quadrature_encoder.elf pio_quadrature_encoder.uf2
 
 # Rule to build all files generated by this target.

@@ -153,9 +153,10 @@ void cmd_handle(pio_jtag_inst_t* jtag, uint8_t* rxbuf, uint32_t count, uint8_t* 
   if (tx_buf != output_buffer)
   {
     tud_vendor_write(tx_buf, output_buffer - tx_buf);
+    tud_vendor_flush();
     memset(tx_buf,0,20);
   }
-  memset(rxbuf,0,64);
+  // memset(rxbuf,0,64);
   return;
 }
 

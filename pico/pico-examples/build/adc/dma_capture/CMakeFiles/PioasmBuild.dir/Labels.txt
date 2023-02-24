@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture/CMakeFiles/PioasmBuild
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture/CMakeFiles/PioasmBuild.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture/CMakeFiles/PioasmBuild-complete.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/dma_capture/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
