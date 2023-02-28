@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples/build
 
 # Utility rule file for pio_jtag_jtag_pio_h.
 
@@ -57,8 +57,8 @@ jtag_test_O/CMakeFiles/pio_jtag_jtag_pio_h: jtag_test_O/jtag.pio.h
 
 
 jtag_test_O/jtag.pio.h: ../jtag_test_O/jtag.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating jtag.pio.h"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/jtag_test_O && ../pioasm/pioasm -o c-sdk /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test_O/jtag.pio /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/jtag_test_O/jtag.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating jtag.pio.h"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/jtag_test_O && ../pioasm/pioasm -o c-sdk /home/om/Desktop/Jtag_Pico/pico/pico-examples/jtag_test_O/jtag.pio /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/jtag_test_O/jtag.pio.h
 
 pio_jtag_jtag_pio_h: jtag_test_O/CMakeFiles/pio_jtag_jtag_pio_h
 pio_jtag_jtag_pio_h: jtag_test_O/jtag.pio.h
@@ -72,10 +72,10 @@ jtag_test_O/CMakeFiles/pio_jtag_jtag_pio_h.dir/build: pio_jtag_jtag_pio_h
 .PHONY : jtag_test_O/CMakeFiles/pio_jtag_jtag_pio_h.dir/build
 
 jtag_test_O/CMakeFiles/pio_jtag_jtag_pio_h.dir/clean:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/jtag_test_O && $(CMAKE_COMMAND) -P CMakeFiles/pio_jtag_jtag_pio_h.dir/cmake_clean.cmake
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/jtag_test_O && $(CMAKE_COMMAND) -P CMakeFiles/pio_jtag_jtag_pio_h.dir/cmake_clean.cmake
 .PHONY : jtag_test_O/CMakeFiles/pio_jtag_jtag_pio_h.dir/clean
 
 jtag_test_O/CMakeFiles/pio_jtag_jtag_pio_h.dir/depend:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/jtag_test_O /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/jtag_test_O /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/jtag_test_O/CMakeFiles/pio_jtag_jtag_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/om/Desktop/Jtag_Pico/pico/pico-examples /home/om/Desktop/Jtag_Pico/pico/pico-examples/jtag_test_O /home/om/Desktop/Jtag_Pico/pico/pico-examples/build /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/jtag_test_O /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/jtag_test_O/CMakeFiles/pio_jtag_jtag_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : jtag_test_O/CMakeFiles/pio_jtag_jtag_pio_h.dir/depend
 

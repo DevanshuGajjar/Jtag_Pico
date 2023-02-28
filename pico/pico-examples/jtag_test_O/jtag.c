@@ -17,7 +17,7 @@ pio_jtag_inst_t jtag = {
             .sm = 0
             };
 
-static uint8_t tx_buf[20];
+static uint8_t tx_buf[30];
 typedef uint8_t cmd_buffer[64];
 static uint wr_buffer_number = 0;
 // static uint rd_buffer_number = 0; 

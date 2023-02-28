@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/flash
+# Install script for directory: /home/om/Desktop/Jtag_Pico/pico/pico-examples/flash
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/flash/cache_perfctr/cmake_install.cmake")
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/flash/nuke/cmake_install.cmake")
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/flash/program/cmake_install.cmake")
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/flash/ssi_dma/cmake_install.cmake")
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/flash/xip_stream/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/flash/cache_perfctr/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/flash/nuke/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/flash/program/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/flash/ssi_dma/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/flash/xip_stream/cmake_install.cmake")
 
 endif()
 

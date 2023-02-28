@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples/build
 
 # Utility rule file for dma_channel_irq_pio_serialiser_pio_h.
 
@@ -57,8 +57,8 @@ dma/channel_irq/CMakeFiles/dma_channel_irq_pio_serialiser_pio_h: dma/channel_irq
 
 
 dma/channel_irq/pio_serialiser.pio.h: ../dma/channel_irq/pio_serialiser.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating pio_serialiser.pio.h"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/dma/channel_irq && ../../pioasm/pioasm -o c-sdk /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/dma/channel_irq/pio_serialiser.pio /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/dma/channel_irq/pio_serialiser.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating pio_serialiser.pio.h"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/dma/channel_irq && ../../pioasm/pioasm -o c-sdk /home/om/Desktop/Jtag_Pico/pico/pico-examples/dma/channel_irq/pio_serialiser.pio /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/dma/channel_irq/pio_serialiser.pio.h
 
 dma_channel_irq_pio_serialiser_pio_h: dma/channel_irq/CMakeFiles/dma_channel_irq_pio_serialiser_pio_h
 dma_channel_irq_pio_serialiser_pio_h: dma/channel_irq/pio_serialiser.pio.h
@@ -72,10 +72,10 @@ dma/channel_irq/CMakeFiles/dma_channel_irq_pio_serialiser_pio_h.dir/build: dma_c
 .PHONY : dma/channel_irq/CMakeFiles/dma_channel_irq_pio_serialiser_pio_h.dir/build
 
 dma/channel_irq/CMakeFiles/dma_channel_irq_pio_serialiser_pio_h.dir/clean:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/dma/channel_irq && $(CMAKE_COMMAND) -P CMakeFiles/dma_channel_irq_pio_serialiser_pio_h.dir/cmake_clean.cmake
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/dma/channel_irq && $(CMAKE_COMMAND) -P CMakeFiles/dma_channel_irq_pio_serialiser_pio_h.dir/cmake_clean.cmake
 .PHONY : dma/channel_irq/CMakeFiles/dma_channel_irq_pio_serialiser_pio_h.dir/clean
 
 dma/channel_irq/CMakeFiles/dma_channel_irq_pio_serialiser_pio_h.dir/depend:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/dma/channel_irq /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/dma/channel_irq /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/dma/channel_irq/CMakeFiles/dma_channel_irq_pio_serialiser_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/om/Desktop/Jtag_Pico/pico/pico-examples /home/om/Desktop/Jtag_Pico/pico/pico-examples/dma/channel_irq /home/om/Desktop/Jtag_Pico/pico/pico-examples/build /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/dma/channel_irq /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/dma/channel_irq/CMakeFiles/dma_channel_irq_pio_serialiser_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dma/channel_irq/CMakeFiles/dma_channel_irq_pio_serialiser_pio_h.dir/depend
 

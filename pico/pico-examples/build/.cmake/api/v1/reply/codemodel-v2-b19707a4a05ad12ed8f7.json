@@ -1,0 +1,3891 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						79,
+						80,
+						83,
+						90,
+						95,
+						97,
+						98,
+						102,
+						108,
+						112,
+						124,
+						126,
+						131,
+						134,
+						135,
+						158,
+						162,
+						163,
+						167,
+						177,
+						181,
+						185,
+						189,
+						190,
+						192,
+						193
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "pico-sdk",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						78
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk"
+				},
+				{
+					"build" : "pico-sdk/tools",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/tools"
+				},
+				{
+					"build" : "pico-sdk/src",
+					"childIndexes" : 
+					[
+						4,
+						16,
+						75
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src"
+				},
+				{
+					"build" : "pico-sdk/src/common",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common"
+				},
+				{
+					"build" : "pico-sdk/src/common/boot_picoboot",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/boot_picoboot"
+				},
+				{
+					"build" : "pico-sdk/src/common/boot_uf2",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/boot_uf2"
+				},
+				{
+					"build" : "pico-sdk/src/common/pico_base",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_base"
+				},
+				{
+					"build" : "pico-sdk/src/common/pico_usb_reset_interface",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_usb_reset_interface"
+				},
+				{
+					"build" : "pico-sdk/src/common/pico_bit_ops",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_bit_ops"
+				},
+				{
+					"build" : "pico-sdk/src/common/pico_binary_info",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_binary_info"
+				},
+				{
+					"build" : "pico-sdk/src/common/pico_divider",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_divider"
+				},
+				{
+					"build" : "pico-sdk/src/common/pico_sync",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync"
+				},
+				{
+					"build" : "pico-sdk/src/common/pico_time",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time"
+				},
+				{
+					"build" : "pico-sdk/src/common/pico_util",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util"
+				},
+				{
+					"build" : "pico-sdk/src/common/pico_stdlib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_stdlib"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common",
+					"childIndexes" : 
+					[
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						74
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_base",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_base"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_claim",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_adc",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_clocks",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_dma",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_dma"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_divider",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_exception",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_exception"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_flash",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_gpio",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_i2c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_i2c"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_interp",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_interp"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_irq",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_pio",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pio"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_pll",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_pwm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pwm"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_resets",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_resets"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_rtc",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_rtc"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_spi",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_spi"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_sync",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_timer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_uart",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_vreg",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_watchdog",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/hardware_xosc",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_bootrom",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_platform",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/boot_stage2",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/boot_stage2",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_bootsel_via_double_reset",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootsel_via_double_reset"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_multicore",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_multicore"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_unique_id",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_bit_ops",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_divider",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_double",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_int64_ops",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_float",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_mem_ops",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_malloc",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_printf",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_rand",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_rand"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_stdio",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_stdio_semihosting",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_semihosting"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_stdio_uart",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/cmsis",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/cmsis"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/tinyusb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/tinyusb"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_stdio_usb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_i2c_slave",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_i2c_slave"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_async_context",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_async_context"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_btstack",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_btstack"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_cyw43_driver",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_cyw43_driver"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_lwip",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_lwip"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_cyw43_arch",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_cyw43_arch"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_mbedtls",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mbedtls"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_stdlib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_cxx_options",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_cxx_options"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_standard_link",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_fix",
+					"childIndexes" : 
+					[
+						73
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 72,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_runtime",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime"
+				},
+				{
+					"build" : "pico-sdk/src/rp2040",
+					"childIndexes" : 
+					[
+						76,
+						77
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2040"
+				},
+				{
+					"build" : "pico-sdk/src/rp2040/hardware_regs",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2040/hardware_regs"
+				},
+				{
+					"build" : "pico-sdk/src/rp2040/hardware_structs",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 75,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2040/hardware_structs"
+				},
+				{
+					"build" : "pico-sdk/docs",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk/docs"
+				},
+				{
+					"build" : "blink",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "blink",
+					"targetIndexes" : 
+					[
+						0,
+						5
+					]
+				},
+				{
+					"build" : "hello_world",
+					"childIndexes" : 
+					[
+						81,
+						82
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "hello_world"
+				},
+				{
+					"build" : "hello_world/serial",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 80,
+					"projectIndex" : 0,
+					"source" : "hello_world/serial",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "hello_world/usb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 80,
+					"projectIndex" : 0,
+					"source" : "hello_world/usb"
+				},
+				{
+					"build" : "adc",
+					"childIndexes" : 
+					[
+						84,
+						85,
+						86,
+						87,
+						88,
+						89
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "adc"
+				},
+				{
+					"build" : "adc/adc_console",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 83,
+					"projectIndex" : 0,
+					"source" : "adc/adc_console",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "adc/dma_capture",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 83,
+					"projectIndex" : 0,
+					"source" : "adc/dma_capture",
+					"targetIndexes" : 
+					[
+						1,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "adc/hello_adc",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 83,
+					"projectIndex" : 0,
+					"source" : "adc/hello_adc",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "adc/joystick_display",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 83,
+					"projectIndex" : 0,
+					"source" : "adc/joystick_display",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "adc/onboard_temperature",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 83,
+					"projectIndex" : 0,
+					"source" : "adc/onboard_temperature",
+					"targetIndexes" : 
+					[
+						65
+					]
+				},
+				{
+					"build" : "adc/microphone_adc",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 83,
+					"projectIndex" : 0,
+					"source" : "adc/microphone_adc",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "clocks",
+					"childIndexes" : 
+					[
+						91,
+						92,
+						93,
+						94
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "clocks"
+				},
+				{
+					"build" : "clocks/detached_clk_peri",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 90,
+					"projectIndex" : 0,
+					"source" : "clocks/detached_clk_peri",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "clocks/hello_48MHz",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 90,
+					"projectIndex" : 0,
+					"source" : "clocks/hello_48MHz",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "clocks/hello_gpout",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 90,
+					"projectIndex" : 0,
+					"source" : "clocks/hello_gpout",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "clocks/hello_resus",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 90,
+					"projectIndex" : 0,
+					"source" : "clocks/hello_resus",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "cmake",
+					"childIndexes" : 
+					[
+						96
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cmake"
+				},
+				{
+					"build" : "cmake/build_variants",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 95,
+					"projectIndex" : 0,
+					"source" : "cmake/build_variants",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				},
+				{
+					"build" : "divider",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "divider",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "dma",
+					"childIndexes" : 
+					[
+						99,
+						100,
+						101
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "dma"
+				},
+				{
+					"build" : "dma/channel_irq",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 98,
+					"projectIndex" : 0,
+					"source" : "dma/channel_irq",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "dma/control_blocks",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 98,
+					"projectIndex" : 0,
+					"source" : "dma/control_blocks",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "dma/hello_dma",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 98,
+					"projectIndex" : 0,
+					"source" : "dma/hello_dma",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "flash",
+					"childIndexes" : 
+					[
+						103,
+						104,
+						105,
+						106,
+						107
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "flash"
+				},
+				{
+					"build" : "flash/cache_perfctr",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 102,
+					"projectIndex" : 0,
+					"source" : "flash/cache_perfctr",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "flash/nuke",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 102,
+					"projectIndex" : 0,
+					"source" : "flash/nuke",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "flash/program",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 102,
+					"projectIndex" : 0,
+					"source" : "flash/program",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "flash/ssi_dma",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 102,
+					"projectIndex" : 0,
+					"source" : "flash/ssi_dma",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "flash/xip_stream",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 102,
+					"projectIndex" : 0,
+					"source" : "flash/xip_stream",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "gpio",
+					"childIndexes" : 
+					[
+						109,
+						110,
+						111
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gpio"
+				},
+				{
+					"build" : "gpio/dht_sensor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 108,
+					"projectIndex" : 0,
+					"source" : "gpio/dht_sensor",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "gpio/hello_7segment",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 108,
+					"projectIndex" : 0,
+					"source" : "gpio/hello_7segment",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "gpio/hello_gpio_irq",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 108,
+					"projectIndex" : 0,
+					"source" : "gpio/hello_gpio_irq",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "i2c",
+					"childIndexes" : 
+					[
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "i2c"
+				},
+				{
+					"build" : "i2c/bmp280_i2c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 112,
+					"projectIndex" : 0,
+					"source" : "i2c/bmp280_i2c",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "i2c/bus_scan",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 112,
+					"projectIndex" : 0,
+					"source" : "i2c/bus_scan",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "i2c/lcd_1602_i2c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 112,
+					"projectIndex" : 0,
+					"source" : "i2c/lcd_1602_i2c",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "i2c/lis3dh_i2c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 112,
+					"projectIndex" : 0,
+					"source" : "i2c/lis3dh_i2c",
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"build" : "i2c/mcp9808_i2c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 112,
+					"projectIndex" : 0,
+					"source" : "i2c/mcp9808_i2c",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "i2c/mma8451_i2c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 112,
+					"projectIndex" : 0,
+					"source" : "i2c/mma8451_i2c",
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"build" : "i2c/mpl3115a2_i2c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 112,
+					"projectIndex" : 0,
+					"source" : "i2c/mpl3115a2_i2c",
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"build" : "i2c/mpu6050_i2c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 112,
+					"projectIndex" : 0,
+					"source" : "i2c/mpu6050_i2c",
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"build" : "i2c/oled_i2c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 112,
+					"projectIndex" : 0,
+					"source" : "i2c/oled_i2c",
+					"targetIndexes" : 
+					[
+						64
+					]
+				},
+				{
+					"build" : "i2c/pa1010d_i2c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 112,
+					"projectIndex" : 0,
+					"source" : "i2c/pa1010d_i2c",
+					"targetIndexes" : 
+					[
+						66
+					]
+				},
+				{
+					"build" : "i2c/pcf8523_i2c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 112,
+					"projectIndex" : 0,
+					"source" : "i2c/pcf8523_i2c",
+					"targetIndexes" : 
+					[
+						67
+					]
+				},
+				{
+					"build" : "interp",
+					"childIndexes" : 
+					[
+						125
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "interp"
+				},
+				{
+					"build" : "interp/hello_interp",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 124,
+					"projectIndex" : 0,
+					"source" : "interp/hello_interp",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "multicore",
+					"childIndexes" : 
+					[
+						127,
+						128,
+						129,
+						130
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "multicore"
+				},
+				{
+					"build" : "multicore/hello_multicore",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 126,
+					"projectIndex" : 0,
+					"source" : "multicore/hello_multicore",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "multicore/multicore_fifo_irqs",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 126,
+					"projectIndex" : 0,
+					"source" : "multicore/multicore_fifo_irqs",
+					"targetIndexes" : 
+					[
+						55
+					]
+				},
+				{
+					"build" : "multicore/multicore_runner",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 126,
+					"projectIndex" : 0,
+					"source" : "multicore/multicore_runner",
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"build" : "multicore/multicore_runner_queue",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 126,
+					"projectIndex" : 0,
+					"source" : "multicore/multicore_runner_queue",
+					"targetIndexes" : 
+					[
+						57
+					]
+				},
+				{
+					"build" : "picoboard",
+					"childIndexes" : 
+					[
+						132,
+						133
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "picoboard"
+				},
+				{
+					"build" : "picoboard/blinky",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 131,
+					"projectIndex" : 0,
+					"source" : "picoboard/blinky",
+					"targetIndexes" : 
+					[
+						69
+					]
+				},
+				{
+					"build" : "picoboard/button",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 131,
+					"projectIndex" : 0,
+					"source" : "picoboard/button",
+					"targetIndexes" : 
+					[
+						70
+					]
+				},
+				{
+					"build" : "pico_w",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "pico_w"
+				},
+				{
+					"build" : "pio",
+					"childIndexes" : 
+					[
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "pio"
+				},
+				{
+					"build" : "pio/addition",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/addition",
+					"targetIndexes" : 
+					[
+						71,
+						72
+					]
+				},
+				{
+					"build" : "pio/apa102",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/apa102",
+					"targetIndexes" : 
+					[
+						73,
+						74
+					]
+				},
+				{
+					"build" : "pio/clocked_input",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/clocked_input",
+					"targetIndexes" : 
+					[
+						77,
+						78
+					]
+				},
+				{
+					"build" : "pio/differential_manchester",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/differential_manchester",
+					"targetIndexes" : 
+					[
+						79,
+						80
+					]
+				},
+				{
+					"build" : "pio/hello_pio",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/hello_pio",
+					"targetIndexes" : 
+					[
+						33,
+						34
+					]
+				},
+				{
+					"build" : "pio/hub75",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/hub75",
+					"targetIndexes" : 
+					[
+						81,
+						82
+					]
+				},
+				{
+					"build" : "pio/i2c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/i2c",
+					"targetIndexes" : 
+					[
+						83,
+						84
+					]
+				},
+				{
+					"build" : "pio/ir_nec",
+					"childIndexes" : 
+					[
+						144,
+						145,
+						146
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/ir_nec"
+				},
+				{
+					"build" : "pio/ir_nec/nec_transmit_library",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 143,
+					"projectIndex" : 0,
+					"source" : "pio/ir_nec/nec_transmit_library",
+					"targetIndexes" : 
+					[
+						61,
+						62,
+						63
+					]
+				},
+				{
+					"build" : "pio/ir_nec/nec_receive_library",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 143,
+					"projectIndex" : 0,
+					"source" : "pio/ir_nec/nec_receive_library",
+					"targetIndexes" : 
+					[
+						59,
+						60
+					]
+				},
+				{
+					"build" : "pio/ir_nec/ir_loopback",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 143,
+					"projectIndex" : 0,
+					"source" : "pio/ir_nec/ir_loopback",
+					"targetIndexes" : 
+					[
+						85
+					]
+				},
+				{
+					"build" : "pio/logic_analyser",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/logic_analyser",
+					"targetIndexes" : 
+					[
+						88
+					]
+				},
+				{
+					"build" : "pio/manchester_encoding",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/manchester_encoding",
+					"targetIndexes" : 
+					[
+						89,
+						90
+					]
+				},
+				{
+					"build" : "pio/pio_blink",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/pio_blink",
+					"targetIndexes" : 
+					[
+						75,
+						76
+					]
+				},
+				{
+					"build" : "pio/pwm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/pwm",
+					"targetIndexes" : 
+					[
+						91,
+						92
+					]
+				},
+				{
+					"build" : "pio/quadrature_encoder",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/quadrature_encoder",
+					"targetIndexes" : 
+					[
+						93,
+						94
+					]
+				},
+				{
+					"build" : "pio/spi",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/spi",
+					"targetIndexes" : 
+					[
+						95,
+						96,
+						97,
+						98
+					]
+				},
+				{
+					"build" : "pio/squarewave",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/squarewave",
+					"targetIndexes" : 
+					[
+						99,
+						100,
+						101,
+						102,
+						103
+					]
+				},
+				{
+					"build" : "pio/st7789_lcd",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/st7789_lcd",
+					"targetIndexes" : 
+					[
+						104,
+						105
+					]
+				},
+				{
+					"build" : "pio/uart_rx",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/uart_rx",
+					"targetIndexes" : 
+					[
+						106,
+						107
+					]
+				},
+				{
+					"build" : "pio/uart_tx",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/uart_tx",
+					"targetIndexes" : 
+					[
+						108,
+						109
+					]
+				},
+				{
+					"build" : "pio/ws2812",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 135,
+					"projectIndex" : 0,
+					"source" : "pio/ws2812",
+					"targetIndexes" : 
+					[
+						110,
+						111,
+						112,
+						113,
+						114
+					]
+				},
+				{
+					"build" : "pwm",
+					"childIndexes" : 
+					[
+						159,
+						160,
+						161
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "pwm"
+				},
+				{
+					"build" : "pwm/hello_pwm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 158,
+					"projectIndex" : 0,
+					"source" : "pwm/hello_pwm",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "pwm/led_fade",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 158,
+					"projectIndex" : 0,
+					"source" : "pwm/led_fade",
+					"targetIndexes" : 
+					[
+						115
+					]
+				},
+				{
+					"build" : "pwm/measure_duty_cycle",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 158,
+					"projectIndex" : 0,
+					"source" : "pwm/measure_duty_cycle",
+					"targetIndexes" : 
+					[
+						116
+					]
+				},
+				{
+					"build" : "reset",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "reset"
+				},
+				{
+					"build" : "rtc",
+					"childIndexes" : 
+					[
+						164,
+						165,
+						166
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "rtc"
+				},
+				{
+					"build" : "rtc/hello_rtc",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 163,
+					"projectIndex" : 0,
+					"source" : "rtc/hello_rtc",
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"build" : "rtc/rtc_alarm",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 163,
+					"projectIndex" : 0,
+					"source" : "rtc/rtc_alarm",
+					"targetIndexes" : 
+					[
+						117
+					]
+				},
+				{
+					"build" : "rtc/rtc_alarm_repeat",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 163,
+					"projectIndex" : 0,
+					"source" : "rtc/rtc_alarm_repeat",
+					"targetIndexes" : 
+					[
+						118
+					]
+				},
+				{
+					"build" : "spi",
+					"childIndexes" : 
+					[
+						168,
+						169,
+						170,
+						171,
+						174,
+						175,
+						176
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "spi"
+				},
+				{
+					"build" : "spi/bme280_spi",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 167,
+					"projectIndex" : 0,
+					"source" : "spi/bme280_spi",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "spi/mpu9250_spi",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 167,
+					"projectIndex" : 0,
+					"source" : "spi/mpu9250_spi",
+					"targetIndexes" : 
+					[
+						54
+					]
+				},
+				{
+					"build" : "spi/spi_dma",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 167,
+					"projectIndex" : 0,
+					"source" : "spi/spi_dma",
+					"targetIndexes" : 
+					[
+						119
+					]
+				},
+				{
+					"build" : "spi/spi_master_slave",
+					"childIndexes" : 
+					[
+						172,
+						173
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 167,
+					"projectIndex" : 0,
+					"source" : "spi/spi_master_slave"
+				},
+				{
+					"build" : "spi/spi_master_slave/spi_master",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 171,
+					"projectIndex" : 0,
+					"source" : "spi/spi_master_slave/spi_master",
+					"targetIndexes" : 
+					[
+						121
+					]
+				},
+				{
+					"build" : "spi/spi_master_slave/spi_slave",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 171,
+					"projectIndex" : 0,
+					"source" : "spi/spi_master_slave/spi_slave",
+					"targetIndexes" : 
+					[
+						122
+					]
+				},
+				{
+					"build" : "spi/spi_flash",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 167,
+					"projectIndex" : 0,
+					"source" : "spi/spi_flash",
+					"targetIndexes" : 
+					[
+						120
+					]
+				},
+				{
+					"build" : "spi/max7219_32x8_spi",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 167,
+					"projectIndex" : 0,
+					"source" : "spi/max7219_32x8_spi",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "spi/max7219_8x7seg_spi",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 167,
+					"projectIndex" : 0,
+					"source" : "spi/max7219_8x7seg_spi",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "system",
+					"childIndexes" : 
+					[
+						178,
+						179,
+						180
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "system"
+				},
+				{
+					"build" : "system/hello_double_tap",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 177,
+					"projectIndex" : 0,
+					"source" : "system/hello_double_tap",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "system/narrow_io_write",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 177,
+					"projectIndex" : 0,
+					"source" : "system/narrow_io_write",
+					"targetIndexes" : 
+					[
+						58
+					]
+				},
+				{
+					"build" : "system/unique_board_id",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 177,
+					"projectIndex" : 0,
+					"source" : "system/unique_board_id",
+					"targetIndexes" : 
+					[
+						125
+					]
+				},
+				{
+					"build" : "timer",
+					"childIndexes" : 
+					[
+						182,
+						183,
+						184
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "timer"
+				},
+				{
+					"build" : "timer/hello_timer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 181,
+					"projectIndex" : 0,
+					"source" : "timer/hello_timer",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "timer/periodic_sampler",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 181,
+					"projectIndex" : 0,
+					"source" : "timer/periodic_sampler",
+					"targetIndexes" : 
+					[
+						68
+					]
+				},
+				{
+					"build" : "timer/timer_lowlevel",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 181,
+					"projectIndex" : 0,
+					"source" : "timer/timer_lowlevel",
+					"targetIndexes" : 
+					[
+						123
+					]
+				},
+				{
+					"build" : "uart",
+					"childIndexes" : 
+					[
+						186,
+						187,
+						188
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "uart"
+				},
+				{
+					"build" : "uart/hello_uart",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 185,
+					"projectIndex" : 0,
+					"source" : "uart/hello_uart",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "uart/lcd_uart",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 185,
+					"projectIndex" : 0,
+					"source" : "uart/lcd_uart",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "uart/uart_advanced",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 185,
+					"projectIndex" : 0,
+					"source" : "uart/uart_advanced",
+					"targetIndexes" : 
+					[
+						124
+					]
+				},
+				{
+					"build" : "usb",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "usb"
+				},
+				{
+					"build" : "watchdog",
+					"childIndexes" : 
+					[
+						191
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "watchdog"
+				},
+				{
+					"build" : "watchdog/hello_watchdog",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 190,
+					"projectIndex" : 0,
+					"source" : "watchdog/hello_watchdog",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "usb_test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "usb_test"
+				},
+				{
+					"build" : "jtag_test_O",
+					"childIndexes" : 
+					[
+						194
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "jtag_test_O",
+					"targetIndexes" : 
+					[
+						86,
+						87
+					]
+				},
+				{
+					"build" : "jtag_test_O/pico-sdk",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 193,
+					"projectIndex" : 2,
+					"source" : "/home/om/Desktop/task_rpi_pico/pico/pico-sdk"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192
+					],
+					"name" : "pico_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78
+					],
+					"name" : "pico_sdk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						193,
+						194
+					],
+					"name" : "pio_jtag",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						86,
+						87
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 79,
+					"id" : "ELF2UF2Build::@655f412016ec51306758",
+					"jsonFile" : "target-ELF2UF2Build-Release-ac67ef10bd4afd118c9d.json",
+					"name" : "ELF2UF2Build",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 85,
+					"id" : "PioasmBuild::@d3b5e7464810b7207823",
+					"jsonFile" : "target-PioasmBuild-Release-3e50cc0016a651ec4df6.json",
+					"name" : "PioasmBuild",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 84,
+					"id" : "adc_console::@380c567ab103e8828615",
+					"jsonFile" : "target-adc_console-Release-b08911d793e7eaa2f7b2.json",
+					"name" : "adc_console",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 85,
+					"id" : "adc_dma_capture::@d3b5e7464810b7207823",
+					"jsonFile" : "target-adc_dma_capture-Release-571d7d0e352527f75b1e.json",
+					"name" : "adc_dma_capture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 85,
+					"id" : "adc_dma_capture_resistor_dac_pio_h::@d3b5e7464810b7207823",
+					"jsonFile" : "target-adc_dma_capture_resistor_dac_pio_h-Release-b445898f6dc13f407032.json",
+					"name" : "adc_dma_capture_resistor_dac_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "blink::@655f412016ec51306758",
+					"jsonFile" : "target-blink-Release-4b08569674e76844f6be.json",
+					"name" : "blink",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 168,
+					"id" : "bme280_spi::@9082cdd4a6a990ec3094",
+					"jsonFile" : "target-bme280_spi-Release-cab1a80518c5c8b80e4b.json",
+					"name" : "bme280_spi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 113,
+					"id" : "bmp280_i2c::@be907d844900783b859d",
+					"jsonFile" : "target-bmp280_i2c-Release-6db8550657d598a10dfb.json",
+					"name" : "bmp280_i2c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "bs2_default::@bc554eaed616d198a22d",
+					"jsonFile" : "target-bs2_default-Release-d3e27d4b7f10746c7b3a.json",
+					"name" : "bs2_default",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "bs2_default_bin::@bc554eaed616d198a22d",
+					"jsonFile" : "target-bs2_default_bin-Release-9d79b546937724aee634.json",
+					"name" : "bs2_default_bin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "bs2_default_padded_checksummed_asm::@bc554eaed616d198a22d",
+					"jsonFile" : "target-bs2_default_padded_checksummed_asm-Release-1d22b0b26c185fee9a8a.json",
+					"name" : "bs2_default_padded_checksummed_asm",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 96,
+					"id" : "build_variant1::@61b24f7d25c5efd9b993",
+					"jsonFile" : "target-build_variant1-Release-5425f93ae55f99650cf8.json",
+					"name" : "build_variant1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 96,
+					"id" : "build_variant2::@61b24f7d25c5efd9b993",
+					"jsonFile" : "target-build_variant2-Release-a981e045710e37f667e3.json",
+					"name" : "build_variant2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "clocks_detached_clk_peri::@b48df08ca7a7c71296b2",
+					"jsonFile" : "target-clocks_detached_clk_peri-Release-f2823812a5111536ab6f.json",
+					"name" : "clocks_detached_clk_peri",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 109,
+					"id" : "dht::@f58f5d35e0703fb3b0c7",
+					"jsonFile" : "target-dht-Release-518ca4ba75c1424354ea.json",
+					"name" : "dht",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 99,
+					"id" : "dma_channel_irq::@9dd401ef791df74d3a8b",
+					"jsonFile" : "target-dma_channel_irq-Release-e802796f06f7260a7c32.json",
+					"name" : "dma_channel_irq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 99,
+					"id" : "dma_channel_irq_pio_serialiser_pio_h::@9dd401ef791df74d3a8b",
+					"jsonFile" : "target-dma_channel_irq_pio_serialiser_pio_h-Release-ef13dc6dce779c626609.json",
+					"name" : "dma_channel_irq_pio_serialiser_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 100,
+					"id" : "dma_control_blocks::@a0ac3318ca011b9a3ae9",
+					"jsonFile" : "target-dma_control_blocks-Release-414496fdea0762b59284.json",
+					"name" : "dma_control_blocks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 103,
+					"id" : "flash_cache_perfctr::@acf2d55f1eaf812cab06",
+					"jsonFile" : "target-flash_cache_perfctr-Release-1d995903e86dd5c6af50.json",
+					"name" : "flash_cache_perfctr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 104,
+					"id" : "flash_nuke::@2b6d56deb9b5e46b8f23",
+					"jsonFile" : "target-flash_nuke-Release-cd1b996e4c31b3a67fff.json",
+					"name" : "flash_nuke",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 105,
+					"id" : "flash_program::@5b05201588aa17f8dc8f",
+					"jsonFile" : "target-flash_program-Release-268800e1add9e79ceb79.json",
+					"name" : "flash_program",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 106,
+					"id" : "flash_ssi_dma::@97c46238ab29c0f2bb3b",
+					"jsonFile" : "target-flash_ssi_dma-Release-ff02ca9d5fc295bf5427.json",
+					"name" : "flash_ssi_dma",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 107,
+					"id" : "flash_xip_stream::@3d7d7b7323b2b1bdb6ec",
+					"jsonFile" : "target-flash_xip_stream-Release-2e13920f1861a5140ebd.json",
+					"name" : "flash_xip_stream",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 92,
+					"id" : "hello_48MHz::@a80666385e1e1868c171",
+					"jsonFile" : "target-hello_48MHz-Release-7e9fbffcaabc1fd9564e.json",
+					"name" : "hello_48MHz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 110,
+					"id" : "hello_7segment::@e48497286ee9e8609996",
+					"jsonFile" : "target-hello_7segment-Release-daaefebae9e735e01826.json",
+					"name" : "hello_7segment",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "hello_adc::@9d469154eb309c7f3962",
+					"jsonFile" : "target-hello_adc-Release-6420739e939928a88ae4.json",
+					"name" : "hello_adc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 97,
+					"id" : "hello_divider::@fc96e0cd83f38750ff2f",
+					"jsonFile" : "target-hello_divider-Release-9aadf5b1a8fc9995eb8f.json",
+					"name" : "hello_divider",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 101,
+					"id" : "hello_dma::@c95f3c5cd3955b8273c3",
+					"jsonFile" : "target-hello_dma-Release-1ef69e5f5b52e91340c6.json",
+					"name" : "hello_dma",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 178,
+					"id" : "hello_double_tap::@384fa7609d9465c7998c",
+					"jsonFile" : "target-hello_double_tap-Release-ee7fe9a546ad3bc90eb4.json",
+					"name" : "hello_double_tap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 111,
+					"id" : "hello_gpio_irq::@927237a13593bed08676",
+					"jsonFile" : "target-hello_gpio_irq-Release-0426f257f6e64a4d6265.json",
+					"name" : "hello_gpio_irq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 93,
+					"id" : "hello_gpout::@0b880e9cb9fb04d82d1f",
+					"jsonFile" : "target-hello_gpout-Release-5b48e7751c8703e8632b.json",
+					"name" : "hello_gpout",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 125,
+					"id" : "hello_interp::@e37ef3a4f271cbe4a293",
+					"jsonFile" : "target-hello_interp-Release-67e813b6d404fec5e4bc.json",
+					"name" : "hello_interp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 127,
+					"id" : "hello_multicore::@8dfe1e0ae8b052e0c987",
+					"jsonFile" : "target-hello_multicore-Release-62cf8080c30447abf798.json",
+					"name" : "hello_multicore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 140,
+					"id" : "hello_pio::@0431d7da7b8c74c487d2",
+					"jsonFile" : "target-hello_pio-Release-f5aefb710f7f282603da.json",
+					"name" : "hello_pio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 140,
+					"id" : "hello_pio_hello_pio_h::@0431d7da7b8c74c487d2",
+					"jsonFile" : "target-hello_pio_hello_pio_h-Release-093668678fd92d0ccc0a.json",
+					"name" : "hello_pio_hello_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 159,
+					"id" : "hello_pwm::@2dac8cfe6ccf1dd9a372",
+					"jsonFile" : "target-hello_pwm-Release-495281b0065fb9d12711.json",
+					"name" : "hello_pwm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "hello_resus::@8b5e06331b03ef4681b0",
+					"jsonFile" : "target-hello_resus-Release-4d5b3876912bdfac5fa3.json",
+					"name" : "hello_resus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 164,
+					"id" : "hello_rtc::@a9bf1c842c040ea7c95f",
+					"jsonFile" : "target-hello_rtc-Release-e46084e93828693a16d7.json",
+					"name" : "hello_rtc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 81,
+					"id" : "hello_serial::@bf00514b22209e789892",
+					"jsonFile" : "target-hello_serial-Release-a445ba4bd54c0ed26583.json",
+					"name" : "hello_serial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 182,
+					"id" : "hello_timer::@6f82b57d1e1ebf267861",
+					"jsonFile" : "target-hello_timer-Release-edc828bfac1fe28151b5.json",
+					"name" : "hello_timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 186,
+					"id" : "hello_uart::@416354a24c1e7d0421ff",
+					"jsonFile" : "target-hello_uart-Release-ba13d9d0602dd8d1a39f.json",
+					"name" : "hello_uart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 191,
+					"id" : "hello_watchdog::@e3b846f7442ab673f919",
+					"jsonFile" : "target-hello_watchdog-Release-9b2d7702ea6abe3c4dbc.json",
+					"name" : "hello_watchdog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 114,
+					"id" : "i2c_bus_scan::@07e40fdec37da36a1684",
+					"jsonFile" : "target-i2c_bus_scan-Release-c7d8b485742477ec1c75.json",
+					"name" : "i2c_bus_scan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "joystick_display::@adf8212cb36c0fbfe6af",
+					"jsonFile" : "target-joystick_display-Release-aee7be31af435ec58d6e.json",
+					"name" : "joystick_display",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 115,
+					"id" : "lcd_1602_i2c::@9e523231579a0178ba72",
+					"jsonFile" : "target-lcd_1602_i2c-Release-5bf7fdc7fa1cabafbe04.json",
+					"name" : "lcd_1602_i2c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 187,
+					"id" : "lcd_uart::@252fb0de207d103469d1",
+					"jsonFile" : "target-lcd_uart-Release-7d4ac1421eeb4429fd15.json",
+					"name" : "lcd_uart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 116,
+					"id" : "lis3dh_i2c::@f253d56e80ea3f087102",
+					"jsonFile" : "target-lis3dh_i2c-Release-110aa0cef44000f4caee.json",
+					"name" : "lis3dh_i2c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 175,
+					"id" : "max7219_32x8_spi::@baaccf5eead34f2a8d37",
+					"jsonFile" : "target-max7219_32x8_spi-Release-0a6d498135384b3863c5.json",
+					"name" : "max7219_32x8_spi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 176,
+					"id" : "max7219_8x7seg_spi::@5aeed4e84e4a753885f8",
+					"jsonFile" : "target-max7219_8x7seg_spi-Release-43fa280e0015a79b483d.json",
+					"name" : "max7219_8x7seg_spi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 117,
+					"id" : "mcp9808_i2c::@6a2b04056869659c6c5b",
+					"jsonFile" : "target-mcp9808_i2c-Release-decf73ca775d6de01785.json",
+					"name" : "mcp9808_i2c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 89,
+					"id" : "microphone_adc::@1b5042518a70a0f3d2a9",
+					"jsonFile" : "target-microphone_adc-Release-f8aa255028bed3b61d64.json",
+					"name" : "microphone_adc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 118,
+					"id" : "mma8451_i2c::@1bff0326eb9ebddd3a1e",
+					"jsonFile" : "target-mma8451_i2c-Release-8098cdba6a2169efa2bb.json",
+					"name" : "mma8451_i2c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 119,
+					"id" : "mpl3115a2_i2c::@1c1771e882c29be4d260",
+					"jsonFile" : "target-mpl3115a2_i2c-Release-d49077d90c574311bfae.json",
+					"name" : "mpl3115a2_i2c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 120,
+					"id" : "mpu6050_i2c::@2c8b89c0f72a7b94c4d8",
+					"jsonFile" : "target-mpu6050_i2c-Release-37f5b2720c97d93348ec.json",
+					"name" : "mpu6050_i2c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 169,
+					"id" : "mpu9250_spi::@8678315088261f4bca23",
+					"jsonFile" : "target-mpu9250_spi-Release-cfb04e5a696401d72434.json",
+					"name" : "mpu9250_spi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 128,
+					"id" : "multicore_fifo_irqs::@d123aae60877fbdad804",
+					"jsonFile" : "target-multicore_fifo_irqs-Release-cde170b5f1157869821e.json",
+					"name" : "multicore_fifo_irqs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 129,
+					"id" : "multicore_runner::@b89923f5b9c0bacbb429",
+					"jsonFile" : "target-multicore_runner-Release-947c9fbb40439f13a4a5.json",
+					"name" : "multicore_runner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 130,
+					"id" : "multicore_runner_queue::@2a1e36e38110e43a07f8",
+					"jsonFile" : "target-multicore_runner_queue-Release-29a6736b7ca700f03682.json",
+					"name" : "multicore_runner_queue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 179,
+					"id" : "narrow_io_write::@1cb230b5e7ef676dd1b8",
+					"jsonFile" : "target-narrow_io_write-Release-2dba702dc194aa8768d8.json",
+					"name" : "narrow_io_write",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 145,
+					"id" : "nec_receive_library::@54d227d48840ea428146",
+					"jsonFile" : "target-nec_receive_library-Release-e6b5a416885b8b7c6352.json",
+					"name" : "nec_receive_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 145,
+					"id" : "nec_receive_library_nec_receive_pio_h::@54d227d48840ea428146",
+					"jsonFile" : "target-nec_receive_library_nec_receive_pio_h-Release-1f6fe046db3d0f6ffec0.json",
+					"name" : "nec_receive_library_nec_receive_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 144,
+					"id" : "nec_transmit_library::@a02d205fb8d09b57a87a",
+					"jsonFile" : "target-nec_transmit_library-Release-637f4e12d1facca6f5ff.json",
+					"name" : "nec_transmit_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 144,
+					"id" : "nec_transmit_library_nec_carrier_burst_pio_h::@a02d205fb8d09b57a87a",
+					"jsonFile" : "target-nec_transmit_library_nec_carrier_burst_pio_h-Release-950c5a20763e35e2361e.json",
+					"name" : "nec_transmit_library_nec_carrier_burst_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 144,
+					"id" : "nec_transmit_library_nec_carrier_control_pio_h::@a02d205fb8d09b57a87a",
+					"jsonFile" : "target-nec_transmit_library_nec_carrier_control_pio_h-Release-4aaefa00af8b6abd60e9.json",
+					"name" : "nec_transmit_library_nec_carrier_control_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 121,
+					"id" : "oled_i2c::@c4ea0a1f4703b12d7693",
+					"jsonFile" : "target-oled_i2c-Release-712a1e0714ad764f4574.json",
+					"name" : "oled_i2c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "onboard_temperature::@697c81694f23508e3dcd",
+					"jsonFile" : "target-onboard_temperature-Release-8c6845a083d6d9cddd22.json",
+					"name" : "onboard_temperature",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 122,
+					"id" : "pa1010d_i2c::@d5d088be4d139a5d5cf2",
+					"jsonFile" : "target-pa1010d_i2c-Release-136f95717bcc971669ac.json",
+					"name" : "pa1010d_i2c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 123,
+					"id" : "pcf8523_i2c::@1920a1039e529c19380a",
+					"jsonFile" : "target-pcf8523_i2c-Release-5acec0c2b14888b3a0c9.json",
+					"name" : "pcf8523_i2c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 183,
+					"id" : "periodic_sampler::@8172eea89fa3a058017e",
+					"jsonFile" : "target-periodic_sampler-Release-4aa5ab9cbd25b4653784.json",
+					"name" : "periodic_sampler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 132,
+					"id" : "picoboard_blinky::@6f9ee690e4d8880f3299",
+					"jsonFile" : "target-picoboard_blinky-Release-3c24a5554ff3542a2927.json",
+					"name" : "picoboard_blinky",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 133,
+					"id" : "picoboard_button::@c9fc676301685b3021d3",
+					"jsonFile" : "target-picoboard_button-Release-2034bfc7bfc415a17a90.json",
+					"name" : "picoboard_button",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 136,
+					"id" : "pio_addition::@ee9b217cc8470443ce6a",
+					"jsonFile" : "target-pio_addition-Release-5a585f0255ad8a150ee1.json",
+					"name" : "pio_addition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 136,
+					"id" : "pio_addition_addition_pio_h::@ee9b217cc8470443ce6a",
+					"jsonFile" : "target-pio_addition_addition_pio_h-Release-4cc73eead35a4d7d570d.json",
+					"name" : "pio_addition_addition_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 137,
+					"id" : "pio_apa102::@55744c3cfdbe72c97a98",
+					"jsonFile" : "target-pio_apa102-Release-bc459f64196e12adc085.json",
+					"name" : "pio_apa102",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 137,
+					"id" : "pio_apa102_apa102_pio_h::@55744c3cfdbe72c97a98",
+					"jsonFile" : "target-pio_apa102_apa102_pio_h-Release-ef1e992b9827310181ae.json",
+					"name" : "pio_apa102_apa102_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 149,
+					"id" : "pio_blink::@93c7be5ff4fcc68d5e4b",
+					"jsonFile" : "target-pio_blink-Release-e659910e26923b48115e.json",
+					"name" : "pio_blink",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 149,
+					"id" : "pio_blink_blink_pio_h::@93c7be5ff4fcc68d5e4b",
+					"jsonFile" : "target-pio_blink_blink_pio_h-Release-d4d8d4a7b83c5a52801c.json",
+					"name" : "pio_blink_blink_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 138,
+					"id" : "pio_clocked_input::@9571831de89e521c499d",
+					"jsonFile" : "target-pio_clocked_input-Release-6ad5a6c811359863289f.json",
+					"name" : "pio_clocked_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 138,
+					"id" : "pio_clocked_input_clocked_input_pio_h::@9571831de89e521c499d",
+					"jsonFile" : "target-pio_clocked_input_clocked_input_pio_h-Release-20d8722de6a8f157c031.json",
+					"name" : "pio_clocked_input_clocked_input_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 139,
+					"id" : "pio_differential_manchester::@aaa26eac6379cbaab2d9",
+					"jsonFile" : "target-pio_differential_manchester-Release-32d324737ac21d4b924d.json",
+					"name" : "pio_differential_manchester",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 139,
+					"id" : "pio_differential_manchester_differential_manchester_pio_h::@aaa26eac6379cbaab2d9",
+					"jsonFile" : "target-pio_differential_manchester_differential_manchester_pio_h-Release-cf4082ca17218678bd29.json",
+					"name" : "pio_differential_manchester_differential_manchester_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 141,
+					"id" : "pio_hub75::@8f52ba86b6478703fbfd",
+					"jsonFile" : "target-pio_hub75-Release-1c254456cce1ba90f6a4.json",
+					"name" : "pio_hub75",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 141,
+					"id" : "pio_hub75_hub75_pio_h::@8f52ba86b6478703fbfd",
+					"jsonFile" : "target-pio_hub75_hub75_pio_h-Release-8ce6d02e686a415d157b.json",
+					"name" : "pio_hub75_hub75_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 142,
+					"id" : "pio_i2c_bus_scan::@8a31c15e80fc35e57548",
+					"jsonFile" : "target-pio_i2c_bus_scan-Release-da0570bddaf4739fb13c.json",
+					"name" : "pio_i2c_bus_scan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 142,
+					"id" : "pio_i2c_bus_scan_i2c_pio_h::@8a31c15e80fc35e57548",
+					"jsonFile" : "target-pio_i2c_bus_scan_i2c_pio_h-Release-6faf187fa410cb63194f.json",
+					"name" : "pio_i2c_bus_scan_i2c_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 146,
+					"id" : "pio_ir_loopback::@cdc105fa03fda565cfab",
+					"jsonFile" : "target-pio_ir_loopback-Release-1522d60122d7760677e1.json",
+					"name" : "pio_ir_loopback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 193,
+					"id" : "pio_jtag::@81b517d645ffb00d4a06",
+					"jsonFile" : "target-pio_jtag-Release-a17200b715502d4a0720.json",
+					"name" : "pio_jtag",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 193,
+					"id" : "pio_jtag_jtag_pio_h::@81b517d645ffb00d4a06",
+					"jsonFile" : "target-pio_jtag_jtag_pio_h-Release-9ed0abe64c79eae8d70c.json",
+					"name" : "pio_jtag_jtag_pio_h",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 147,
+					"id" : "pio_logic_analyser::@966fafc6588d503c4465",
+					"jsonFile" : "target-pio_logic_analyser-Release-eb3b74a3b2aa2281d501.json",
+					"name" : "pio_logic_analyser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 148,
+					"id" : "pio_manchester_encoding::@ee6eaa212d73c99c0f3c",
+					"jsonFile" : "target-pio_manchester_encoding-Release-5bb24219882aeb87f465.json",
+					"name" : "pio_manchester_encoding",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 148,
+					"id" : "pio_manchester_encoding_manchester_encoding_pio_h::@ee6eaa212d73c99c0f3c",
+					"jsonFile" : "target-pio_manchester_encoding_manchester_encoding_pio_h-Release-a4456761f2c1bb08b21c.json",
+					"name" : "pio_manchester_encoding_manchester_encoding_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 150,
+					"id" : "pio_pwm::@4efc78112498f3ee5649",
+					"jsonFile" : "target-pio_pwm-Release-b29da2adf151e44e7590.json",
+					"name" : "pio_pwm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 150,
+					"id" : "pio_pwm_pwm_pio_h::@4efc78112498f3ee5649",
+					"jsonFile" : "target-pio_pwm_pwm_pio_h-Release-5ea59355f74d43e88c1d.json",
+					"name" : "pio_pwm_pwm_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 151,
+					"id" : "pio_quadrature_encoder::@cb8f65cab826a08e662c",
+					"jsonFile" : "target-pio_quadrature_encoder-Release-609142464d71a8de0fd8.json",
+					"name" : "pio_quadrature_encoder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 151,
+					"id" : "pio_quadrature_encoder_quadrature_encoder_pio_h::@cb8f65cab826a08e662c",
+					"jsonFile" : "target-pio_quadrature_encoder_quadrature_encoder_pio_h-Release-400a5548b60e0d42ebb4.json",
+					"name" : "pio_quadrature_encoder_quadrature_encoder_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 152,
+					"id" : "pio_spi_flash::@680422bfc9afe810d43c",
+					"jsonFile" : "target-pio_spi_flash-Release-c69f3da9b203cca68d4d.json",
+					"name" : "pio_spi_flash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 152,
+					"id" : "pio_spi_flash_spi_pio_h::@680422bfc9afe810d43c",
+					"jsonFile" : "target-pio_spi_flash_spi_pio_h-Release-4cb2d4dbecfa20bfe9da.json",
+					"name" : "pio_spi_flash_spi_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 152,
+					"id" : "pio_spi_loopback::@680422bfc9afe810d43c",
+					"jsonFile" : "target-pio_spi_loopback-Release-ac32570ff702ce0cc659.json",
+					"name" : "pio_spi_loopback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 152,
+					"id" : "pio_spi_loopback_spi_pio_h::@680422bfc9afe810d43c",
+					"jsonFile" : "target-pio_spi_loopback_spi_pio_h-Release-59aad632f136910e86c6.json",
+					"name" : "pio_spi_loopback_spi_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 153,
+					"id" : "pio_squarewave::@9131f3c45e6dd4fd704e",
+					"jsonFile" : "target-pio_squarewave-Release-d6aa91fdb132c2130864.json",
+					"name" : "pio_squarewave",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 153,
+					"id" : "pio_squarewave_datasheet::@9131f3c45e6dd4fd704e",
+					"jsonFile" : "target-pio_squarewave_datasheet-Release-44f8711333e3635055da.json",
+					"name" : "pio_squarewave_datasheet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 153,
+					"id" : "pio_squarewave_squarewave_fast_pio_h::@9131f3c45e6dd4fd704e",
+					"jsonFile" : "target-pio_squarewave_squarewave_fast_pio_h-Release-3530faf09f7ea482c2ba.json",
+					"name" : "pio_squarewave_squarewave_fast_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 153,
+					"id" : "pio_squarewave_squarewave_pio_h::@9131f3c45e6dd4fd704e",
+					"jsonFile" : "target-pio_squarewave_squarewave_pio_h-Release-9cedd335cf27a5dfd3fe.json",
+					"name" : "pio_squarewave_squarewave_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 153,
+					"id" : "pio_squarewave_squarewave_wrap_pio_h::@9131f3c45e6dd4fd704e",
+					"jsonFile" : "target-pio_squarewave_squarewave_wrap_pio_h-Release-5931f9848f93ddfd8b5e.json",
+					"name" : "pio_squarewave_squarewave_wrap_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 154,
+					"id" : "pio_st7789_lcd::@4b35e2ed189d00b7a805",
+					"jsonFile" : "target-pio_st7789_lcd-Release-611f051e4acc45a5cb58.json",
+					"name" : "pio_st7789_lcd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 154,
+					"id" : "pio_st7789_lcd_st7789_lcd_pio_h::@4b35e2ed189d00b7a805",
+					"jsonFile" : "target-pio_st7789_lcd_st7789_lcd_pio_h-Release-994eb0891c434fc234ba.json",
+					"name" : "pio_st7789_lcd_st7789_lcd_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 155,
+					"id" : "pio_uart_rx::@5240e3dcbffd47572950",
+					"jsonFile" : "target-pio_uart_rx-Release-76ff0e069a16854fa6df.json",
+					"name" : "pio_uart_rx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 155,
+					"id" : "pio_uart_rx_uart_rx_pio_h::@5240e3dcbffd47572950",
+					"jsonFile" : "target-pio_uart_rx_uart_rx_pio_h-Release-22e03b37f8407c3aee73.json",
+					"name" : "pio_uart_rx_uart_rx_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 156,
+					"id" : "pio_uart_tx::@2a97338fc770c0536481",
+					"jsonFile" : "target-pio_uart_tx-Release-cada77bdc8e4c562f6ce.json",
+					"name" : "pio_uart_tx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 156,
+					"id" : "pio_uart_tx_uart_tx_pio_h::@2a97338fc770c0536481",
+					"jsonFile" : "target-pio_uart_tx_uart_tx_pio_h-Release-d6515085dbbf3116b009.json",
+					"name" : "pio_uart_tx_uart_tx_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 157,
+					"id" : "pio_ws2812::@015ada596347f1d5bd89",
+					"jsonFile" : "target-pio_ws2812-Release-e17f2d2d61304afa6a7c.json",
+					"name" : "pio_ws2812",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 157,
+					"id" : "pio_ws2812_datasheet::@015ada596347f1d5bd89",
+					"jsonFile" : "target-pio_ws2812_datasheet-Release-316e5044550b614060fe.json",
+					"name" : "pio_ws2812_datasheet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 157,
+					"id" : "pio_ws2812_parallel::@015ada596347f1d5bd89",
+					"jsonFile" : "target-pio_ws2812_parallel-Release-8f938df478d639733fdd.json",
+					"name" : "pio_ws2812_parallel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 157,
+					"id" : "pio_ws2812_parallel_ws2812_pio_h::@015ada596347f1d5bd89",
+					"jsonFile" : "target-pio_ws2812_parallel_ws2812_pio_h-Release-4a632355d71925951b5d.json",
+					"name" : "pio_ws2812_parallel_ws2812_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 157,
+					"id" : "pio_ws2812_ws2812_pio_h::@015ada596347f1d5bd89",
+					"jsonFile" : "target-pio_ws2812_ws2812_pio_h-Release-bc7f53cb79154eefa301.json",
+					"name" : "pio_ws2812_ws2812_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 160,
+					"id" : "pwm_led_fade::@931e3e52ed637b8ecf8e",
+					"jsonFile" : "target-pwm_led_fade-Release-c84c4f6f68900ae69429.json",
+					"name" : "pwm_led_fade",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 161,
+					"id" : "pwm_measure_duty_cycle::@6312fc2fc7f3d035b5b9",
+					"jsonFile" : "target-pwm_measure_duty_cycle-Release-90a1cc30ba84ec04ca96.json",
+					"name" : "pwm_measure_duty_cycle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 165,
+					"id" : "rtc_alarm::@4ccfcf1c3d1d044f0d17",
+					"jsonFile" : "target-rtc_alarm-Release-484f1d0b482deec27150.json",
+					"name" : "rtc_alarm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 166,
+					"id" : "rtc_alarm_repeat::@0d3836e9fa91b55c28c9",
+					"jsonFile" : "target-rtc_alarm_repeat-Release-46b10ec8790a5c636928.json",
+					"name" : "rtc_alarm_repeat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 170,
+					"id" : "spi_dma::@a03730394c0f2825617e",
+					"jsonFile" : "target-spi_dma-Release-1fdde40da68e33aa07c5.json",
+					"name" : "spi_dma",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 174,
+					"id" : "spi_flash::@d4e34ad9d09c7986866f",
+					"jsonFile" : "target-spi_flash-Release-45883fe3e97a78ed5622.json",
+					"name" : "spi_flash",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 172,
+					"id" : "spi_master::@277415f8c693f2f0c717",
+					"jsonFile" : "target-spi_master-Release-efa143056e0df9ad447e.json",
+					"name" : "spi_master",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 173,
+					"id" : "spi_slave::@93d3772f517ae48899b6",
+					"jsonFile" : "target-spi_slave-Release-9691d466c98773372912.json",
+					"name" : "spi_slave",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 184,
+					"id" : "timer_lowlevel::@8f1ccee9ebad64c52656",
+					"jsonFile" : "target-timer_lowlevel-Release-caca4dfa489fdb260a77.json",
+					"name" : "timer_lowlevel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 188,
+					"id" : "uart_advanced::@b5d57687745977c25f5c",
+					"jsonFile" : "target-uart_advanced-Release-502fa2958a9113ee8803.json",
+					"name" : "uart_advanced",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 180,
+					"id" : "unique_board_id::@00fbb7436a5a24f84136",
+					"jsonFile" : "target-unique_board_id-Release-9006fc1ebce76b7a740a.json",
+					"name" : "unique_board_id",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/om/Desktop/Jtag_Pico/pico/pico-examples/build",
+		"source" : "/home/om/Desktop/Jtag_Pico/pico/pico-examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

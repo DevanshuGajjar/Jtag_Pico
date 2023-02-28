@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/hello_world/usb/CMakeFiles/progress.marks
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/usb/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/hello_world/usb/CMakeFiles/progress.marks
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/usb/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/usb/clean
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/usb/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/usb/preinstall
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/usb/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/usb/preinstall
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/usb/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 hello_world/usb/CMakeFiles/hello_usb.dir/rule:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/usb/CMakeFiles/hello_usb.dir/rule
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 hello_world/usb/CMakeFiles/hello_usb.dir/rule
 .PHONY : hello_world/usb/CMakeFiles/hello_usb.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ hello_usb: hello_world/usb/CMakeFiles/hello_usb.dir/rule
 
 # fast build rule for target.
 hello_usb/fast:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/build
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/build
 .PHONY : hello_usb/fast
 
 hello_usb.obj: hello_usb.c.obj
@@ -131,7 +131,7 @@ hello_usb.obj: hello_usb.c.obj
 
 # target to build an object file
 hello_usb.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/hello_usb.c.obj
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/hello_usb.c.obj
 .PHONY : hello_usb.c.obj
 
 hello_usb.i: hello_usb.c.i
@@ -140,7 +140,7 @@ hello_usb.i: hello_usb.c.i
 
 # target to preprocess a source file
 hello_usb.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/hello_usb.c.i
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/hello_usb.c.i
 .PHONY : hello_usb.c.i
 
 hello_usb.s: hello_usb.c.s
@@ -149,1646 +149,1646 @@ hello_usb.s: hello_usb.c.s
 
 # target to generate assembly for a file
 hello_usb.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/hello_usb.c.s
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/hello_usb.c.s
 .PHONY : hello_usb.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
-
-# target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
-
-# target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
-
-# target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.obj: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.i: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.s: home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.obj: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.i: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.s: home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
-
-# target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+
+# target to build an object file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
-
-# target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
+
+# target to build an object file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
-
-# target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
-
-# target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
+
+# target to build an object file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+
+# target to build an object file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
-
-# target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
-
-# target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+
+# target to build an object file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+
+# target to build an object file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
-
-# target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
-
-# target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
-
-# target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
+
+# target to build an object file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
+
+# target to build an object file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
+
+# target to build an object file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
-
-# target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
-
-# target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s
-
-# target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
 
 # target to build an object file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
 
 # target to preprocess a source file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
 
 # target to generate assembly for a file
-home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
+
+# target to build an object file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+
+# target to preprocess a source file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+
+# target to generate assembly for a file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+
+# target to build an object file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+
+# target to preprocess a source file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+
+# target to generate assembly for a file
+home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f hello_world/usb/CMakeFiles/hello_usb.dir/build.make hello_world/usb/CMakeFiles/hello_usb.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 # Help Target
 help:
@@ -1802,188 +1802,188 @@ help:
 	@echo "... hello_usb.obj"
 	@echo "... hello_usb.i"
 	@echo "... hello_usb.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
-	@echo "... home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 .PHONY : help
 
 
@@ -1995,6 +1995,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

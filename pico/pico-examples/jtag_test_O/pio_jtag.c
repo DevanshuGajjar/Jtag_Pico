@@ -87,7 +87,7 @@ void __time_critical_func(pio_jtag_write_blocking)(const pio_jtag_inst_t *jtag, 
 
 }
 
-int __time_critical_func(pio_jtag_idcode_scan)(const pio_jtag_inst_t *jtag,uint8_t *tx_buf){
+int __time_critical_func(pio_jtag_idcode_scan)(const pio_jtag_inst_t *jtag,uint8_t *tx_buf,float clk_div){
     int in_buff1 = 0x07;
     if(flag == 0){
       // dma_init();
@@ -96,14 +96,14 @@ int __time_critical_func(pio_jtag_idcode_scan)(const pio_jtag_inst_t *jtag,uint8
       flag =1;
       
     }
-    pio_jtag_ir_scan(jtag ,(uint8_t*)&in_buff1 ,tx_buf,32);
-    pio_jtag_dr_scan(jtag ,(uint8_t*)&in_buff1 ,tx_buf,32);
+    pio_jtag_ir_scan(jtag ,(uint8_t*)&in_buff1 ,tx_buf,32,clk_div);
+    pio_jtag_dr_scan(jtag ,(uint8_t*)&in_buff1 ,tx_buf,32,clk_div);
 
     return 4;
 }
 
 
-int __time_critical_func(pio_jtag_reset)(const pio_jtag_inst_t *jtag,uint8_t *tx_buf){
+int __time_critical_func(pio_jtag_reset)(const pio_jtag_inst_t *jtag,uint8_t *tx_buf,float clk_div){
     uint8_t *output_buffer = tx_buf;
     // if(flag == 0){
     //   //jtag_prog_offs = pio_add_program(jtag->pio, &jtag_program);
@@ -111,7 +111,7 @@ int __time_critical_func(pio_jtag_reset)(const pio_jtag_inst_t *jtag,uint8_t *tx
     //   flag =1;
     // }
     
-    pio_state_transition_init(jtag->pio,0,state_transition_prog_offs);
+    pio_state_transition_init(jtag->pio,0,state_transition_prog_offs,clk_div);
 
     pio_sm_put_blocking(jtag->pio,0,0x6);
     pio_sm_put_blocking(jtag->pio,0,0x1F);
@@ -121,16 +121,17 @@ int __time_critical_func(pio_jtag_reset)(const pio_jtag_inst_t *jtag,uint8_t *tx
 }
 
 
-void jtag_set_clk_freq(const pio_jtag_inst_t *jtag, uint freq_khz) {
+float jtag_set_clk_freq(const pio_jtag_inst_t *jtag, uint freq_khz) {
     uint clk_sys_freq_khz = clock_get_hz(clk_sys) / 1000;
     uint32_t divider = (clk_sys_freq_khz / freq_khz) / 4;
     divider = (divider < 2) ? 2 : divider; //max reliable freq 
-    pio_sm_set_clkdiv_int_frac(pio0, jtag->sm, divider, 0);
+    return divider;
+    //pio_sm_set_clkdiv_int_frac(jtag->pio, 0, 10, 0);
 }
 
 
 
-int __time_critical_func(pio_jtag_ir_scan)(const pio_jtag_inst_t *jtag, uint8_t *tx_buf, uint8_t *rx_buf,int len){
+int __time_critical_func(pio_jtag_ir_scan)(const pio_jtag_inst_t *jtag, uint8_t *tx_buf, uint8_t *rx_buf,int len,float clk_div){
     // uint8_t *output_buffer = tx_buf;
     
     // if(flag == 0){
@@ -140,14 +141,14 @@ int __time_critical_func(pio_jtag_ir_scan)(const pio_jtag_inst_t *jtag, uint8_t 
     //   flag =1;
       
     // }
-    pio_state_transition_init(jtag->pio,0,state_transition_prog_offs);
+    pio_state_transition_init(jtag->pio,0,state_transition_prog_offs,clk_div);
     pio_sm_put_blocking(jtag->pio,0,0x3);
     pio_sm_put_blocking(jtag->pio,0,0x3);
     sleep_ms(0.01);
-    pio_jtag_init(jtag->pio,0,jtag_prog_offs);
+    pio_jtag_init(jtag->pio,0,jtag_prog_offs,clk_div);
     pio_jtag_write_blocking(jtag,tx_buf,len,rx_buf);
     
-    pio_state_transition_init(jtag->pio,0,state_transition_prog_offs);
+    pio_state_transition_init(jtag->pio,0,state_transition_prog_offs,clk_div);
     pio_sm_put_blocking(jtag->pio,0,0x2);
     pio_sm_put_blocking(jtag->pio,0,0x3);
 
@@ -156,7 +157,7 @@ int __time_critical_func(pio_jtag_ir_scan)(const pio_jtag_inst_t *jtag, uint8_t 
     }
 
 
-int __time_critical_func(pio_jtag_dr_scan)(const pio_jtag_inst_t *jtag, uint8_t *tx_buf, uint8_t *rx_buf,int len){
+int __time_critical_func(pio_jtag_dr_scan)(const pio_jtag_inst_t *jtag, uint8_t *tx_buf, uint8_t *rx_buf,int len,float clk_div){
     // uint8_t *output_buffer = tx_buf;
     
     // if(flag == 0){
@@ -166,15 +167,15 @@ int __time_critical_func(pio_jtag_dr_scan)(const pio_jtag_inst_t *jtag, uint8_t 
     //   flag =1;
       
     // }
-    pio_state_transition_init(jtag->pio,0,state_transition_prog_offs);
+    pio_state_transition_init(jtag->pio,0,state_transition_prog_offs,clk_div);
     pio_sm_put_blocking(jtag->pio,0,0x2);
     pio_sm_put_blocking(jtag->pio,0,0x1);
     sleep_ms(0.01);
 
-    pio_jtag_init(jtag->pio,0,jtag_prog_offs);
+    pio_jtag_init(jtag->pio,0,jtag_prog_offs,clk_div);
     pio_jtag_write_blocking(jtag,rx_buf,len,tx_buf);
 
-    pio_state_transition_init(jtag->pio,0,state_transition_prog_offs);
+    pio_state_transition_init(jtag->pio,0,state_transition_prog_offs,clk_div);
     pio_sm_put_blocking(jtag->pio,0,0x2);
     pio_sm_put_blocking(jtag->pio,0,0x3);
 

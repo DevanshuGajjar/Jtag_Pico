@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyclone/Desktop/pico/pico-sdk/tools
+# Install script for directory: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

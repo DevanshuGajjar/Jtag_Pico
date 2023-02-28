@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/cyclone/Desktop/pico/pico-sdk/tools/pioasm -I/home/cyclone/Desktop/pico/pico-sdk/tools/pioasm/gen 
+CXX_INCLUDES = -I/home/om/Desktop/task_rpi_pico/pico/pico-sdk/tools/pioasm -I/home/om/Desktop/task_rpi_pico/pico/pico-sdk/tools/pioasm/gen 
 

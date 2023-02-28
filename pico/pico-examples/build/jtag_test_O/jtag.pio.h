@@ -20,8 +20,8 @@ static const uint16_t state_transition_program_instructions[] = {
     0x80a0, //  0: pull   block                      
     0x6020, //  1: out    x, 32                      
     0x80a0, //  2: pull   block                      
-    0x7001, //  3: out    pins, 1         side 0     
-    0x1843, //  4: jmp    x--, 3          side 1     
+    0x7101, //  3: out    pins, 1         side 0 [1] 
+    0x1943, //  4: jmp    x--, 3          side 1 [1] 
     0xf000, //  5: set    pins, 0         side 0     
             //     .wrap
 };
@@ -75,7 +75,7 @@ static inline pio_sm_config jtag_program_get_default_config(uint offset) {
 }
 
 #include "hardware/gpio.h"
-static inline void pio_jtag_init(PIO pio, uint sm, uint prog_offs) {
+static inline void pio_jtag_init(PIO pio, uint sm, uint prog_offs,float clkdiv) {
     pio_sm_config c = jtag_program_get_default_config(prog_offs);
     sm_config_set_sideset_pins(&c, 1);
     sm_config_set_set_pins(&c,4,1);
@@ -83,7 +83,7 @@ static inline void pio_jtag_init(PIO pio, uint sm, uint prog_offs) {
     sm_config_set_in_pins(&c, 3);
     sm_config_set_out_shift(&c, true, false, 8);
     //sm_config_set_in_shift(&c, true, false, 8);
-    sm_config_set_clkdiv(&c, 20.0);
+    sm_config_set_clkdiv(&c, clkdiv);
     pio_sm_set_pindirs_with_mask(pio, sm, (1u << 4) | (1u << 1)  | (0u <<3) , (1u << 4) | (1u << 1) | (1u << 3));
     pio_gpio_init(pio, 4);
     pio_gpio_init(pio, 1);
@@ -91,12 +91,12 @@ static inline void pio_jtag_init(PIO pio, uint sm, uint prog_offs) {
     pio_sm_init(pio, sm, prog_offs, &c);
     pio_sm_set_enabled(pio, sm, true);
 }
-static inline void pio_state_transition_init(PIO pio, uint sm, uint prog_offs) {
+static inline void pio_state_transition_init(PIO pio, uint sm, uint prog_offs,float clkdiv) {
     pio_sm_config c = state_transition_program_get_default_config(prog_offs);
     sm_config_set_sideset_pins(&c, 1);
     sm_config_set_set_pins(&c,2,1);
     sm_config_set_out_pins(&c, 2, 1);
-    sm_config_set_clkdiv(&c, 20.0);
+    sm_config_set_clkdiv(&c, clkdiv);
     pio_sm_set_pindirs_with_mask(pio, sm, (1u << 2) | (1u << 1) , (1u << 2) | (1u << 1));
     pio_gpio_init(pio, 2);
     pio_gpio_init(pio, 1);

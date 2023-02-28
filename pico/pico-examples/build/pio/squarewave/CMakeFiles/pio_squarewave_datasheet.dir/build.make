@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples/build
 
 # Utility rule file for pio_squarewave_datasheet.
 
@@ -59,16 +59,16 @@ pio/squarewave/CMakeFiles/pio_squarewave_datasheet: ../pio/squarewave/generated/
 
 
 ../pio/squarewave/generated/squarewave.hex: ../pio/squarewave/squarewave.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../../pio/squarewave/generated/squarewave.hex"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/squarewave && ../../pioasm/pioasm -o hex /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/squarewave/squarewave.pio /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/squarewave/generated/squarewave.hex
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../../pio/squarewave/generated/squarewave.hex"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/squarewave && ../../pioasm/pioasm -o hex /home/om/Desktop/Jtag_Pico/pico/pico-examples/pio/squarewave/squarewave.pio /home/om/Desktop/Jtag_Pico/pico/pico-examples/pio/squarewave/generated/squarewave.hex
 
 ../pio/squarewave/generated/squarewave.pio.h: ../pio/squarewave/squarewave.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../../../pio/squarewave/generated/squarewave.pio.h"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/squarewave && ../../pioasm/pioasm /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/squarewave/squarewave.pio /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/squarewave/generated/squarewave.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../../../pio/squarewave/generated/squarewave.pio.h"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/squarewave && ../../pioasm/pioasm /home/om/Desktop/Jtag_Pico/pico/pico-examples/pio/squarewave/squarewave.pio /home/om/Desktop/Jtag_Pico/pico/pico-examples/pio/squarewave/generated/squarewave.pio.h
 
 ../pio/squarewave/generated/squarewave_wrap.pio.h: ../pio/squarewave/squarewave_wrap.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../../../pio/squarewave/generated/squarewave_wrap.pio.h"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/squarewave && ../../pioasm/pioasm /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/squarewave/squarewave_wrap.pio /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/squarewave/generated/squarewave_wrap.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../../../pio/squarewave/generated/squarewave_wrap.pio.h"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/squarewave && ../../pioasm/pioasm /home/om/Desktop/Jtag_Pico/pico/pico-examples/pio/squarewave/squarewave_wrap.pio /home/om/Desktop/Jtag_Pico/pico/pico-examples/pio/squarewave/generated/squarewave_wrap.pio.h
 
 pio_squarewave_datasheet: pio/squarewave/CMakeFiles/pio_squarewave_datasheet
 pio_squarewave_datasheet: ../pio/squarewave/generated/squarewave.hex
@@ -84,10 +84,10 @@ pio/squarewave/CMakeFiles/pio_squarewave_datasheet.dir/build: pio_squarewave_dat
 .PHONY : pio/squarewave/CMakeFiles/pio_squarewave_datasheet.dir/build
 
 pio/squarewave/CMakeFiles/pio_squarewave_datasheet.dir/clean:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/squarewave && $(CMAKE_COMMAND) -P CMakeFiles/pio_squarewave_datasheet.dir/cmake_clean.cmake
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/squarewave && $(CMAKE_COMMAND) -P CMakeFiles/pio_squarewave_datasheet.dir/cmake_clean.cmake
 .PHONY : pio/squarewave/CMakeFiles/pio_squarewave_datasheet.dir/clean
 
 pio/squarewave/CMakeFiles/pio_squarewave_datasheet.dir/depend:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/squarewave /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/squarewave /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/squarewave/CMakeFiles/pio_squarewave_datasheet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/om/Desktop/Jtag_Pico/pico/pico-examples /home/om/Desktop/Jtag_Pico/pico/pico-examples/pio/squarewave /home/om/Desktop/Jtag_Pico/pico/pico-examples/build /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/squarewave /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/squarewave/CMakeFiles/pio_squarewave_datasheet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pio/squarewave/CMakeFiles/pio_squarewave_datasheet.dir/depend
 

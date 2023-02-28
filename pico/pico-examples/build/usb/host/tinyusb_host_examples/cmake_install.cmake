@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/examples/host
+# Install script for directory: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/examples/host
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/pico-sdk/cmake_install.cmake")
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/bare_api/cmake_install.cmake")
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/cdc_msc_hid/cmake_install.cmake")
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/hid_controller/cmake_install.cmake")
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/msc_file_explorer/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/pico-sdk/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/bare_api/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/cdc_msc_hid/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/hid_controller/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/msc_file_explorer/cmake_install.cmake")
 
 endif()
 

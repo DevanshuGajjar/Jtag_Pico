@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples/build
 
 # Include any dependencies generated for this target.
 include adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/depend.make
@@ -59,637 +59,637 @@ include adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
 
 adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/onboard_temperature.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
 adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/onboard_temperature.c.obj: ../adc/onboard_temperature/onboard_temperature.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/onboard_temperature.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/onboard_temperature.c.obj   -c /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/adc/onboard_temperature/onboard_temperature.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/onboard_temperature.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/onboard_temperature.c.obj   -c /home/om/Desktop/Jtag_Pico/pico/pico-examples/adc/onboard_temperature/onboard_temperature.c
 
 adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/onboard_temperature.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/onboard_temperature.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/adc/onboard_temperature/onboard_temperature.c > CMakeFiles/onboard_temperature.dir/onboard_temperature.c.i
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/Jtag_Pico/pico/pico-examples/adc/onboard_temperature/onboard_temperature.c > CMakeFiles/onboard_temperature.dir/onboard_temperature.c.i
 
 adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/onboard_temperature.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/onboard_temperature.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/adc/onboard_temperature/onboard_temperature.c -o CMakeFiles/onboard_temperature.dir/onboard_temperature.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-
-adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/Jtag_Pico/pico/pico-examples/adc/onboard_temperature/onboard_temperature.c -o CMakeFiles/onboard_temperature.dir/onboard_temperature.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/flags.make
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 # Object files for target onboard_temperature
 onboard_temperature_OBJECTS = \
 "CMakeFiles/onboard_temperature.dir/onboard_temperature.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
-"CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 
 # External object files for target onboard_temperature
 onboard_temperature_EXTERNAL_OBJECTS =
 
 adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/onboard_temperature.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/build.make
 adc/onboard_temperature/onboard_temperature.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 adc/onboard_temperature/onboard_temperature.elf: adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable onboard_temperature.elf"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/onboard_temperature.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-objcopy -Oihex /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature/onboard_temperature.elf onboard_temperature.hex
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-objcopy -Obinary /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature/onboard_temperature.elf onboard_temperature.bin
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-objdump -h /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature/onboard_temperature.elf > onboard_temperature.dis
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-objdump -d /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature/onboard_temperature.elf >> onboard_temperature.dis
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && ../../elf2uf2/elf2uf2 /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature/onboard_temperature.elf onboard_temperature.uf2
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable onboard_temperature.elf"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/onboard_temperature.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-objcopy -Oihex /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature/onboard_temperature.elf onboard_temperature.hex
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-objcopy -Obinary /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature/onboard_temperature.elf onboard_temperature.bin
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-objdump -h /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature/onboard_temperature.elf > onboard_temperature.dis
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && /usr/bin/arm-none-eabi-objdump -d /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature/onboard_temperature.elf >> onboard_temperature.dis
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && ../../elf2uf2/elf2uf2 /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature/onboard_temperature.elf onboard_temperature.uf2
 
 # Rule to build all files generated by this target.
 adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/build: adc/onboard_temperature/onboard_temperature.elf
@@ -697,10 +697,10 @@ adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/build: adc/onboard_te
 .PHONY : adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/build
 
 adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/clean:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && $(CMAKE_COMMAND) -P CMakeFiles/onboard_temperature.dir/cmake_clean.cmake
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature && $(CMAKE_COMMAND) -P CMakeFiles/onboard_temperature.dir/cmake_clean.cmake
 .PHONY : adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/clean
 
 adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/depend:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/adc/onboard_temperature /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/om/Desktop/Jtag_Pico/pico/pico-examples /home/om/Desktop/Jtag_Pico/pico/pico-examples/adc/onboard_temperature /home/om/Desktop/Jtag_Pico/pico/pico-examples/build /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : adc/onboard_temperature/CMakeFiles/onboard_temperature.dir/depend
 

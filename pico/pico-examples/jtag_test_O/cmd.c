@@ -33,7 +33,7 @@
 #include "pio_jtag.h"
 #include "cmd.h"
 
-
+float clk_freq_div=0;
 enum CommandIdentifier {
   CMD_STOP = 0x00,
   CMD_INFO = 0x01,
@@ -104,11 +104,18 @@ void cmd_handle(pio_jtag_inst_t* jtag, uint8_t* rxbuf, uint32_t count, uint8_t* 
       output_buffer += trbytes;
       break;
     }
-    case CMD_FREQ:
+    case CMD_FREQ:{
+      char buf[30];
+      // clk_freq_div = (float)commands[1];
       cmd_freq(jtag, commands);
-      commands += 2;
+      int freq = commands[1];
+      // int freq = clock_get_hz(clk_sys)/10000;
+      commands += 1;
+      snprintf(buf, 20, "freq set to %dMHz", freq);
+      memcpy(output_buffer,buf, 16);
+      output_buffer += 16;
       break;
-
+    }
     case CMD_XFER:
     {
 
@@ -116,7 +123,7 @@ void cmd_handle(pio_jtag_inst_t* jtag, uint8_t* rxbuf, uint32_t count, uint8_t* 
     }
     case CMD_IDCODE:
     {
-      int idcode_nu = pio_jtag_idcode_scan(jtag,output_buffer);
+      int idcode_nu = pio_jtag_idcode_scan(jtag,output_buffer,clk_freq_div);
       output_buffer += idcode_nu;
       break;
     }
@@ -132,7 +139,7 @@ void cmd_handle(pio_jtag_inst_t* jtag, uint8_t* rxbuf, uint32_t count, uint8_t* 
     }
     case CMD_RESET:
     {
-      int reset_nu = pio_jtag_reset(jtag,output_buffer);
+      int reset_nu = pio_jtag_reset(jtag,output_buffer,clk_freq_div);
       output_buffer += reset_nu;
       break;
     }
@@ -161,7 +168,8 @@ void cmd_handle(pio_jtag_inst_t* jtag, uint8_t* rxbuf, uint32_t count, uint8_t* 
 }
 
 static void cmd_freq(pio_jtag_inst_t* jtag, const uint8_t *commands) {
-  jtag_set_clk_freq(jtag, (commands[1] << 8) | commands[2]);
+  int freq_HZ = commands[1]*1000;
+  clk_freq_div = jtag_set_clk_freq(jtag,freq_HZ);
 }
 
 static uint32_t cmd_info(uint8_t *buffer) {

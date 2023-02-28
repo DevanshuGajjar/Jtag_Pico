@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyclone/Desktop/pico/pico-sdk/tools/pioasm
+# Install script for directory: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/tools/pioasm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pioasm/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

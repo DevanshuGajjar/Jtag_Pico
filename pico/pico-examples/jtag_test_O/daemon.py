@@ -126,6 +126,21 @@ def jtag_reset():
 	print ("Sended CMD_IDCODE:\t:\t", XRAYJTAGCmd["CMD_RESET"])
 	print ("The revert statement is\t:\t", str(res))
 
+def set_clk_freq():
+	global dev
+	ret_status = dev.write(XRAYJTAG_bEndpointAddress_OUT, XRAYJTAGCmd["CMD_FREQ"], XRAYJTAG_TIMEOUT) 
+	if ret_status == 0:
+		print("Transfer Failed")
+	else:
+		print("Waiting for data to receive")
+
+	data_rev_list = dev.read(XRAYJTAG_bEndpointAddress_IN, XRAYJTAG_BUFFER_SIZE, XRAYJTAG_TIMEOUT)
+	res = ""
+	for val in data_rev_list:
+		res = res + chr(val)
+	print ("Sended CMD_IDCODE:\t:\t", XRAYJTAGCmd["CMD_RESET"])
+	print ("The revert statement is\t:\t", str(res))
+
 def main():
 	user_preference = 0
 	if(XRAYJTAG_INIT()!=0):

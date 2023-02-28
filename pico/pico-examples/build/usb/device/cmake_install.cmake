@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/usb/device
+# Install script for directory: /home/om/Desktop/Jtag_Pico/pico/pico-examples/usb/device
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/device/tinyusb_device_examples/cmake_install.cmake")
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/device/dev_hid_composite/cmake_install.cmake")
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/device/dev_lowlevel/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb/device/tinyusb_device_examples/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb/device/dev_hid_composite/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb/device/dev_lowlevel/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus
+# Install script for directory: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

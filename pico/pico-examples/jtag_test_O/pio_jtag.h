@@ -16,14 +16,14 @@ typedef struct pio_jtag_inst {
 
 
 
-int pio_jtag_dr_scan(const pio_jtag_inst_t *jtag, uint8_t *tx_buf, uint8_t *rx_buf,int len);
+int pio_jtag_dr_scan(const pio_jtag_inst_t *jtag, uint8_t *tx_buf, uint8_t *rx_buf,int len,float clk_div);
 
-int pio_jtag_ir_scan(const pio_jtag_inst_t *jtag, uint8_t *tx_buf, uint8_t *rx_buf,int len);
+int pio_jtag_ir_scan(const pio_jtag_inst_t *jtag, uint8_t *tx_buf, uint8_t *rx_buf,int len,float clk_div);
 
 void pio_jtag_write_blocking(const pio_jtag_inst_t *jtag, const uint8_t *bsrc,int len,uint8_t *bdst);
 
-int pio_jtag_idcode_scan(const pio_jtag_inst_t *jtag,uint8_t *tx_buf);
+int pio_jtag_idcode_scan(const pio_jtag_inst_t *jtag,uint8_t *tx_buf,float clk_div);
 
-int pio_jtag_reset(const pio_jtag_inst_t *jtag,uint8_t *tx_buf);
+int pio_jtag_reset(const pio_jtag_inst_t *jtag,uint8_t *tx_buf,float clk_div);
 
-void jtag_set_clk_freq(const pio_jtag_inst_t *jtag, uint freq_khz);
+float jtag_set_clk_freq(const pio_jtag_inst_t *jtag, uint freq_khz);

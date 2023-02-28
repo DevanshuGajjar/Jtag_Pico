@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/hid_controller/pico-sdk/CMakeFiles/progress.marks
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 usb/host/tinyusb_host_examples/hid_controller/pico-sdk/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb/host/tinyusb_host_examples/hid_controller/pico-sdk/CMakeFiles/progress.marks
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 usb/host/tinyusb_host_examples/hid_controller/pico-sdk/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 usb/host/tinyusb_host_examples/hid_controller/pico-sdk/clean
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 usb/host/tinyusb_host_examples/hid_controller/pico-sdk/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,17 +97,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 usb/host/tinyusb_host_examples/hid_controller/pico-sdk/preinstall
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 usb/host/tinyusb_host_examples/hid_controller/pico-sdk/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 usb/host/tinyusb_host_examples/hid_controller/pico-sdk/preinstall
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(MAKE) -f CMakeFiles/Makefile2 usb/host/tinyusb_host_examples/hid_controller/pico-sdk/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -129,6 +129,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

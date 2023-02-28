@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples/build
 
 # Utility rule file for pio_differential_manchester_differential_manchester_pio_h.
 
@@ -57,8 +57,8 @@ pio/differential_manchester/CMakeFiles/pio_differential_manchester_differential_
 
 
 pio/differential_manchester/differential_manchester.pio.h: ../pio/differential_manchester/differential_manchester.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating differential_manchester.pio.h"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/differential_manchester && ../../pioasm/pioasm -o c-sdk /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/differential_manchester/differential_manchester.pio /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/differential_manchester/differential_manchester.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating differential_manchester.pio.h"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/differential_manchester && ../../pioasm/pioasm -o c-sdk /home/om/Desktop/Jtag_Pico/pico/pico-examples/pio/differential_manchester/differential_manchester.pio /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/differential_manchester/differential_manchester.pio.h
 
 pio_differential_manchester_differential_manchester_pio_h: pio/differential_manchester/CMakeFiles/pio_differential_manchester_differential_manchester_pio_h
 pio_differential_manchester_differential_manchester_pio_h: pio/differential_manchester/differential_manchester.pio.h
@@ -72,10 +72,10 @@ pio/differential_manchester/CMakeFiles/pio_differential_manchester_differential_
 .PHONY : pio/differential_manchester/CMakeFiles/pio_differential_manchester_differential_manchester_pio_h.dir/build
 
 pio/differential_manchester/CMakeFiles/pio_differential_manchester_differential_manchester_pio_h.dir/clean:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/differential_manchester && $(CMAKE_COMMAND) -P CMakeFiles/pio_differential_manchester_differential_manchester_pio_h.dir/cmake_clean.cmake
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/differential_manchester && $(CMAKE_COMMAND) -P CMakeFiles/pio_differential_manchester_differential_manchester_pio_h.dir/cmake_clean.cmake
 .PHONY : pio/differential_manchester/CMakeFiles/pio_differential_manchester_differential_manchester_pio_h.dir/clean
 
 pio/differential_manchester/CMakeFiles/pio_differential_manchester_differential_manchester_pio_h.dir/depend:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/differential_manchester /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/differential_manchester /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/differential_manchester/CMakeFiles/pio_differential_manchester_differential_manchester_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/om/Desktop/Jtag_Pico/pico/pico-examples /home/om/Desktop/Jtag_Pico/pico/pico-examples/pio/differential_manchester /home/om/Desktop/Jtag_Pico/pico/pico-examples/build /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/differential_manchester /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/differential_manchester/CMakeFiles/pio_differential_manchester_differential_manchester_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pio/differential_manchester/CMakeFiles/pio_differential_manchester_differential_manchester_pio_h.dir/depend
 

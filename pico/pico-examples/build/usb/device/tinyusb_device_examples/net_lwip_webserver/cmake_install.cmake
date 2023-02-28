@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/examples/device/net_lwip_webserver
+# Install script for directory: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/examples/device/net_lwip_webserver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

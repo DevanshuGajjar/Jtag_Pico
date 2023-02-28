@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/squarewave
+# Install script for directory: /home/om/Desktop/Jtag_Pico/pico/pico-examples/pio/squarewave
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

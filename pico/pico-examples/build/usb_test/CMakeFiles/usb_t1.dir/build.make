@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples/build
 
 # Include any dependencies generated for this target.
 include usb_test/CMakeFiles/usb_t1.dir/depend.make
@@ -59,967 +59,967 @@ include usb_test/CMakeFiles/usb_t1.dir/flags.make
 
 usb_test/CMakeFiles/usb_t1.dir/usb_t1.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
 usb_test/CMakeFiles/usb_t1.dir/usb_t1.c.obj: ../usb_test/usb_t1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object usb_test/CMakeFiles/usb_t1.dir/usb_t1.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/usb_t1.c.obj   -c /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/usb_test/usb_t1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object usb_test/CMakeFiles/usb_t1.dir/usb_t1.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/usb_t1.c.obj   -c /home/om/Desktop/Jtag_Pico/pico/pico-examples/usb_test/usb_t1.c
 
 usb_test/CMakeFiles/usb_t1.dir/usb_t1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/usb_t1.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/usb_test/usb_t1.c > CMakeFiles/usb_t1.dir/usb_t1.c.i
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/Jtag_Pico/pico/pico-examples/usb_test/usb_t1.c > CMakeFiles/usb_t1.dir/usb_t1.c.i
 
 usb_test/CMakeFiles/usb_t1.dir/usb_t1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/usb_t1.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/usb_test/usb_t1.c -o CMakeFiles/usb_t1.dir/usb_t1.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj   -c /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-
-usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/Jtag_Pico/pico/pico-examples/usb_test/usb_t1.c -o CMakeFiles/usb_t1.dir/usb_t1.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: usb_test/CMakeFiles/usb_t1.dir/flags.make
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj   -c /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 # Object files for target usb_t1
 usb_t1_OBJECTS = \
 "CMakeFiles/usb_t1.dir/usb_t1.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
-"CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
+"CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 
 # External object files for target usb_t1
 usb_t1_EXTERNAL_OBJECTS =
 
 usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/usb_t1.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/time.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/datetime.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/common/pico_util/queue.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/cyclone/Desktop/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/time.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/common/pico_util/queue.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/home/om/Desktop/task_rpi_pico/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/build.make
 usb_test/usb_t1.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 usb_test/usb_t1.elf: usb_test/CMakeFiles/usb_t1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable usb_t1.elf"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/usb_t1.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-objcopy -Oihex /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test/usb_t1.elf usb_t1.hex
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-objcopy -Obinary /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test/usb_t1.elf usb_t1.bin
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-objdump -h /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test/usb_t1.elf > usb_t1.dis
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-objdump -d /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test/usb_t1.elf >> usb_t1.dis
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && ../elf2uf2/elf2uf2 /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test/usb_t1.elf usb_t1.uf2
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable usb_t1.elf"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/usb_t1.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-objcopy -Oihex /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test/usb_t1.elf usb_t1.hex
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-objcopy -Obinary /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test/usb_t1.elf usb_t1.bin
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-objdump -h /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test/usb_t1.elf > usb_t1.dis
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && /usr/bin/arm-none-eabi-objdump -d /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test/usb_t1.elf >> usb_t1.dis
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && ../elf2uf2/elf2uf2 /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test/usb_t1.elf usb_t1.uf2
 
 # Rule to build all files generated by this target.
 usb_test/CMakeFiles/usb_t1.dir/build: usb_test/usb_t1.elf
@@ -1027,10 +1027,10 @@ usb_test/CMakeFiles/usb_t1.dir/build: usb_test/usb_t1.elf
 .PHONY : usb_test/CMakeFiles/usb_t1.dir/build
 
 usb_test/CMakeFiles/usb_t1.dir/clean:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test && $(CMAKE_COMMAND) -P CMakeFiles/usb_t1.dir/cmake_clean.cmake
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test && $(CMAKE_COMMAND) -P CMakeFiles/usb_t1.dir/cmake_clean.cmake
 .PHONY : usb_test/CMakeFiles/usb_t1.dir/clean
 
 usb_test/CMakeFiles/usb_t1.dir/depend:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/usb_test /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/usb_test/CMakeFiles/usb_t1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/om/Desktop/Jtag_Pico/pico/pico-examples /home/om/Desktop/Jtag_Pico/pico/pico-examples/usb_test /home/om/Desktop/Jtag_Pico/pico/pico-examples/build /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/usb_test/CMakeFiles/usb_t1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : usb_test/CMakeFiles/usb_t1.dir/depend
 

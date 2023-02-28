@@ -1,4 +1,4 @@
-# Install script for directory: /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pwm
+# Install script for directory: /home/om/Desktop/Jtag_Pico/pico/pico-examples/pwm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pwm/hello_pwm/cmake_install.cmake")
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pwm/led_fade/cmake_install.cmake")
-  include("/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pwm/measure_duty_cycle/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pwm/hello_pwm/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pwm/led_fade/cmake_install.cmake")
+  include("/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pwm/measure_duty_cycle/cmake_install.cmake")
 
 endif()
 

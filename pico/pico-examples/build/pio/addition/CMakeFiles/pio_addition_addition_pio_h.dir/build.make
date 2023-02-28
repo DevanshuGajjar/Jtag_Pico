@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples
+CMAKE_SOURCE_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build
+CMAKE_BINARY_DIR = /home/om/Desktop/Jtag_Pico/pico/pico-examples/build
 
 # Utility rule file for pio_addition_addition_pio_h.
 
@@ -57,8 +57,8 @@ pio/addition/CMakeFiles/pio_addition_addition_pio_h: pio/addition/addition.pio.h
 
 
 pio/addition/addition.pio.h: ../pio/addition/addition.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating addition.pio.h"
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/addition && ../../pioasm/pioasm -o c-sdk /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/addition/addition.pio /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/addition/addition.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/om/Desktop/Jtag_Pico/pico/pico-examples/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating addition.pio.h"
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/addition && ../../pioasm/pioasm -o c-sdk /home/om/Desktop/Jtag_Pico/pico/pico-examples/pio/addition/addition.pio /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/addition/addition.pio.h
 
 pio_addition_addition_pio_h: pio/addition/CMakeFiles/pio_addition_addition_pio_h
 pio_addition_addition_pio_h: pio/addition/addition.pio.h
@@ -72,10 +72,10 @@ pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/build: pio_addition_addi
 .PHONY : pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/build
 
 pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/clean:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/addition && $(CMAKE_COMMAND) -P CMakeFiles/pio_addition_addition_pio_h.dir/cmake_clean.cmake
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/addition && $(CMAKE_COMMAND) -P CMakeFiles/pio_addition_addition_pio_h.dir/cmake_clean.cmake
 .PHONY : pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/clean
 
 pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/depend:
-	cd /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/pio/addition /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/addition /home/cyclone/Desktop/rpi_pico_jtag/Jtag_Repo/Jtag_Pico/pico/pico-examples/build/pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/om/Desktop/Jtag_Pico/pico/pico-examples/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/om/Desktop/Jtag_Pico/pico/pico-examples /home/om/Desktop/Jtag_Pico/pico/pico-examples/pio/addition /home/om/Desktop/Jtag_Pico/pico/pico-examples/build /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/addition /home/om/Desktop/Jtag_Pico/pico/pico-examples/build/pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pio/addition/CMakeFiles/pio_addition_addition_pio_h.dir/depend
 
