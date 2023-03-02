@@ -51,9 +51,6 @@ void jtag_main_task() //Core2
         tud_task();// tinyusb device task
         if (tud_vendor_available())
         {
-            // gpio_init(25);
-            // gpio_set_dir(25, 1);
-            // gpio_put(25,0);
             uint count = 0;
             count = tud_vendor_read(buffer_infos[wr_buffer_number].buffer,64);
             uint bnum = wr_buffer_number;
@@ -99,6 +96,13 @@ bool tud_vendor_control_xfer_cb(uint8_t rhport, uint8_t stage, tusb_control_requ
     if (stage != CONTROL_STAGE_SETUP) return true;
     return false;
 }
+
+// void jtag_task()
+// {
+// #ifndef MULTICORE
+//     jtag_main_task();
+// #endif
+// }
 
 int main() {
     board_init();

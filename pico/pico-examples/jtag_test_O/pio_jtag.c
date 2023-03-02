@@ -21,9 +21,9 @@ uint state_transition_prog_offs ;
 void dma_init(){
         tx_dma_chan = dma_claim_unused_channel(true);
         tx_c = dma_channel_get_default_config(tx_dma_chan);
-        channel_config_set_transfer_data_size(&tx_c, DMA_SIZE_8);
+        channel_config_set_transfer_data_size(&tx_c, 0);
         channel_config_set_read_increment(&tx_c, true);
-        channel_config_set_dreq(&tx_c, DREQ_PIO0_TX0);
+        channel_config_set_dreq(&tx_c, 0x0);
             dma_channel_configure(
             tx_dma_chan,
             &tx_c,
@@ -34,10 +34,10 @@ void dma_init(){
         );
         rx_dma_chan = dma_claim_unused_channel(true);
         rx_c = dma_channel_get_default_config(rx_dma_chan);
-        channel_config_set_transfer_data_size(&rx_c, DMA_SIZE_8);
-        channel_config_set_read_increment(&rx_c,false);
+        channel_config_set_transfer_data_size(&rx_c, 0);
         channel_config_set_write_increment(&rx_c, false);
-        channel_config_set_dreq(&rx_c, DREQ_PIO0_RX0);
+        channel_config_set_read_increment(&rx_c,false);
+        channel_config_set_dreq(&rx_c, 0x4);
         dma_channel_configure(
             rx_dma_chan,
             &rx_c,
@@ -49,21 +49,35 @@ void dma_init(){
 }
 
 void __time_critical_func(pio_jtag_write_blocking)(const pio_jtag_inst_t *jtag, const uint8_t *bsrc,int len,uint8_t *bdst) 
-{      size_t byte_length = ((len+7) >> 3);
-       size_t tx_remain = byte_length, rx_remain = byte_length;
-       dma_init();
-       io_rw_8 *txfifo = (io_rw_8 *) &jtag->pio->txf[jtag->sm];
-       io_rw_8 *rxfifo = (io_rw_8 *) &jtag->pio->rxf[jtag->sm] + 3;
-   
+{    
+    //   size_t byte_length = ((len+7) >> 3);
+//        size_t tx_remain = byte_length, rx_remain = byte_length;
+//        dma_init();
+//        io_rw_8 *txfifo = (io_rw_8 *) &jtag->pio->txf[jtag->sm];
+//        io_rw_8 *rxfifo = (io_rw_8 *) &jtag->pio->rxf[jtag->sm] + 3;
+        size_t byte_length = ((len+7) >> 3);
+        size_t last_shift = ((byte_length << 3) - len);
+        size_t tx_remain = byte_length, rx_remain = last_shift ? byte_length : byte_length+1;
+        uint8_t* rx_last_byte_p = &bdst[byte_length-1];
+        io_rw_8 *txfifo = (io_rw_8 *) &jtag->pio->txf[jtag->sm];
+        io_rw_8 *rxfifo = (io_rw_8 *) &jtag->pio->rxf[jtag->sm];
+        // uint8_t x; // scratch local to receive data
+        //kick off the process by sending the len to the tx pipeline
+        *(io_rw_32*)txfifo = len-1;
 
        if (byte_length > 4){
-        channel_config_set_write_increment(&rx_c, true);
+        dma_init();
         channel_config_set_read_increment(&tx_c, true);
-        dma_channel_transfer_to_buffer_now(rx_dma_chan, bdst,1);
-        dma_channel_transfer_from_buffer_now(tx_dma_chan,bsrc, 1);
+        channel_config_set_write_increment(&rx_c, true);
+        dma_channel_set_config(rx_dma_chan, &rx_c, false);
+        dma_channel_set_config(tx_dma_chan, &tx_c, false);
+        dma_channel_transfer_to_buffer_now(rx_dma_chan, (void*)bdst,rx_remain);
+        dma_channel_transfer_from_buffer_now(tx_dma_chan,(void*)bsrc, tx_remain);
         while(dma_channel_is_busy(rx_dma_chan)){
+            // jtag_task();
             tight_loop_contents();
         }
+        __compiler_memory_barrier();
 
        }
        else{
@@ -84,6 +98,10 @@ void __time_critical_func(pio_jtag_write_blocking)(const pio_jtag_inst_t *jtag, 
                 }
             }
        }
+    if (last_shift) 
+    {
+        *rx_last_byte_p = *rx_last_byte_p << last_shift;
+    }
 
 }
 
@@ -97,7 +115,7 @@ int __time_critical_func(pio_jtag_idcode_scan)(const pio_jtag_inst_t *jtag,uint8
       
     }
     pio_jtag_ir_scan(jtag ,(uint8_t*)&in_buff1 ,tx_buf,32,clk_div);
-    pio_jtag_dr_scan(jtag ,(uint8_t*)&in_buff1 ,tx_buf,32,clk_div);
+    // pio_jtag_dr_scan(jtag ,(uint8_t*)&in_buff1 ,tx_buf,32,clk_div);
 
     return 4;
 }
@@ -173,7 +191,7 @@ int __time_critical_func(pio_jtag_dr_scan)(const pio_jtag_inst_t *jtag, uint8_t 
     sleep_ms(0.01);
 
     pio_jtag_init(jtag->pio,0,jtag_prog_offs,clk_div);
-    pio_jtag_write_blocking(jtag,rx_buf,len,tx_buf);
+    pio_jtag_write_blocking(jtag,tx_buf ,len,rx_buf);
 
     pio_state_transition_init(jtag->pio,0,state_transition_prog_offs,clk_div);
     pio_sm_put_blocking(jtag->pio,0,0x2);
